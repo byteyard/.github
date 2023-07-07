@@ -10,13 +10,13 @@ body:
       value: |
         ## Describe the bug
         A clear and concise description of what the bug is.
-  - type: input
+  - type: textarea
     attributes:
       label: Steps to reproduce
       description: Provide a detailed list of steps that reproduce the issue.
     validations:
       required: true
-  - type: input
+  - type: textarea
     attributes:
       label: Expected behavior
       description: Describe what you expected to happen.
