@@ -1,80 +1,69 @@
-name: "🐛 Bug Reporty"
-description: Create a new ticket for a bug.
-title: "🐛 [BUG] - <title>"
-labels: [
-  "bug"
-]
+name: Bug Report
+about: Create a report to help us improve
+title: '[BUG]'
+labels: 'Type: Bug'
+assignees: ''
+
 body:
-  - type: textarea
-    id: description
-    attributes:
-      label: "Description"
-      description: Please enter an explicit description of your issue
-      placeholder: Short and explicit description of your incident...
-    validations:
-      required: true
-  - type: input
-    id: reprod-url
-    attributes:
-      label: "Reproduction URL"
-      description: Please enter your GitHub URL to provide a reproduction of the issue
-      placeholder: ex. https://github.com/USERNAME/REPO-NAME
-    validations:
-      required: true
-  - type: textarea
-    id: reprod
-    attributes:
-      label: "Reproduction steps"
-      description: Please enter an explicit description of your issue
-      value: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
-      render: bash
-    validations:
-      required: true
-  - type: textarea
-    id: screenshot
-    attributes:
-      label: "Screenshots"
-      description: If applicable, add screenshots to help explain your problem.
-      value: |
-        ![DESCRIPTION](LINK.png)
-      render: bash
-    validations:
-      required: false
-  - type: textarea
-    id: logs
-    attributes:
-      label: "Logs"
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: bash
-    validations:
-      required: false
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: "Browsers"
-      description: What browsers are you seeing the problem on ?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-        - Opera
-    validations:
-      required: false
-  - type: dropdown
-    id: os
-    attributes:
-      label: "OS"
-      description: What is the impacted environment ?
-      multiple: true
-      options:
-        - Windows
-        - Linux
-        - Mac
-    validations:
-      required: false
+- type: markdown
+  attributes:
+    value: |
+      ## Describe the bug
+      A clear and concise description of what the bug is.
+
+- type: input
+  attributes:
+    label: Steps to reproduce
+    description: Provide a detailed list of steps that reproduce the issue.
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: Expected behavior
+    description: Describe what you expected to happen.
+  validations:
+    required: true
+
+- type: dropdown
+  attributes:
+    label: Device
+    description: Please select the device where the bug was encountered.
+    options:
+      - Desktop
+      - Tablet
+      - Mobile
+  validations:
+    required: true
+
+- type: dropdown
+  attributes:
+    label: OS
+    description: Please select the operating system where the bug was encountered.
+    options:
+      - Windows
+      - MacOS
+      - Linux
+      - Other
+  validations:
+    required: true
+
+- type: dropdown
+  attributes:
+    label: Browser
+    description: Please select the browser where the bug was encountered.
+    options:
+      - Chrome
+      - Firefox
+      - Safari
+      - Edge
+      - Other
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Additional context
+    description: Add any other context about the problem here.
+  validations:
+    required: false
