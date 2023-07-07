@@ -3,60 +3,61 @@ about: Create a report to help us improve
 title: '[BUG]'
 labels: ['Type: Bug']
 assignees:
+  - octocat
 body:
-- type: markdown
-  attributes:
-    value: |
-      ## Describe the bug
-      A clear and concise description of what the bug is.
-- type: input
-  attributes:
-    label: Steps to reproduce
-    description: Provide a detailed list of steps that reproduce the issue.
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Expected behavior
-    description: Describe what you expected to happen.
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: Device
-    description: Please select the device where the bug was encountered.
-    options:
-      - Desktop
-      - Tablet
-      - Mobile
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: OS
-    description: Please select the operating system where the bug was encountered.
-    options:
-      - Windows
-      - MacOS
-      - Linux
-      - Other
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: Browser
-    description: Please select the browser where the bug was encountered.
-    options:
-      - Chrome
-      - Firefox
-      - Safari
-      - Edge
-      - Other
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Additional context
-    description: Add any other context about the problem here.
-  validations:
-    required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Describe the bug
+        A clear and concise description of what the bug is.
+  - type: input
+    attributes:
+      label: Steps to reproduce
+      description: Provide a detailed list of steps that reproduce the issue.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Expected behavior
+      description: Describe what you expected to happen.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Device
+      description: Please select the device where the bug was encountered.
+      options:
+        - Desktop
+        - Tablet
+        - Mobile
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: OS
+      description: Please select the operating system where the bug was encountered.
+      options:
+        - Windows
+        - MacOS
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Browser
+      description: Please select the browser where the bug was encountered.
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+    validations:
+      required: false
