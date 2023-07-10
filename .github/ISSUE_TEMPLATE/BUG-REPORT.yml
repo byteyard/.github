@@ -55,6 +55,12 @@ body:
         - Other
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Browser Version
+      description: Please select the browser version where the bug was encountered.
+    validations:
+      required: false    
   - type: textarea
     attributes:
       label: Additional context
