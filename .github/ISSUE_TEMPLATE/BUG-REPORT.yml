@@ -14,12 +14,18 @@ body:
     attributes:
       label: Steps to reproduce
       description: Provide a detailed list of steps that reproduce the issue.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
     validations:
       required: true
   - type: textarea
     attributes:
       label: Expected behavior
       description: Describe what you expected to happen.
+      placeholder: "When I do ..., I expect ..."
     validations:
       required: true
   - type: dropdown
@@ -58,12 +64,14 @@ body:
   - type: input
     attributes:
       label: Browser Version
-      description: Please select the browser version where the bug was encountered.
+      description: Please enter the browser version.
+      placeholder: "Version 90.0.4430.93 (Official Build) (64-bit)"
     validations:
       required: false    
   - type: textarea
     attributes:
       label: Additional context
       description: Add any other context about the problem here.
+      placeholder: "Add any other context or screenshots about the problem here."
     validations:
       required: false
