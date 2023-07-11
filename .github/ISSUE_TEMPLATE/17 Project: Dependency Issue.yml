@@ -1,4 +1,4 @@
-name: 🔗 Project Dependency Issue
+name: 'Project: 🔗 Dependency Issue'
 description: 'This template will be used for issues related to third-party libraries, tools, or system integrations.'
 title: '[DEPENDENCY ISSUE]'
 labels: ['Type: Project Dependency']
