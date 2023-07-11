@@ -1,0 +1,43 @@
+name: Project Management Issue
+about: Use this template for all project-related tasks, including project planning, tracking, and management.
+title: "[Project Management]"
+labels: "Type: Project Management"
+assignees: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this project management issue form.
+  - type: input
+    attributes:
+      label: Project Name
+      description: What is the name of the project this issue is related to?
+      placeholder: Enter the project name here
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Detailed Description
+      description: Please provide a detailed description of the project management task.
+      placeholder: Describe the task in detail here
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: Please ensure you have completed these tasks before submitting the issue.
+      options:
+        - label: I have checked for similar issues.
+        - label: I have updated to the latest project version.
+        - label: I have read the project documentation.
+  - type: dropdown
+    attributes:
+      label: Priority
+      description: Please select the priority of this task.
+      options:
+        - Priority: Critical
+        - Priority: High
+        - Priority: Medium
+        - Priority: Low
+    validations:
+      required: true
