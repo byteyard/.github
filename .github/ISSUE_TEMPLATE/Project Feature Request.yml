@@ -1,0 +1,40 @@
+name: Project Feature Request
+description: 'This template will be used for proposing new features.'
+title: '[FEATURE REQUEST]'
+labels: ['Type: Project Feature Request']
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Describe the feature
+        A clear and concise description of what the feature is.
+  - type: textarea
+    attributes:
+      label: Detailed Description
+      description: Provide a detailed description of the feature.
+      placeholder: |
+        1. Feature objective
+        2. Expected outcome
+        3. Any specific requirements
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Priority
+      description: Please select the priority of this feature.
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the feature here.
+      placeholder: "Add any other context or screenshots about the feature here."
+    validations:
+      required: false
