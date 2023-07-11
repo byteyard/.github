@@ -1,4 +1,4 @@
-name: Bug Report
+name: Project Bug Report
 description: 'This template will be used for reporting bugs or issues.'
 title: '[BUG]'
 labels: ['Type: Bug']
