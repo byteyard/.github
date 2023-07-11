@@ -27,15 +27,16 @@ body:
       placeholder: "After resolving this issue, we should ..."
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     attributes:
-      label: Priority
-      description: Please select the priority of this issue.
+      label: Affected Departments
+      description: Please select the departments that are affected by this issue.
       options:
-        - Critical
-        - High
-        - Medium
-        - Low
+        - label: Legal
+        - label: Finance
+        - label: HR
+        - label: Operations
+        - label: Other
     validations:
       required: true
   - type: textarea
