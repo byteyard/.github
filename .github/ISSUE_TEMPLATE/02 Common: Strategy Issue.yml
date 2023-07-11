@@ -1,7 +1,7 @@
 name: 'Common: 🎯 Strategy Issue'
 description: 'This template covers all strategy-related tasks, including strategic planning, business analysis, product portfolio planning, process improvement, etc.'
 title: '[STRATEGY ISSUE]'
-labels: ['Type: Strategy']
+labels: ['Type: 🎯 Strategy Issue']
 assignees:
   - octocat
 body:
