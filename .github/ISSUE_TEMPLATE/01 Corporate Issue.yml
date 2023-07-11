@@ -27,18 +27,10 @@ body:
       placeholder: "After resolving this issue, we should ..."
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
-      label: Relevant Document(s)
-      description: Please provide the link(s) to any relevant document(s) related to this issue.
-      placeholder: "Link to the document(s)..."
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: Stakeholders
-      description: Please list the stakeholders related to this issue.
-      placeholder: "Stakeholder 1, Stakeholder 2..."
+      label: Related Document or Link
+      description: Please provide a link to any related document in the Corporate Google Drive folder or elsewhere.
     validations:
       required: false
   - type: textarea
