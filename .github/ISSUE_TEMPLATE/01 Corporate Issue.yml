@@ -27,18 +27,20 @@ body:
       placeholder: "After resolving this issue, we should ..."
     validations:
       required: true
-  - type: checkboxes
+  - type: textarea
     attributes:
-      label: Affected Departments
-      description: Please select the departments that are affected by this issue.
-      options:
-        - label: Legal
-        - label: Finance
-        - label: HR
-        - label: Operations
-        - label: Other
+      label: Relevant Document(s)
+      description: Please provide the link(s) to any relevant document(s) related to this issue.
+      placeholder: "Link to the document(s)..."
     validations:
-      required: true
+      required: false
+  - type: textarea
+    attributes:
+      label: Stakeholders
+      description: Please list the stakeholders related to this issue.
+      placeholder: "Stakeholder 1, Stakeholder 2..."
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: Additional context
