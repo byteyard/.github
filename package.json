@@ -28,9 +28,7 @@
       "@octokit/plugin-throttling": "^6.1.0",
       "@octokit/rest": "^19.0.13",
       "octokit": "^2.1.0",
-      "terminal-kit": "^3.0.0"
-    },
-    "devDependencies": {
+      "terminal-kit": "^3.0.0",
       "aicommits": "^1.0.0"
     }
   }
