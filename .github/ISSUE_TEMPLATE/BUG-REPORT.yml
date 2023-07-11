@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a report to help us improve
+description: 'This template will be used for reporting bugs or issues.'
 title: '[BUG]'
 labels: ['Type: Bug']
 assignees:

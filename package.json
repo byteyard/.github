@@ -1,0 +1,37 @@
+{
+    "name": "github-config",
+    "version": "1.0.0",
+    "description": "Single point of truth for all labels used in byteyard repos.",
+    "main": "index.js",
+    "scripts": {
+      "postinstall": "node setup.js",
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/byteyard/github-labels.git"
+    },
+    "keywords": [
+      "github",
+      "projects",
+      "issues",
+      "labels"
+    ],
+    "author": "Arno Rinker",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/byteyard/github-labels/issues"
+    },
+    "homepage": "https://github.com/byteyard/github-labels#readme",
+    "dependencies": {
+      "@octokit/plugin-throttling": "^6.1.0",
+      "@octokit/rest": "^19.0.13",
+      "octokit": "^2.1.0",
+      "terminal-kit": "^3.0.0"
+    },
+    "devDependencies": {
+      "aicommits": "^1.0.0"
+    }
+  }
+  
