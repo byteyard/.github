@@ -53,10 +53,3 @@ body:
         - [Document](https://www.example.com)
     validations:
       required: false
-  - type: textarea
-    attributes:
-      label: Additional context
-      description: Add any other context about the issue here.
-      placeholder: "Add any other context or screenshots about the issue here."
-    validations:
-      required: false
