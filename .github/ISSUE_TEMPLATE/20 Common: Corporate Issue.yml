@@ -3,6 +3,7 @@ description: 'This template covers tasks related to company registrations, opera
 labels: ['Type: Corporate Issue']
 assignees:
   - arinker
+  - davideckes
 body:
   - type: markdown
     attributes:
