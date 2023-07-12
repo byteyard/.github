@@ -1,7 +1,6 @@
 name: '📋 Project Management'
 description: 'This template will be used for all project-related tasks, including project planning, tracking, and management.'
-title: '[PROJECT MANAGEMENT]'
-labels: ['Type: Project Management']
+labels: ['Type: Project Management Issue']
 assignees:
   - octocat
 body:

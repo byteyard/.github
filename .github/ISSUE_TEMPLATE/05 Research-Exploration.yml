@@ -1,7 +1,6 @@
 name: '🔬 Research/Exploration'
 description: 'This template will be used for tasks that require initial research or exploration.'
-title: '[RESEARCH/EXPLORATION]'
-labels: ['Type: Project Research']
+labels: ['Type: Research/Exploration']
 assignees:
   - octocat
 body:

@@ -1,7 +1,6 @@
 name: '🧪 Testing'
 description: 'This template will be used for tasks related to testing (unit, integration, etc.).'
-title: '[TESTING]'
-labels: ['Type: Project Test']
+labels: ['Type: Testing']
 assignees:
   - octocat
 body:

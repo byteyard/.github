@@ -1,7 +1,6 @@
 name: '🪲 Bug Report'
 description: 'This template will be used for reporting bugs or issues.'
-title: '[BUG]'
-labels: ['Type: Project Bug']
+labels: ['Type: Bug Report']
 assignees:
   - octocat
 body:
