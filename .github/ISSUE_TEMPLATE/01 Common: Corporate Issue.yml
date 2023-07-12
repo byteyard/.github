@@ -38,11 +38,10 @@ body:
         - Other
     validations:
       required: false
-  - type: textarea
+  - type: input
     attributes:
       label: Google Drive Link
-      value: |
-        - [Corporate](https://drive.google.com/drive/folders/0APk6c2k8TY3AUk9PVA)
+      value: [Corporate](https://drive.google.com/drive/folders/0APk6c2k8TY3AUk9PVA)
     validations:
       required: false
   - type: textarea
