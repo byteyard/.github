@@ -14,7 +14,7 @@ body:
     attributes:
       label: Detailed Description
       description: Provide a detailed description of the corporate issue.
-      value: |
+      placeholder: |
         1. Describe the issue...
 
         2. Explain why this issue is a problem...
@@ -23,19 +23,27 @@ body:
 
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      label: Which subcategory does this issue belong to?
+      options: 
+        - label: 'Anmeldungen & Register'
+        - label: 'BG, KSK, IHK'
+        - label: 'Betriebsprüfungen'
+        - label: 'Gesellschafter'
+        - label: 'Gesellschaftsvertrag & Geschäftsordnung'
+        - label: 'Gründung'
+        - label: 'Protokolle & Beschlüsse'
+        - label: 'Other'
+      validations:
+        required: false
   - type: textarea
     attributes:
-      label: Expected Outcome
-      description: Describe the expected outcome of resolving this issue.
-      placeholder: "After resolving this issue, we should ..."
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Related Document or Link
+      label: Related Documents
       description: Please provide a link to any related document in the Corporate Google Drive folder or elsewhere.
       value: |
         - [Corporate Folder in Google Drive](https://drive.google.com/drive/folders/0APk6c2k8TY3AUk9PVA)
+        - [Document](URL)
     validations:
       required: false
   - type: textarea
