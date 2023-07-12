@@ -16,8 +16,11 @@ body:
       description: Provide a detailed description of the corporate issue.
       value: |
         1. Describe the issue...
+
         2. Explain why this issue is a problem...
+
         3. Any additional considerations...
+
     validations:
       required: true
   - type: textarea
@@ -27,10 +30,12 @@ body:
       placeholder: "After resolving this issue, we should ..."
     validations:
       required: true
-  - type: input
+  - type: textarea
     attributes:
       label: Related Document or Link
       description: Please provide a link to any related document in the Corporate Google Drive folder or elsewhere.
+      value: |
+        - [Corporate Folder in Google Drive](https://drive.google.com/drive/folders/0APk6c2k8TY3AUk9PVA)
     validations:
       required: false
   - type: textarea
