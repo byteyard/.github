@@ -40,11 +40,17 @@ body:
       required: false
   - type: textarea
     attributes:
+      label: Google Drive Link
+      value: |
+        - [Corporate](https://drive.google.com/drive/folders/0APk6c2k8TY3AUk9PVA)
+    validations:
+      required: false
+  - type: textarea
+    attributes:
       label: Related Documents
       description: Please provide a link to any related document in the Corporate Google Drive folder or elsewhere.
-      value: |
-        - [Corporate Folder in Google Drive](https://drive.google.com/drive/folders/0APk6c2k8TY3AUk9PVA)
-        - [Document](URL)
+      placeholder: |
+        - [Document](https://www.example.com)
     validations:
       required: false
   - type: textarea
