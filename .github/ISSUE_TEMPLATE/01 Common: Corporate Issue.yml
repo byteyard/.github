@@ -24,19 +24,20 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: subcategory
     attributes:
       label: Which subcategory does this issue belong to?
       options: 
-        - label: 'Anmeldungen & Register'
-        - label: 'BG, KSK, IHK'
-        - label: 'Betriebsprüfungen'
-        - label: 'Gesellschafter'
-        - label: 'Gesellschaftsvertrag & Geschäftsordnung'
-        - label: 'Gründung'
-        - label: 'Protokolle & Beschlüsse'
-        - label: 'Other'
-      validations:
-        required: false
+        - Anmeldungen & Register
+        - BG, KSK, IHK
+        - Betriebsprüfungen
+        - Gesellschafter
+        - Gesellschaftsvertrag & Geschäftsordnung
+        - Gründung
+        - Protokolle & Beschlüsse
+        - Other
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: Related Documents
