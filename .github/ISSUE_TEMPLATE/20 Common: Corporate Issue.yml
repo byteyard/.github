@@ -2,7 +2,7 @@ name: '🏢 Corporate Issue'
 description: 'This template covers tasks related to company registrations, operational audits, shareholder matters, company contracts, and business regulations.'
 labels: ['Type: Corporate Issue']
 assignees:
-  - octocat
+  - arinker
 body:
   - type: markdown
     attributes:
