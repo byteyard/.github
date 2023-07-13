@@ -1,6 +1,6 @@
-name: '🌈 Design Issue'
+name: '🌈 Design'
 description: 'This template will be used for tasks that require design input or are related to UI/UX.'
-labels: ['Type: Project Design Issue']
+labels: ['Type: Design 🌈']
 assignees:
   - octocat
 body:

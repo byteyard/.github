@@ -1,6 +1,6 @@
 name: '🏆 Feature Request'
 description: 'This template will be used for proposing new features.'
-labels: ['Type: Feature Request']
+labels: ['Type: Feature Request 🏆']
 assignees:
   - octocat
 body:

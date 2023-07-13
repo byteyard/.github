@@ -1,6 +1,6 @@
 name: '🌟 Improvement Proposal'
 description: 'This template will be used for suggesting enhancements to existing features or processes.'
-labels: ['Type: Improvement Proposal']
+labels: ['Type: Improvement Proposal 🌟']
 assignees:
   - octocat
 body:

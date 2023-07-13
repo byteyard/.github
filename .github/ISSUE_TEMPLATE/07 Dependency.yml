@@ -1,6 +1,6 @@
-name: '🔗 Dependency Issue'
+name: '💾 Dependency'
 description: 'This template will be used for issues related to third-party libraries, tools, or system integrations.'
-labels: ['Type: Dependency Issue']
+labels: ['Type: Dependency 💾']
 assignees:
   - octocat
 body:
