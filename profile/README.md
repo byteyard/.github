@@ -1,6 +1,6 @@
 # ByteYard Organization
 
-![ByteYard Logo](https://github.com/byteyard/.github/blob/2632537ea80b32d9bb3bd4db87c2eb9f8bf3f386/profile/ByteYard_Logo_Circle.png)
+<img src="https://github.com/byteyard/.github/blob/2632537ea80b32d9bb3bd4db87c2eb9f8bf3f386/profile/ByteYard_Logo_Circle.png" alt="ByteYard Logo" width="128"/>
 
 ## About Us
 
