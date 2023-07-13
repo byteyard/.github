@@ -1,4 +1,4 @@
-# Organization Homepage
+# Public Organization Homepage
 
 Welcome to ByteYard's organization. This platform is dedicated to managing and optimizing our customer relationships, marketing strategies, sales processes, and service operations.
 
