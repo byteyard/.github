@@ -27,22 +27,22 @@ Here's how they fit into our workflow:
 
 ### 1. [Project Management](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml):
 
-    **This is where it all begins.**
+**This is where it all begins.**
 
-    This template is used for project-related tasks, including planning, tracking, and
-    management. It sets the stage for everything that follows.
+This template is used for project-related tasks, including planning, tracking, and
+management. It sets the stage for everything that follows.
 
-    [👉 See the template](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
+[👉 See the template](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
 
 ### 2. [Documentation](.github/ISSUE_TEMPLATE/09%20Documentation.yml):
 
-    **Documentation is a crucial part of our process.**
+**Documentation is a crucial part of our process.**
 
-    This template is used for tasks related to the creation or
-    update of documentation, ensuring we have all the
-    information we need to proceed.
+This template is used for tasks related to the creation or
+update of documentation, ensuring we have all the
+information we need to proceed.
 
-    [👉 See the template](.github/ISSUE_TEMPLATE/09%20Documentation.yml#L1-L8)
+[👉 See the template](.github/ISSUE_TEMPLATE/09%20Documentation.yml#L1-L8)
 
 3. [Feature Request](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml):
 Once we have a plan and documentation, we can start
