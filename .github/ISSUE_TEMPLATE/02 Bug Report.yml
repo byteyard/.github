@@ -42,7 +42,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Device 📱
+      label: 📱 Device
       description: 'Please select the device where the bug was encountered.'
       options:
         - Desktop
