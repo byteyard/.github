@@ -9,7 +9,7 @@ project management.
 ## Public GitHub Organization Homepage
 
 In addition to the issue templates, this repository also
-hosts the public GitHub Organization Homepage README.md,
+hosts the **public GitHub Organization Homepage** README.md,
 visible to GitHub users without organization access. This
 README.md, editable under `./profile/README.md`, provides
 a succinct overview of ByteYard, a digital agency
