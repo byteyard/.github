@@ -26,9 +26,10 @@ process, guiding the project from inception to completion.
 Here's how they fit into our workflow:
 
 1. **[Project Management](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml):**
-This is where it all begins. This template is used for
-project-related tasks, including planning, tracking, and
-management. It sets the stage for everything that follows.
+This is where it all begins. 
+
+    This template is used for project-related tasks, including planning, tracking, and
+    management. It sets the stage for everything that follows.
 
     [👉 See the template](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
 
