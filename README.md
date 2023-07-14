@@ -25,7 +25,7 @@ Here's how they fit into our workflow:
 
 <table>
 <tr>
-<td>
+<td width="33%">
 
 ### [📋 Project Management](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml)
 
@@ -36,7 +36,7 @@ This template is used for project-related tasks, including planning, tracking, a
 [See the template →](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
 
 </td>
-<td>
+<td width="33%">
 
 ### [📝 Documentation](.github/ISSUE_TEMPLATE/09%20Documentation.yml)
 
@@ -47,7 +47,7 @@ This template is used for tasks related to the creation or update of documentati
 [See the template →](.github/ISSUE_TEMPLATE/09%20Documentation.yml#L1-L8)
 
 </td>
-<td>
+<td width="33%">
 
 ### [🏆 Feature Request](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml)
 
