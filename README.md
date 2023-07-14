@@ -1,12 +1,10 @@
 # ByteYard GitHub Issue Templates
 
-This repository is the central hub for all the global
-templates used in creating and managing GitHub issues
-across all ByteYard project repositories. 
+**This repository is the central hub for all the global templates used in creating and managing GitHub issues across all ByteYard project repositories.**
 
-**Our templates are designed to standardize the way we
+Our templates are designed to standardize the way we
 handle issues, ensuring consistency and clarity in our
-project management.**
+project management.
 
 ## Public GitHub Organization Homepage
 
