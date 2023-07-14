@@ -25,7 +25,7 @@ workflow. Each template corresponds to a stage in our
 process, guiding the project from inception to completion.
 Here's how they fit into our workflow:
 
-### [📋 1. Project Management](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml):
+### [📋 1. Project Management](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml)
 
 **This is where it all begins.**
 
@@ -34,7 +34,7 @@ management. It sets the stage for everything that follows.
 
 [👉 See the template](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
 
-### [📝 2. Documentation](.github/ISSUE_TEMPLATE/09%20Documentation.yml):
+### [📝 2. Documentation](.github/ISSUE_TEMPLATE/09%20Documentation.yml)
 
 **Documentation is a crucial part of our process.**
 
