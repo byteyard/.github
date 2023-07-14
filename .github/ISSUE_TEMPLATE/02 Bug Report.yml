@@ -7,11 +7,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Bug Description 🪲
-        Please provide a clear and concise description of the bug.
+        ## 🪲 Bug Description
+        Please provide a clear and concise description of the bug. 
+
+        **🚨 Important:** After submitting this issue, please add a "Priority" label to indicate the severity of the bug. The available "Priority" labels are:
+        - Priority: Critical
+        - Priority: High
+        - Priority: Medium
+        - Priority: Low
   - type: textarea
     attributes:
-      label: Steps to Reproduce 🔄
+      label: 🔄 Steps to Reproduce
       description: 'Please provide a detailed list of steps that reproduce the issue. The more detailed your steps, the easier it is for us to understand the issue.'
       placeholder: |
         1. Go to '...'
@@ -22,14 +28,14 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Expected Behavior 🎯
+      label: 🎯 Expected Behavior
       description: 'Describe what you expected to happen when you performed the steps above.'
       placeholder: "When I do ..., I expect ..."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Actual Behavior 🎯
+      label: 🎯 Actual Behavior
       description: 'Describe what actually happened when you performed the steps above.'
       placeholder: "When I do ..., I see ..."
     validations:
@@ -46,7 +52,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Operating System 💻
+      label: 💻 Operating System
       description: 'Please select the operating system where the bug was encountered.'
       options:
         - Windows
@@ -57,7 +63,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Browser 🌐
+      label: 🌐 Browser
       description: 'Please select the browser where the bug was encountered.'
       options:
         - Chrome
@@ -69,32 +75,21 @@ body:
       required: true
   - type: input
     attributes:
-      label: Browser Version 🔄
+      label: 🔄 Browser Version
       description: 'Please enter the browser version where the bug was encountered.'
       placeholder: "Version 90.0.4430.93 (Official Build) (64-bit)"
     validations:
       required: false
-  - type: dropdown
-    attributes:
-      label: Severity 🚨
-      description: 'Please select the severity of the bug.'
-      options:
-        - Low
-        - Medium
-        - High
-        - Critical
-    validations:
-      required: true
   - type: textarea
     attributes:
-      label: Screenshots/Recordings 📸
+      label: 📸 Screenshots/Recordings
       description: 'If applicable, add screenshots or screen recordings to help explain the bug.'
       placeholder: "Upload your screenshots or recordings here."
     validations:
       required: false
   - type: textarea
     attributes:
-      label: Additional Context 📝
+      label: 📝 Additional Context
       description: 'Add any other context about the problem here. If applicable, add screenshots to help explain your problem.'
       placeholder: "Add any other context or screenshots about the problem here."
     validations:
