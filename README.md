@@ -44,53 +44,61 @@ information we need to proceed.
 
 [👉 See the template](.github/ISSUE_TEMPLATE/09%20Documentation.yml#L1-L8)
 
-3. [Feature Request](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml):
-Once we have a plan and documentation, we can start
-thinking about new features. This template helps us gather
-and understand proposals for new features.
+## 3. [Feature Request](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml):
 
-    [👉 See the template](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml#L1-L8)
+**Once we have a plan and documentation, we can start thinking about new features.**
 
-1. **[Research/Exploration](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml):**
-Before we start building, we need to do some research.
-This template guides tasks that require initial research
-or exploration.
+This template helps us gather and understand proposals for new features.
 
-    [👉 See the template](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml#L1-L20)
+[👉 See the template](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml#L1-L8)
 
-1. **[Design](.github/ISSUE_TEMPLATE/08%20Design.yml):**
-With research in hand, we can start designing. This
-template is used for tasks that require design input or
-are related to UI/UX.
+## 4. [Research/Exploration](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml):
 
-    [👉 See the template](.github/ISSUE_TEMPLATE/08%20Design.yml#L1-L8)
+**Before we start building, we need to do some research.**
 
-1. **[Dependency](.github/ISSUE_TEMPLATE/07%20Dependency.yml):**
-As we build, we'll need to manage dependencies. This
-template is used for issues related to third-party
-libraries, tools, or system integrations.
+This template guides tasks that require initial research or exploration.
 
-    [👉 See the template](.github/ISSUE_TEMPLATE/07%20Dependency.yml#L1-L8)
+[👉 See the template](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml#L1-L20)
 
-1. **[Testing](.github/ISSUE_TEMPLATE/06%20Testing.yml):**
-Before anything goes live, it needs to be tested. This
-template is used for tasks related to testing (unit,
-integration, etc.).
+## 5. [Design](.github/ISSUE_TEMPLATE/08%20Design.yml):
 
-    [👉 See the template](.github/ISSUE_TEMPLATE/06%20Testing.yml#L1-L20)
+**With research in hand, we can start designing.**
 
-1. **[Bug Report](.github/ISSUE_TEMPLATE/02%20Bug%20Report.yml):**
-After testing, we need to fix any bugs that have been
-found. This template is used to report bugs or issues.
+This template is used for tasks that require design input or are related to UI/UX.
 
-    [👉 See the template](.github/ISSUE_TEMPLATE/02%20Bug%20Report.yml#L1-L6)
+[👉 See the template](.github/ISSUE_TEMPLATE/08%20Design.yml#L1-L8)
 
-1. **[Improvement Proposal](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml):**
-Finally, we always look for ways to improve. This template
-is used to suggest enhancements to existing features or
-processes.
+## 6. [Dependency](.github/ISSUE_TEMPLATE/07%20Dependency.yml):
 
-    [👉 See the template](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml#L1-L20)
+**As we build, we'll need to manage dependencies.**
+
+This template is used for issues related to third-party libraries, tools, or system integrations.
+
+[👉 See the template](.github/ISSUE_TEMPLATE/07%20Dependency.yml#L1-L8)
+
+## 7. [Testing](.github/ISSUE_TEMPLATE/06%20Testing.yml):
+
+**Before anything goes live, it needs to be tested.**
+
+This template is used for tasks related to testing (unit, integration, etc.).
+
+[👉 See the template](.github/ISSUE_TEMPLATE/06%20Testing.yml#L1-L20)
+
+## 8. [Bug Report](.github/ISSUE_TEMPLATE/02%20Bug%20Report.yml):
+
+**After testing, we need to fix any bugs that have been found.**
+
+This template is used to report bugs or issues.
+
+[👉 See the template](.github/ISSUE_TEMPLATE/02%20Bug%20Report.yml#L1-L6)
+
+## 9. [Improvement Proposal](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml):
+
+**Finally, we always look for ways to improve.**
+
+This template is used to suggest enhancements to existing features or processes.
+
+[👉 See the template](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml#L1-L20)
 
 ## Usage
 
