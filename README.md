@@ -49,6 +49,9 @@ This template is used for tasks related to the creation or update of documentati
 
 <br>
 </td>
+</tr>
+
+<tr>
 <td valign="top" width="33%">
 
 ### [🏆 Feature Request](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml)
@@ -61,9 +64,6 @@ This template helps us gather and understand proposals for new features.
 
 <br>
 </td>
-</tr>
-
-<tr>
 <td valign="top" width="33%">
 
 ### [🔭 Research/Exploration](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml)
@@ -88,6 +88,8 @@ This template is used for tasks that require design input or are related to UI/U
 
 <br>
 </td>
+</tr>
+<tr>
 <td valign="top" width="33%">
 
 ### [💾 Dependency](.github/ISSUE_TEMPLATE/07%20Dependency.yml)
@@ -100,8 +102,6 @@ This template is used for issues related to third-party libraries, tools, or sys
 
 <br>
 </td>
-</tr>
-<tr>
 <td valign="top" width="33%">
 
 ### [🤖 Testing](.github/ISSUE_TEMPLATE/06%20Testing.yml)
@@ -126,6 +126,8 @@ This template is used to report bugs or issues.
 
 <br>
 </td>
+</tr>
+<tr>
 <td valign="top" width="33%">
 
 ### [🌟 Improvement Proposal](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml)
