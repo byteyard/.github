@@ -27,69 +27,6 @@ Here's how they fit into our workflow:
 <tr>
 <td valign="top" width="33%">
 
-### [📋 Project Management](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml)
-
-**This is where it all begins.**
-
-This template is used for project-related tasks, including planning, tracking, and management. It sets the stage for everything that follows.
-
-[See the template →](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
-
-</td>
-<td valign="top" width="33%">
-
-### [📝 Documentation](.github/ISSUE_TEMPLATE/09%20Documentation.yml)
-
-**Documentation is a crucial part of our process.**
-
-This template is used for tasks related to the creation or update of documentation, ensuring we have all the information we need to proceed.
-
-[See the template →](.github/ISSUE_TEMPLATE/09%20Documentation.yml#L1-L8)
-
-</td>
-<td valign="top" width="33%">
-
-### [🏆 Feature Request](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml)
-
-**Once we have a plan and documentation, we can start thinking about new features.**
-
-This template helps us gather and understand proposals for new features.
-
-[See the template →](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml#L1-L8)
-
-</td>
-</tr>
-</table>
-
-
-
-### [📋 Project Management](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml)
-
-**This is where it all begins.**
-
-This template is used for project-related tasks, including planning, tracking, and
-management. It sets the stage for everything that follows.
-
-[See the template →](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
-
-### [📝 Documentation](.github/ISSUE_TEMPLATE/09%20Documentation.yml)
-
-**Documentation is a crucial part of our process.**
-
-This template is used for tasks related to the creation or
-update of documentation, ensuring we have all the
-information we need to proceed.
-
-[See the template →](.github/ISSUE_TEMPLATE/09%20Documentation.yml#L1-L8)
-
-### [🏆 Feature Request](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml)
-
-**Once we have a plan and documentation, we can start thinking about new features.**
-
-This template helps us gather and understand proposals for new features.
-
-[See the template →](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml#L1-L8)
-
 ### [🔭 Research/Exploration](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml)
 
 **Before we start building, we need to do some research.**
@@ -97,6 +34,9 @@ This template helps us gather and understand proposals for new features.
 This template guides tasks that require initial research or exploration.
 
 [See the template →](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml#L1-L20)
+
+</td>
+<td valign="top" width="33%">
 
 ### [🌈 Design](.github/ISSUE_TEMPLATE/08%20Design.yml)
 
@@ -106,13 +46,21 @@ This template is used for tasks that require design input or are related to UI/U
 
 [See the template →](.github/ISSUE_TEMPLATE/08%20Design.yml#L1-L8)
 
-### [💾 6. Dependency](.github/ISSUE_TEMPLATE/07%20Dependency.yml)
+</td>
+<td valign="top" width="33%">
+
+### [💾 Dependency](.github/ISSUE_TEMPLATE/07%20Dependency.yml)
 
 **As we build, we'll need to manage dependencies.**
 
 This template is used for issues related to third-party libraries, tools, or system integrations.
 
 [See the template →](.github/ISSUE_TEMPLATE/07%20Dependency.yml#L1-L8)
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="33%">
 
 ### [🤖 Testing](.github/ISSUE_TEMPLATE/06%20Testing.yml)
 
@@ -122,6 +70,9 @@ This template is used for tasks related to testing (unit, integration, etc.).
 
 [See the template →](.github/ISSUE_TEMPLATE/06%20Testing.yml#L1-L20)
 
+</td>
+<td valign="top" width="33%">
+
 ### [🪲 Bug Report](.github/ISSUE_TEMPLATE/02%20Bug%20Report.yml)
 
 **After testing, we need to fix any bugs that have been found.**
@@ -130,6 +81,9 @@ This template is used to report bugs or issues.
 
 [See the template →](.github/ISSUE_TEMPLATE/02%20Bug%20Report.yml#L1-L6)
 
+</td>
+<td valign="top" width="33%">
+
 ### [🌟 Improvement Proposal](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml)
 
 **Finally, we always look for ways to improve.**
@@ -137,6 +91,11 @@ This template is used to report bugs or issues.
 This template is used to suggest enhancements to existing features or processes.
 
 [See the template →](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml#L1-L20)
+
+</td>
+</tr>
+</table>
+
 
 ## Usage
 
