@@ -32,7 +32,7 @@ Here's how they fit into our workflow:
 This template is used for project-related tasks, including planning, tracking, and
 management. It sets the stage for everything that follows.
 
-[See the template -->](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
+[See the template →](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
 
 ### [📝 2. Documentation](.github/ISSUE_TEMPLATE/09%20Documentation.yml)
 
@@ -42,7 +42,7 @@ This template is used for tasks related to the creation or
 update of documentation, ensuring we have all the
 information we need to proceed.
 
-[See the template -->](.github/ISSUE_TEMPLATE/09%20Documentation.yml#L1-L8)
+[See the template →](.github/ISSUE_TEMPLATE/09%20Documentation.yml#L1-L8)
 
 ### [🏆 3. Feature Request](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml)
 
@@ -50,7 +50,7 @@ information we need to proceed.
 
 This template helps us gather and understand proposals for new features.
 
-[See the template -->](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml#L1-L8)
+[See the template →](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml#L1-L8)
 
 ### [🔭 4. Research/Exploration](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml)
 
@@ -58,7 +58,7 @@ This template helps us gather and understand proposals for new features.
 
 This template guides tasks that require initial research or exploration.
 
-[See the template -->](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml#L1-L20)
+[See the template →](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml#L1-L20)
 
 ### [🌈 5. Design](.github/ISSUE_TEMPLATE/08%20Design.yml)
 
@@ -66,7 +66,7 @@ This template guides tasks that require initial research or exploration.
 
 This template is used for tasks that require design input or are related to UI/UX.
 
-[See the template -->](.github/ISSUE_TEMPLATE/08%20Design.yml#L1-L8)
+[See the template →](.github/ISSUE_TEMPLATE/08%20Design.yml#L1-L8)
 
 ### [💾 6. Dependency](.github/ISSUE_TEMPLATE/07%20Dependency.yml)
 
@@ -74,7 +74,7 @@ This template is used for tasks that require design input or are related to UI/U
 
 This template is used for issues related to third-party libraries, tools, or system integrations.
 
-[See the template -->](.github/ISSUE_TEMPLATE/07%20Dependency.yml#L1-L8)
+[See the template →](.github/ISSUE_TEMPLATE/07%20Dependency.yml#L1-L8)
 
 ### [🤖 7. Testing](.github/ISSUE_TEMPLATE/06%20Testing.yml)
 
@@ -82,7 +82,7 @@ This template is used for issues related to third-party libraries, tools, or sys
 
 This template is used for tasks related to testing (unit, integration, etc.).
 
-[See the template -->](.github/ISSUE_TEMPLATE/06%20Testing.yml#L1-L20)
+[See the template →](.github/ISSUE_TEMPLATE/06%20Testing.yml#L1-L20)
 
 ### [🪲 8. Bug Report](.github/ISSUE_TEMPLATE/02%20Bug%20Report.yml)
 
@@ -90,7 +90,7 @@ This template is used for tasks related to testing (unit, integration, etc.).
 
 This template is used to report bugs or issues.
 
-[See the template -->](.github/ISSUE_TEMPLATE/02%20Bug%20Report.yml#L1-L6)
+[See the template →](.github/ISSUE_TEMPLATE/02%20Bug%20Report.yml#L1-L6)
 
 ### [9. 🌟 Improvement Proposal](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml)
 
@@ -98,7 +98,7 @@ This template is used to report bugs or issues.
 
 This template is used to suggest enhancements to existing features or processes.
 
-[See the template -->](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml#L1-L20)
+[See the template →](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml#L1-L20)
 
 ## Usage
 
