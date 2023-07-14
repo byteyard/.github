@@ -8,7 +8,7 @@ This repository is the central hub for all the global templates used in creating
 
 In addition to the issue templates, this repository also hosts the public GitHub Organization Homepage README.md, visible to GitHub users without organization access. This README.md, editable under `./profile/README.md`, provides a succinct overview of ByteYard, a digital agency specializing in web development, design, and consulting.
 
-## Templates
+## Global Project Issue Templates
 
 Our templates are not just a random collection; they follow a specific order that mirrors our agile development workflow. Each template corresponds to a stage in our process, guiding the project from inception to completion. Here's how they fit into our workflow:
 
@@ -25,8 +25,6 @@ Our templates are not just a random collection; they follow a specific order tha
 ## Usage
 
 This repository is a special ".github" repository. It contains global templates that are automatically inherited by all other repositories in the ByteYard organization that do not have their own templates under `.github/ISSUE_TEMPLATE/`.
-
-To use these templates in your project, simply copy the desired template file into the `.github/ISSUE_TEMPLATE/` directory of your repository. When creating a new issue, you will be able to choose from these templates.
 
 For more information about GitHub templates, please refer to the [GitHub documentation](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates).
 
