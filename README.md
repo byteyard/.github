@@ -35,6 +35,7 @@ This template is used for project-related tasks, including planning, tracking, a
 
 [See the template →](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
 
+<br>
 </td>
 <td valign="top" width="33%">
 
@@ -46,6 +47,7 @@ This template is used for tasks related to the creation or update of documentati
 
 [See the template →](.github/ISSUE_TEMPLATE/09%20Documentation.yml#L1-L8)
 
+<br>
 </td>
 <td valign="top" width="33%">
 
@@ -57,6 +59,7 @@ This template helps us gather and understand proposals for new features.
 
 [See the template →](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml#L1-L8)
 
+<br>
 </td>
 </tr>
 
@@ -71,6 +74,7 @@ This template guides tasks that require initial research or exploration.
 
 [See the template →](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml#L1-L20)
 
+<br>
 </td>
 <td valign="top" width="33%">
 
@@ -82,6 +86,7 @@ This template is used for tasks that require design input or are related to UI/U
 
 [See the template →](.github/ISSUE_TEMPLATE/08%20Design.yml#L1-L8)
 
+<br>
 </td>
 <td valign="top" width="33%">
 
@@ -93,6 +98,7 @@ This template is used for issues related to third-party libraries, tools, or sys
 
 [See the template →](.github/ISSUE_TEMPLATE/07%20Dependency.yml#L1-L8)
 
+<br>
 </td>
 </tr>
 <tr>
@@ -106,6 +112,7 @@ This template is used for tasks related to testing (unit, integration, etc.).
 
 [See the template →](.github/ISSUE_TEMPLATE/06%20Testing.yml#L1-L20)
 
+<br>
 </td>
 <td valign="top" width="33%">
 
@@ -117,6 +124,7 @@ This template is used to report bugs or issues.
 
 [See the template →](.github/ISSUE_TEMPLATE/02%20Bug%20Report.yml#L1-L6)
 
+<br>
 </td>
 <td valign="top" width="33%">
 
@@ -128,6 +136,7 @@ This template is used to suggest enhancements to existing features or processes.
 
 [See the template →](.github/ISSUE_TEMPLATE/04%20Improvement%20Proposal.yml#L1-L20)
 
+<br>
 </td>
 </tr>
 </table>
