@@ -97,7 +97,9 @@ that do not have their own templates under
 `.github/ISSUE_TEMPLATE/`.
 
 For more information about GitHub templates, please refer
-to the [GitHub documentation](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates).
+to the 
+
+    [👉 GitHub documentation](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates).
 
 ## Contributing
 
