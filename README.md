@@ -27,6 +27,42 @@ Here's how they fit into our workflow:
 <tr>
 <td valign="top" width="33%">
 
+### [📋 Project Management](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml)
+
+**This is where it all begins.**
+
+This template is used for project-related tasks, including planning, tracking, and management. It sets the stage for everything that follows.
+
+[See the template →](.github/ISSUE_TEMPLATE/01%20Project%20Management.yml#L1-L7)
+
+</td>
+<td valign="top" width="33%">
+
+### [📝 Documentation](.github/ISSUE_TEMPLATE/09%20Documentation.yml)
+
+**Documentation is a crucial part of our process.**
+
+This template is used for tasks related to the creation or update of documentation, ensuring we have all the information we need to proceed.
+
+[See the template →](.github/ISSUE_TEMPLATE/09%20Documentation.yml#L1-L8)
+
+</td>
+<td valign="top" width="33%">
+
+### [🏆 Feature Request](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml)
+
+**Once we have a plan and documentation, we can start thinking about new features.**
+
+This template helps us gather and understand proposals for new features.
+
+[See the template →](.github/ISSUE_TEMPLATE/03%20Feature%20Request.yml#L1-L8)
+
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="33%">
+
 ### [🔭 Research/Exploration](.github/ISSUE_TEMPLATE/05%20Research-Exploration.yml)
 
 **Before we start building, we need to do some research.**
