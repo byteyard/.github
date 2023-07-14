@@ -10,7 +10,7 @@ body:
         ## 🪲 Bug Description
         Please provide a clear and concise description of the bug. 
 
-        <p style="font-size: 30px;">🚨 Important: Before submitting this issue, please add a "Priority" label to indicate the severity of the bug.</p>
+        ### 🚨 Important: Before submitting this issue, please add a "Priority" label to indicate the severity of the bug.
         
         The available "Priority" labels are:
         - Priority: Critical
