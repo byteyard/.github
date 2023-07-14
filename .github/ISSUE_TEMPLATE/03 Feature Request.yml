@@ -1,5 +1,5 @@
 name: '🏆 Feature Request'
-description: 'This template will be used for proposing new features.'
+description: 'Use this template to propose new features. Please provide as much information as possible to help us understand your proposal.'
 labels: ['Type: Feature Request 🏆']
 assignees:
   - octocat
@@ -7,40 +7,26 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Describe the Feature Request
-        A clear and concise description of what the feature request is.
+        ## Feature Description 🏆
+        Please provide a clear and concise description of the feature you're proposing.
   - type: textarea
     attributes:
-      label: Detailed Description
-      description: Provide a detailed description of the proposed feature.
-      placeholder: |
-        1. Describe the feature...
-        2. Explain why this feature is needed...
-        3. Any additional considerations...
+      label: Reason for Request 🎯
+      description: 'Explain how this feature will benefit the project or its users.'
+      placeholder: "This feature will improve ..."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Use Case
-      description: Describe a use case for this feature.
-      placeholder: "When I do ..., this feature would ..."
+      label: Similar Existing Features 🔄
+      description: 'If there are any similar features already existing, please describe them here.'
+      placeholder: "The feature is similar to ..."
     validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: Priority
-      description: Please select the priority of this feature request.
-      options:
-        - Critical
-        - High
-        - Medium
-        - Low
-    validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
-      label: Additional context
-      description: Add any other context about the feature request here.
+      label: Additional Context 📝
+      description: 'Add any other context or screenshots about the feature request here.'
       placeholder: "Add any other context or screenshots about the feature request here."
     validations:
       required: false

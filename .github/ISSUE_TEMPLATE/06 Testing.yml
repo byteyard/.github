@@ -1,5 +1,5 @@
 name: '🤖 Testing'
-description: 'This template will be used for tasks related to testing (unit, integration, etc.).'
+description: 'Use this template for tasks related to testing (unit, integration, etc.). Please provide as much information as possible to help us understand your testing task.'
 labels: ['Type: Testing 🤖']
 assignees:
   - octocat
@@ -7,40 +7,43 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Describe the Testing Task
-        A clear and concise description of what the testing task is.
+        ## Testing Task 🤖
+        Please provide a clear and concise description of the testing task.
   - type: textarea
     attributes:
-      label: Detailed Description
-      description: Provide a detailed description of the testing task.
-      placeholder: |
-        1. Describe the task...
-        2. Explain why this task is needed...
-        3. Any additional considerations...
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Expected Outcome
-      description: Describe the expected outcome of this task.
-      placeholder: "After completing this task, we should know ..."
+      label: Objectives of the Testing 🎯
+      description: 'Explain the objectives of the testing.'
+      placeholder: "The objectives of this testing are ..."
     validations:
       required: true
   - type: dropdown
     attributes:
-      label: Priority
-      description: Please select the priority of this task.
+      label: Testing Environment 🌐
+      description: 'Please select the environment where the testing will be performed.'
       options:
-        - Critical
-        - High
-        - Medium
-        - Low
+        - Development
+        - Staging
+        - Production
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Additional context
-      description: Add any other context about the task here.
-      placeholder: "Add any other context or screenshots about the task here."
+      label: Expected Results 🎯
+      description: 'Describe what you expect to happen as a result of the testing.'
+      placeholder: "The expected results of this testing are ..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Results 🎯
+      description: 'Describe what actually happened as a result of the testing.'
+      placeholder: "The actual results of this testing are ..."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Context 📝
+      description: 'Add any other context or screenshots about the testing here.'
+      placeholder: "Add any other context or screenshots about the testing here."
     validations:
       required: false

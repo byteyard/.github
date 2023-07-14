@@ -1,5 +1,5 @@
 name: '🌈 Design'
-description: 'This template will be used for tasks that require design input or are related to UI/UX.'
+description: 'Use this template for tasks that require design input or are related to UI/UX. Please provide as much information as possible to help us understand your design task.'
 labels: ['Type: Design 🌈']
 assignees:
   - octocat
@@ -7,40 +7,19 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Describe the Design Issue
-        A clear and concise description of what the design issue is.
+        ## Design Task 🌈
+        Please provide a clear and concise description of the design task.
   - type: textarea
     attributes:
-      label: Detailed Description
-      description: Provide a detailed description of the design issue.
-      placeholder: |
-        1. Describe the issue...
-        2. Explain why this issue is a problem...
-        3. Any additional considerations...
+      label: Objectives of the Design 🎯
+      description: 'Explain the objectives of the design.'
+      placeholder: "The objectives of this design are ..."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Expected Outcome
-      description: Describe the expected outcome of resolving this issue.
-      placeholder: "After resolving this issue, we should ..."
-    validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: Priority
-      description: Please select the priority of this issue.
-      options:
-        - Critical
-        - High
-        - Medium
-        - Low
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Additional context
-      description: Add any other context about the issue here.
-      placeholder: "Add any other context or screenshots about the issue here."
+      label: Additional Context 📝
+      description: 'Add any other context or screenshots about the design here.'
+      placeholder: "Add any other context or screenshots about the design here."
     validations:
       required: false

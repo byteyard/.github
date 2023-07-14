@@ -1,5 +1,5 @@
 name: '📝 Documentation'
-description: 'This template will be used for tasks related to the creation or update of documentation.'
+description: 'Use this template for tasks related to the creation or update of documentation. Please provide as much information as possible to help us understand your documentation task.'
 labels: ['Type: Documentation 📝']
 assignees:
   - octocat
@@ -7,40 +7,26 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Describe the Documentation Task
-        A clear and concise description of what the documentation task is.
+        ## Documentation Task 📝
+        Please provide a clear and concise description of the documentation task.
   - type: textarea
     attributes:
-      label: Detailed Description
-      description: Provide a detailed description of the documentation task.
-      placeholder: |
-        1. Describe the task...
-        2. Explain why this task is needed...
-        3. Any additional considerations...
+      label: Objectives of the Documentation 🎯
+      description: 'Explain the objectives of the documentation.'
+      placeholder: "The objectives of this documentation are ..."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Expected Outcome
-      description: Describe the expected outcome of this task.
-      placeholder: "After completing this task, we should have ..."
-    validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: Priority
-      description: Please select the priority of this task.
-      options:
-        - Critical
-        - High
-        - Medium
-        - Low
+      label: Target Audience 🎯
+      description: 'Describe the target audience of the documentation.'
+      placeholder: "The target audience of this documentation is ..."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Additional context
-      description: Add any other context about the task here.
-      placeholder: "Add any other context or screenshots about the task here."
+      label: Additional Context 📝
+      description: 'Add any other context or screenshots about the documentation here.'
+      placeholder: "Add any other context or screenshots about the documentation here."
     validations:
       required: false

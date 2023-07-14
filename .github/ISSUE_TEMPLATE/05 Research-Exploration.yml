@@ -1,5 +1,5 @@
 name: '🔭 Research/Exploration'
-description: 'This template will be used for tasks that require initial research or exploration.'
+description: 'Use this template for tasks that require initial research or exploration. Please provide as much information as possible to help us understand your research topic.'
 labels: ['Type: Research/Exploration 🔭']
 assignees:
   - octocat
@@ -7,40 +7,26 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Describe the Research/Exploration Task
-        A clear and concise description of what the research or exploration task is.
+        ## Research Topic 🔭
+        Please provide a clear and concise description of the research topic.
   - type: textarea
     attributes:
-      label: Detailed Description
-      description: Provide a detailed description of the research or exploration task.
-      placeholder: |
-        1. Describe the task...
-        2. Explain why this task is needed...
-        3. Any additional considerations...
+      label: Objectives of the Research 🎯
+      description: 'Explain the objectives of the research.'
+      placeholder: "The objectives of this research are ..."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Expected Outcome
-      description: Describe the expected outcome of this task.
-      placeholder: "After completing this task, we should know ..."
+      label: Background Information 📚
+      description: 'If there's any relevant background information, please describe it here.'
+      placeholder: "The background information of this research is ..."
     validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: Priority
-      description: Please select the priority of this task.
-      options:
-        - Critical
-        - High
-        - Medium
-        - Low
-    validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
-      label: Additional context
-      description: Add any other context about the task here.
-      placeholder: "Add any other context or screenshots about the task here."
+      label: Additional Context 📝
+      description: 'Add any other context or screenshots about the research here.'
+      placeholder: "Add any other context or screenshots about the research here."
     validations:
       required: false

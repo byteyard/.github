@@ -1,5 +1,5 @@
 name: '🪲 Bug Report'
-description: 'This template will be used for reporting bugs or issues.'
+description: 'Use this template to report bugs or issues. Please provide as much information as possible to help us understand and fix the issue.'
 labels: ['Type: Bug Report 🪲']
 assignees:
   - octocat
@@ -7,12 +7,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Describe the bug
-        A clear and concise description of what the bug is.
+        ## Bug Description 🪲
+        Please provide a clear and concise description of the bug.
   - type: textarea
     attributes:
-      label: Steps to reproduce
-      description: Provide a detailed list of steps that reproduce the issue.
+      label: Steps to Reproduce 🔄
+      description: 'Please provide a detailed list of steps that reproduce the issue. The more detailed your steps, the easier it is for us to understand the issue.'
       placeholder: |
         1. Go to '...'
         2. Click on '....'
@@ -22,15 +22,22 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Expected behavior
-      description: Describe what you expected to happen.
+      label: Expected Behavior 🎯
+      description: 'Describe what you expected to happen when you performed the steps above.'
       placeholder: "When I do ..., I expect ..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Behavior 🎯
+      description: 'Describe what actually happened when you performed the steps above.'
+      placeholder: "When I do ..., I see ..."
     validations:
       required: true
   - type: dropdown
     attributes:
-      label: Device
-      description: Please select the device where the bug was encountered.
+      label: Device 📱
+      description: 'Please select the device where the bug was encountered.'
       options:
         - Desktop
         - Tablet
@@ -39,8 +46,8 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: OS
-      description: Please select the operating system where the bug was encountered.
+      label: Operating System 💻
+      description: 'Please select the operating system where the bug was encountered.'
       options:
         - Windows
         - MacOS
@@ -50,8 +57,8 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Browser
-      description: Please select the browser where the bug was encountered.
+      label: Browser 🌐
+      description: 'Please select the browser where the bug was encountered.'
       options:
         - Chrome
         - Firefox
@@ -62,15 +69,33 @@ body:
       required: true
   - type: input
     attributes:
-      label: Browser Version
-      description: Please enter the browser version.
+      label: Browser Version 🔄
+      description: 'Please enter the browser version where the bug was encountered.'
       placeholder: "Version 90.0.4430.93 (Official Build) (64-bit)"
     validations:
-      required: false    
+      required: false
+  - type: dropdown
+    attributes:
+      label: Severity 🚨
+      description: 'Please select the severity of the bug.'
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
   - type: textarea
     attributes:
-      label: Additional context
-      description: Add any other context about the problem here.
+      label: Screenshots/Recordings 📸
+      description: 'If applicable, add screenshots or screen recordings to help explain the bug.'
+      placeholder: "Upload your screenshots or recordings here."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Context 📝
+      description: 'Add any other context about the problem here. If applicable, add screenshots to help explain your problem.'
       placeholder: "Add any other context or screenshots about the problem here."
     validations:
       required: false

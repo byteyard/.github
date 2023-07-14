@@ -1,5 +1,5 @@
 name: '🌟 Improvement Proposal'
-description: 'This template will be used for suggesting enhancements to existing features or processes.'
+description: 'Use this template to suggest enhancements to existing features or processes. Please provide as much information as possible to help us understand your proposal.'
 labels: ['Type: Improvement Proposal 🌟']
 assignees:
   - octocat
@@ -7,40 +7,26 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Describe the Improvement Proposal
-        A clear and concise description of what the improvement proposal is.
+        ## Improvement Description 🌟
+        Please provide a clear and concise description of the improvement you're proposing.
   - type: textarea
     attributes:
-      label: Detailed Description
-      description: Provide a detailed description of the proposed improvement.
-      placeholder: |
-        1. Describe the improvement...
-        2. Explain why this improvement is needed...
-        3. Any additional considerations...
+      label: Reason for Proposal 🎯
+      description: 'Explain how this improvement will benefit the project or its users.'
+      placeholder: "This improvement will enhance ..."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Use Case
-      description: Describe a use case for this improvement.
-      placeholder: "When I do ..., this improvement would ..."
+      label: Similar Existing Features or Processes 🔄
+      description: 'If there are any similar features or processes already existing, please describe them here.'
+      placeholder: "The improvement is related to ..."
     validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: Priority
-      description: Please select the priority of this improvement proposal.
-      options:
-        - Critical
-        - High
-        - Medium
-        - Low
-    validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
-      label: Additional context
-      description: Add any other context about the improvement proposal here.
+      label: Additional Context 📝
+      description: 'Add any other context or screenshots about the improvement proposal here.'
       placeholder: "Add any other context or screenshots about the improvement proposal here."
     validations:
       required: false
