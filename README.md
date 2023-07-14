@@ -1,6 +1,10 @@
 # ByteYard GitHub Issue Templates
 
-Welcome to the ByteYard GitHub Issue Templates repository! This repository is the central hub for all the global templates used in creating and managing GitHub issues across all ByteYard project repositories. Our templates are designed to standardize the way we handle issues, ensuring consistency and clarity in our project management.
+This repository is the central hub for all the global templates used in creating and managing GitHub issues across all ByteYard project repositories. 
+
+**Our templates are designed to standardize the way we handle issues, ensuring consistency and clarity in our project management.**
+
+## Public GitHub Organization Homepage
 
 In addition to the issue templates, this repository also hosts the public GitHub Organization Homepage README.md, visible to GitHub users without organization access. This README.md, editable under `./profile/README.md`, provides a succinct overview of ByteYard, a digital agency specializing in web development, design, and consulting.
 
