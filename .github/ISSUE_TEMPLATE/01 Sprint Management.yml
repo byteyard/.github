@@ -1,0 +1,39 @@
+name: '🏁 Sprint Management'
+description: 'Use this template for tasks related to managing sprints, distributing tasks, handling resources, and managing dependencies.'
+labels: ['Type: Sprint Management 🏁']
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Sprint Description 🏁
+        Please provide a clear and concise description of the sprint or task.
+  - type: textarea
+    attributes:
+      label: Relevant Personnel or Teams 🎯
+      description: 'List the relevant personnel or teams for this sprint.'
+      placeholder: "The relevant personnel or teams for this sprint are ..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Dependencies 🔄
+      description: 'List any dependencies for this sprint.'
+      placeholder: "The dependencies for this sprint are ..."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Research/Exploration 📚
+      description: 'Describe any research or exploration that needs to be done for this sprint.'
+      placeholder: "The research/exploration for this sprint is ..."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Testing Requirements 🤖
+      description: 'Describe the testing requirements for this sprint.'
+      placeholder: "The testing requirements for this sprint are ..."
+    validations:
+      required: false

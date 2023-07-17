@@ -1,0 +1,39 @@
+name: '🌟 Existing Feature Enhancement'
+description: 'Use this template to propose enhancements or modifications to existing features. Please provide as much information as possible to help us understand your proposal.'
+labels: ['Type: Feature Enhancement 🌟']
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Description 🌟
+        Please provide a clear and concise description of the existing feature to be enhanced.
+  - type: textarea
+    attributes:
+      label: Rationale for Enhancement 🎯
+      description: 'Explain the rationale for the enhancement.'
+      placeholder: "The rationale for this enhancement is ..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Concept Work or Design Changes 🎨
+      description: 'Describe any concept work or design changes for the enhancement.'
+      placeholder: "The concept work or design changes for this enhancement are ..."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Considerations for Code Implementation 💻
+      description: 'Describe any considerations for code implementation of the enhancement.'
+      placeholder: "The considerations for code implementation of this enhancement are ..."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Possible Impact on Other Features or Future Development 🚀
+      description: 'Describe the possible impact of this enhancement on other features or future development.'
+      placeholder: "The possible impact of this enhancement on other features or future development is ..."
+    validations:
+      required: false

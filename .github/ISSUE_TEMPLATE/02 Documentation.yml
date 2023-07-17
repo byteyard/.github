@@ -11,22 +11,15 @@ body:
         Please provide a clear and concise description of the documentation task.
   - type: textarea
     attributes:
-      label: Objectives of the Documentation 🎯
-      description: 'Explain the objectives of the documentation.'
-      placeholder: "The objectives of this documentation are ..."
+      label: Reason for Change 🎯
+      description: 'Explain the reason for the documentation change (e.g., new feature, feature enhancement, discovered error).'
+      placeholder: "The reason for this documentation change is ..."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Target Audience 🎯
-      description: 'Describe the target audience of the documentation.'
-      placeholder: "The target audience of this documentation is ..."
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Additional Context 📝
-      description: 'Add any other context or screenshots about the documentation here.'
-      placeholder: "Add any other context or screenshots about the documentation here."
+      label: Necessary Research 📚
+      description: 'Describe any necessary research to complete the documentation.'
+      placeholder: "The necessary research for this documentation is ..."
     validations:
       required: false

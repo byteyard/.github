@@ -1,0 +1,50 @@
+name: '🪲 Bug Report'
+description: 'Use this template for reporting bugs in existing features. Please provide as much information as possible to help us understand the bug.'
+labels: ['Type: Bug Report 🪲']
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Description 🪲
+        Please provide a clear and concise description of the bug.
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce 🔄
+      description: 'Please provide a detailed list of steps that reproduce the issue. The more detailed your steps, the easier it is for us to understand the issue.'
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Outcome 🎯
+      description: 'Describe what you expected to happen when you performed the steps above.'
+      placeholder: "When I do ..., I expect ..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Outcome 🎯
+      description: 'Describe what actually happened when you performed the steps above.'
+      placeholder: "When I do ..., I see ..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots 📸
+      description: 'If applicable, add screenshots to help explain your problem.'
+      placeholder: "Add any screenshots about the problem here."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Possible Solutions or Ideas 💡
+      description: 'If you have any possible solutions or ideas, please describe them here.'
+      placeholder: "The possible solutions or ideas are ..."
+    validations:
+      required: false
