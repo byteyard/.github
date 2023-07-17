@@ -48,3 +48,68 @@ body:
       placeholder: "The possible solutions or ideas are ..."
     validations:
       required: false
+  - type: dropdown
+    attributes:
+      label: 📱 Device
+      description: 'Please select the device where the bug was encountered.'
+      options:
+        - Desktop
+        - Tablet
+        - Mobile
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: 💻 Operating System
+      description: 'Please select the operating system where the bug was encountered.'
+      options:
+        - Windows
+        - MacOS
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: 🌐 Browser
+      description: 'Please select the browser where the bug was encountered.'
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 🔄 Browser Version
+      description: 'Please enter the browser version where the bug was encountered.'
+      placeholder: "Version 90.0.4430.93 (Official Build) (64-bit)"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 📸 Screenshots/Recordings
+      description: 'If applicable, add screenshots or screen recordings to help explain the bug.'
+      placeholder: "Upload your screenshots or recordings here."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 📝 Additional Context
+      description: 'Add any other context about the problem here. If applicable, add screenshots to help explain your problem.'
+      placeholder: "Add any other context or screenshots about the problem here."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚨 Important
+        Before submitting this issue, please add a "Priority" label to indicate the severity of the bug.
+        
+        The available "Priority" labels are:
+        - Priority: Critical
+        - Priority: High
+        - Priority: Medium
+        - Priority: Low
