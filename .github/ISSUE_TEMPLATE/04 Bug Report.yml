@@ -7,6 +7,11 @@ body:
   - type: markdown
     attributes:
       value: |
+        # 🪲 Bug Report
+        Use this template for reporting bugs in existing features. Please provide as much information as possible to help us understand the bug.
+  - type: markdown
+    attributes:
+      value: |
         ## Bug Description 🪲
         Please provide a clear and concise description of the bug.
   - type: textarea
@@ -20,6 +25,11 @@ body:
         4. See error
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Expected and Actual Outcome 🎯
+        Describe what you expected to happen when you performed the steps above and what actually happened.
   - type: textarea
     attributes:
       label: Expected Outcome 🎯
@@ -34,6 +44,11 @@ body:
       placeholder: "When I do ..., I see ..."
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional Information 📸💡
+        If applicable, add screenshots to help explain your problem. If you have any possible solutions or ideas, please describe them here.
   - type: textarea
     attributes:
       label: Screenshots 📸
@@ -48,6 +63,11 @@ body:
       placeholder: "The possible solutions or ideas are ..."
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Device, OS, and Browser Information 📱💻🌐
+        Please provide information about the device, operating system, and browser where the bug was encountered.
   - type: dropdown
     attributes:
       label: 📱 Device
@@ -88,6 +108,11 @@ body:
       placeholder: "Version 90.0.4430.93 (Official Build) (64-bit)"
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Screenshots/Recordings and Additional Context 📸📝
+        If applicable, add screenshots or screen recordings to help explain the bug. Add any other context about the problem here.
   - type: textarea
     attributes:
       label: 📸 Screenshots/Recordings
