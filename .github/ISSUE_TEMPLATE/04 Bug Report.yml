@@ -12,7 +12,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Bug Description 🪲
+        ## Bug Description
         Please provide a clear and concise description of the bug.
   - type: textarea
     attributes:
@@ -42,7 +42,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Device, OS, and Browser Information 📱💻🌐
+        ## Device, OS, and Browser Information
         Please provide information about the device, operating system, and browser where the bug was encountered.
   - type: dropdown
     attributes:
@@ -87,7 +87,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Screenshots/Recordings and Additional Context 📸📝
+        ## Screenshots/Recordings and Additional Context
         If applicable, add screenshots or screen recordings to help explain the bug. Add any other context about the problem here.
   - type: textarea
     attributes:
@@ -105,7 +105,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Possible Solutions or Ideas 💡
+      label: 💡 Possible Solutions or Ideas
       description: 'If you have any possible solutions or ideas, please describe them here.'
       placeholder: "The possible solutions or ideas are ..."
     validations:
