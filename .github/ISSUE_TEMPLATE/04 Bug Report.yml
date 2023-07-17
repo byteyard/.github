@@ -42,18 +42,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Additional Information 📸💡
-        If applicable, add screenshots to help explain your problem. If you have any possible solutions or ideas, please describe them here.
-  - type: textarea
-    attributes:
-      label: Possible Solutions or Ideas 💡
-      description: 'If you have any possible solutions or ideas, please describe them here.'
-      placeholder: "The possible solutions or ideas are ..."
-    validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: |
         ## Device, OS, and Browser Information 📱💻🌐
         Please provide information about the device, operating system, and browser where the bug was encountered.
   - type: dropdown
@@ -113,6 +101,13 @@ body:
       label: 📝 Additional Context
       description: 'Add any other context about the problem here. If applicable, add screenshots to help explain your problem.'
       placeholder: "Add any other context or screenshots about the problem here."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Possible Solutions or Ideas 💡
+      description: 'If you have any possible solutions or ideas, please describe them here.'
+      placeholder: "The possible solutions or ideas are ..."
     validations:
       required: false
   - type: markdown
