@@ -106,7 +106,6 @@ body:
       required: false
   - type: markdown
     attributes:
-      visibilty: hidden
       value: |
         ## ⏰ Setting Time Estimates
         **Set time estimates for each task using Everhour's "Progress > Edit Estimates".**
