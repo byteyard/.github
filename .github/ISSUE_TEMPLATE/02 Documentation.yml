@@ -73,7 +73,20 @@ body:
         Add a milestone[^1] to set the next review date.
 
         [^1]: Create a new "Documentation Review" issue based on this template and use
-        the `Milestone` feature in the right sidebar to add it to the appropriate sprint. 
+        the `Milestone` feature in the right sidebar to add it to the appropriate sprint.
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚨 Documentation Priority
+        **Before submitting this issue, please add a "Priority" label to indicate the urgency of the documentation.**
+        
+        The available "Priority" labels are:
+        - Priority: Critical
+        - Priority: High
+        - Priority: Medium
+        - Priority: Low
+
+        These labels help us triage and prioritize the issue appropriately.
   - type: markdown
     attributes:
       value: |
