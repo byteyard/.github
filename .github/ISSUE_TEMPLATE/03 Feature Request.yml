@@ -7,20 +7,27 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Feature Description 🏆
+        ## 🏆 Feature Description
         Please provide a clear and concise description of the feature you're proposing.
   - type: textarea
     attributes:
-      label: Rationale or Use Cases 🎯
+      label: 🎯 Rationale or Use Cases
       description: 'Explain the rationale or use cases for the feature.'
       placeholder: "The rationale or use cases for this feature are ..."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Concept Work or Design Ideas 🎨
+      label: 🎨 Concept Work or Design Ideas
       description: 'Describe any concept work or design ideas for the feature.'
       placeholder: "The concept work or design ideas for this feature are ..."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 🎓 Research/Exploration
+      description: 'Describe any research or exploration that needs to be done for this sprint.'
+      placeholder: "The research/exploration for this sprint is ..."
     validations:
       required: false
   - type: textarea
@@ -32,14 +39,14 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Considerations for Code Implementation 💻
+      label: 💻 Considerations for Code Implementation
       description: 'Describe any considerations for code implementation of the feature.'
       placeholder: "The considerations for code implementation of this feature are ..."
     validations:
       required: false
   - type: textarea
     attributes:
-      label: Possible Impact on Existing Features or Future Development 🚀
+      label: 🚀 Possible Impact on Existing Features or Future Development
       description: 'Describe the possible impact of this feature on existing features or future development.'
       placeholder: "The possible impact of this feature on existing features or future development is ..."
     validations:
