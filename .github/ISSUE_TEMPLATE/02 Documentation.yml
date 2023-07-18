@@ -70,12 +70,10 @@ body:
         ## 🏃 Sprint Planning
         **Add a milestone[^1] to include this issue in a sprint.**
 
-        [^1]: Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint. 
-  - type: markdown
-    attributes:
-      value: |
-        ## 🚨 Documentation Priority
-        **Before submitting this issue, please add a "Priority" label to indicate the urgency of the documentation.**
+        [^1]: Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.
+
+        ## 🚨 Improvement Priority
+        **Before submitting this issue, please add a "Priority" label to indicate the importance of the improvement.**
         
         The available "Priority" labels are:
         - Priority: Critical
@@ -83,13 +81,12 @@ body:
         - Priority: Medium
         - Priority: Low
 
-        These `labels`[^1] help us triage and prioritize the issue appropriately.
+        These `labels`[^2] help us triage and prioritize the issue appropriately.
 
-        [^1]: The `labels` feature is located in the right sidebar of each issue.
-  - type: markdown
-    attributes:
-      value: |
-        ## ⏰ Setting Time Estimates
-        **Set time estimates for each task related to the documentation using Everhour's `Progress > Edit Estimates`.**
+        [^2]: The `labels` feature is located in the right sidebar of each issue.
         
-        The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the documentation creation or update process.
+        ## ⏰ Setting Time Estimates
+        **Set time estimates for each task using Everhour's `Progress > Edit Estimates`[^3].**
+        
+        [^3]: The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
+
