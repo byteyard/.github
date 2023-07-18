@@ -45,7 +45,7 @@ body:
       description: |
         Specify the meeting time and date in [Google Calendar](https://calendar.google.com/) and update the URL behind `Starting Block Meeting`.
 
-        Example: ```[Starting Block Meeting](https://calendar.google.com/calendar/u/0/r/eventedit/<YOUR_EVENT_ID>)```
+        **Example:** ```[Starting Block Meeting](https://calendar.google.com/calendar/u/0/r/eventedit/<YOUR_EVENT_ID>)```
       value: |
         [Starting Block Meeting](URL)
     validations:
