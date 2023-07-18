@@ -67,13 +67,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🔄 Review and Update Cycle
-        **Documentations are not static. They need to be reviewed and updated periodically.**
+        ## 📅 Sprint Planning
+        **Add a milestone[^1] to include this issue in a sprint.**
 
-        Add a milestone[^1] to set the next review date.
-
-        [^1]: Create a new "Documentation Review" issue based on this template and use
-        the `Milestone` feature in the right sidebar to add it to the appropriate sprint.
+        [^1]: Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint. 
   - type: markdown
     attributes:
       value: |
