@@ -55,7 +55,7 @@ body:
       value: |
         ## 🧳 Customer Inputs
         **Link any customer-provided resources relevant for this sprint.**
-        
+
         * Emails, 
         * Sketches in Figma, 
         * Asana or Miro Boards, 
@@ -80,9 +80,9 @@ body:
 
         Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.   
 
-        [Create 🏆 Feature Request](/issues/new?assignees=octocat&labels=Type%3A+%F0%9F%8F%86+Feature+Request&projects=&template=03+Feature+Request.yml&title=%F0%9F%8F%86+)
-        [Create 🌟 Improvement Proposal](/issues/new?assignees=octocat&labels=Type%3A+%F0%9F%8C%9F+Improvement+Proposal&projects=&template=05+Improvement+Proposal.yml&title=%F0%9F%8C%9F+)
-        [Create 🪲 Bug Report](/issues/new?assignees=octocat&labels=Type%3A+%F0%9F%AA%B2+Bug+Report&projects=&template=04+Bug+Report.yml&title=%F0%9F%AA%B2+)
+        [Create 🏆 Feature Request](issues/new?assignees=octocat&labels=Type%3A+%F0%9F%8F%86+Feature+Request&projects=&template=03+Feature+Request.yml&title=%F0%9F%8F%86+)
+        [Create 🌟 Improvement Proposal](issues/new?assignees=octocat&labels=Type%3A+%F0%9F%8C%9F+Improvement+Proposal&projects=&template=05+Improvement+Proposal.yml&title=%F0%9F%8C%9F+)
+        [Create 🪲 Bug Report](issues/new?assignees=octocat&labels=Type%3A+%F0%9F%AA%B2+Bug+Report&projects=&template=04+Bug+Report.yml&title=%F0%9F%AA%B2+)
   - type: markdown
     attributes:
       value: |
