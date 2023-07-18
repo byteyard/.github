@@ -1,6 +1,3 @@
-Certainly! Here is the expanded form, taking into consideration more aspects of sprint planning such as Sprint Goals, User Stories/Task List, Time Estimates, Risks and Mitigations, and Communication Plan:
-
-```markdown
 name: '🏁 Sprint Management'
 title: '🏁 '
 description: 'Use this template for tasks related to managing sprints, distributing tasks, handling resources, and managing dependencies.'
@@ -80,7 +77,7 @@ body:
   - type: textarea
     attributes:
       label: Communication Plan
-      description: 'Describe the team's communication plan for this sprint.'
+      description: 'Describe the team´s communication plan for this sprint.'
       placeholder: "The communication plan for this sprint is ..."
     validations:
       required: false
@@ -99,4 +96,3 @@ body:
       placeholder: "The documentation needs for this sprint are ..."
     validations:
       required: false
-```
