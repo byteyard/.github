@@ -61,7 +61,7 @@ body:
   - type: textarea
     attributes:
       label: Communication Plan
-      description: 'Describe the team's communication plan for this sprint.'
+      description: 'Describe the team\'s communication plan for this sprint.'
       placeholder: "The communication plan for this sprint is ..."
     validations:
       required: false
