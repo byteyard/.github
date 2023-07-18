@@ -43,7 +43,7 @@ body:
     attributes:
       label: '📅 Starting Block Meeting'
       description: |
-        Specify the meeting time and date in [Google Calendar](https://calendar.google.com/) and update the URL behind `Starting Block Meeting`.'
+        Specify the meeting time and date in <a href="https://calendar.google.com/" target="_blank" rel="noopener">Google Calendar]</a> and update the URL behind `Starting Block Meeting`.'
 
         Example: ```[Starting Block Meeting](https://calendar.google.com/calendar/u/0/r/eventedit/<YOUR_EVENT_ID>)```
       value: |
