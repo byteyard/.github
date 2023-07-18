@@ -64,31 +64,19 @@ body:
       value: "The outline for this documentation is ..."
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## 🏃 Sprint Planning
   - type: checkboxes
     attributes:
       label: '🏃 Sprint Planning'
       description: |
         Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.
       options:
-        - label: 'Add a milestone to include this issue in a sprint.'
+        - label: '🏁 Add a milestone to include this issue in a sprint.'
           required: false
-  - type: dropdown
-    attributes:
-      label: '🚨 Improvement Priority'
-      description: |
-        Before submitting this issue, please add a "Priority" label to indicate the importance of the improvement. 
-        The `labels` feature is located in the right sidebar of each issue.
-      options:
-        - 'Priority: Critical'
-        - 'Priority: High'
-        - 'Priority: Medium'
-        - 'Priority: Low'
-  - type: checkboxes
-    id: setting_time_estimates
-    attributes:
-      label: '⏰ Setting Time Estimates'
-      description: |
-        Set time estimates for each task using Everhour`s `Progress > Edit Estimates` feature in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
-      options:
-        - label: 'Set time estimates for each task.'
+        - label: '🚨 Add a "Priority" label to indicate the importance of the improvement.'
+          required: false
+        - label: '⏰ Set time estimates for the task.'
           required: false
