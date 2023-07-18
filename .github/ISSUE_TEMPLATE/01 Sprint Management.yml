@@ -77,9 +77,9 @@ body:
       value: |
         ## ⚙️ Sprint Planning
         **Link the appropriate 
-        *🏆 Feature Requests*, 
-        *🌟 Improvement Proposals* and 
-        *🪲 Bug Reports* 
+        * *🏆 Feature Requests*, 
+        * *🌟 Improvement Proposals* and 
+        * *🪲 Bug Reports* 
         from the [Backlog](https://github.com/byteyard/github-config/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone) to this sprint using GitHub's Milestones.**
 
 
