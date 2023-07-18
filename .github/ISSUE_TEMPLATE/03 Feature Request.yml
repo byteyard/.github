@@ -11,13 +11,6 @@ body:
         Please provide a clear and concise description of the feature you're proposing. 
         This could be an enhancement to an existing feature or a completely new feature. 
         Example: "I'm suggesting a new dashboard widget that displays user analytics in real time."
-  - type: textarea
-    attributes:
-      label: 🎯 Rationale or Use Cases
-      description: 'Explain the rationale or use cases for the feature.'
-      placeholder: "The rationale or use cases for this feature are ..."
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: |
@@ -25,6 +18,13 @@ body:
         Detail the reasoning behind your feature proposal or describe the use cases it would support. 
         For instance: "This widget would give admins immediate insight into user behaviour, 
         allowing them to make informed decisions about resource allocation."
+  - type: textarea
+    attributes:
+      label: Rationale or Use Cases
+      description: 'Explain the rationale or use cases for the feature.'
+      placeholder: "The rationale or use cases for this feature are ..."
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: 🎨 Concept Work or Design Ideas
