@@ -1,5 +1,5 @@
 name: '🏆 Feature Request'
-title: '🏆 '
+title: '🏆 <Enter your title here!>'
 description: 'Use this template to propose new features.'
 labels: ['Type: 🏆 Feature Request']
 assignees:
@@ -12,6 +12,13 @@ body:
         **Please provide a clear and concise description of the feature you're proposing.** 
         This could be an enhancement to an existing feature or a completely new feature. 
         Example: "I'm suggesting a new dashboard widget that displays user analytics in real time."
+  - type: textarea
+    attributes:
+      label: '🏆 Feature Description'
+      description: 'Describe the feature you are proposing.'
+      value: "The feature I am proposing is ..."
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
@@ -21,9 +28,9 @@ body:
         allowing them to make informed decisions about resource allocation."
   - type: textarea
     attributes:
-      label: Rationale or Use Cases
+      label: '🎯 Rationale or Use Cases'
       description: 'Explain the rationale or use cases for the feature.'
-      placeholder: "The rationale or use cases for this feature are ..."
+      value: "The rationale or use cases for this feature are ..."
     validations:
       required: true
   - type: markdown
@@ -36,9 +43,9 @@ body:
         with slices representing different user actions."
   - type: textarea
     attributes:
-      label: Concept Work or Design Ideas
+      label: '🎨 Concept Work or Design Ideas'
       description: 'Describe any concept work or design ideas for the feature.'
-      placeholder: "The concept work or design ideas for this feature are ..."
+      value: "The concept work or design ideas for this feature are ..."
     validations:
       required: false
   - type: markdown
@@ -51,24 +58,24 @@ body:
         and how such a widget might affect performance."
   - type: textarea
     attributes:
-      label: Research/Exploration
-      description: 'Describe any research or exploration that needs to be done for this sprint.'
-      placeholder: "The research/exploration for this sprint is ..."
+      label: '🎓 Research/Exploration'
+      description: 'Describe any research or exploration that needs to be done for this feature.'
+      value: "The research/exploration for this feature is ..."
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
         ## ⛓️ Dependencies
-        **Indicate any dependencies that may affect the sprint.** 
+        **Indicate any dependencies that may affect the feature development.** 
         This could include tasks that need to be completed before the feature can be developed, 
         or external factors like API limitations. 
         Example: "We need to finalize the user event taxonomy before we can build the analytics widget."
   - type: textarea
     attributes:
-      label: Dependencies
-      description: 'List any dependencies for this sprint.'
-      placeholder: "The dependencies for this sprint are ..."
+      label: '⛓️ Dependencies'
+      description: 'List any dependencies for this feature.'
+      value: "The dependencies for this feature are ..."
     validations:
       required: false
   - type: markdown
@@ -82,9 +89,9 @@ body:
         instead of traditional HTTP requests."
   - type: textarea
     attributes:
-      label: Considerations for Code Implementation
+      label: '💻 Considerations for Code Implementation'
       description: 'Describe any considerations for code implementation of the feature.'
-      placeholder: "The considerations for code implementation of this feature are ..."
+      value: "The considerations for code implementation of this feature are ..."
     validations:
       required: false
   - type: markdown
@@ -97,8 +104,8 @@ body:
         so we might need to consider scaling up our infrastructure."
   - type: textarea
     attributes:
-      label: Possible Impact on Existing Features or Future Development
+      label: '🚀 Possible Impact on Existing Features or Future Development'
       description: 'Describe the possible impact of this feature on existing features or future development.'
-      placeholder: "The possible impact of this feature on existing features or future development is ..."
+      value: "The possible impact of this feature on existing features or future development is ..."
     validations:
       required: false
