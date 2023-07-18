@@ -14,8 +14,7 @@ body:
         The title could reflect the main focus of the sprint, 
         the teams involved, or the project goal. 
         
-        It should be short and clear,
-        giving an idea about the sprint's aim at first glance. 
+        It should be short and clear, giving an idea about the sprint's aim at first glance. 
 
         Example: "🏁 Two-Week Design Sprint for User-Friendly Dashboard Creation"
   - type: markdown
