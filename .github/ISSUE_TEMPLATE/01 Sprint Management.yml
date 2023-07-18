@@ -50,51 +50,6 @@ body:
         [Starting Block Meeting](URL)
     validations:
       required: false
-  - type: textarea
-    attributes:
-      label: '📝 Meeting Agenda'
-      placeholder: 'The meeting agenda includes ...'
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: '🗂️ Project Documentation'
-      placeholder: 'The project documentation has been updated with ...'
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: '🎒 Sprint Backlog'
-      placeholder: 'The sprint backlog has been prioritized and estimated with ...'
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: '👥 Roles'
-      placeholder: 'The roles have been assigned with ...'
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: '💌 Meeting Invites'
-      placeholder: 'The meeting invites have been dispatched with ...'
-    validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🥅 Sprint Goals
-        **Specify the goals for this sprint.**
-
-        Your goals should clearly outline what you hope to achieve by the end of the sprint.        
-  - type: textarea
-    attributes:
-      label: 🥅 Sprint Goals
-      placeholder: |
-        The goals for this sprint are ...
-        * Example: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: |
