@@ -21,7 +21,7 @@ body:
         For example: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
   - type: textarea
     attributes:
-      label: Sprint Goals
+      label: 🎯 Sprint Goals
       description: 'Describe the specific objectives for this sprint.'
       placeholder: "The goals for this sprint are ..."
     validations:
@@ -36,7 +36,7 @@ body:
         Example: "A comprehensive user guide will be required to familiarize the customer with the new dashboard."
   - type: textarea
     attributes:
-      label: Customer Documentation
+      label: 🤖 Customer Documentation
       description: 'Describe the documentation needs for this sprint.'
       placeholder: "The documentation needs for this sprint are ..."
     validations:
@@ -61,7 +61,7 @@ body:
         Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
   - type: textarea
     attributes:
-      label: Risks and Mitigations
+      label: 💣 Risks and Mitigations
       description: 'Describe any potential risks and the corresponding mitigation strategies.'
       placeholder: "The potential risks and mitigation strategies for this sprint are ..."
     validations:
@@ -75,7 +75,7 @@ body:
         Example: "Daily stand-up meetings at 9 a.m., sprint review at the end of the sprint, and ongoing communication via Slack."
   - type: textarea
     attributes:
-      label: Communication Plan
+      label: 📣 Communication Plan
       description: 'Describe the team´s communication plan for this sprint.'
       placeholder: "The communication plan for this sprint is ..."
     validations:
