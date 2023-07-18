@@ -39,6 +39,7 @@ body:
   - type: textarea
     attributes:
       label: '📅 Meeting Time'
+      description: 'Specify the meeting time and date in Google Calendar [Open Google Calendar](https://calendar.google.com/) and update the .'
       value: |
         * [Open Google Calendar](https://calendar.google.com/)
         * [Starting Block Meeting](https://calendar.google.com/calendar/u/0/r/eventedit/<YOUR_EVENT_ID>)
