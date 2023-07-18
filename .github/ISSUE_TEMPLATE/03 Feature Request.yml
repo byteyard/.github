@@ -8,14 +8,14 @@ body:
     attributes:
       value: |
         ## 🏆 Feature Description
-        Please provide a clear and concise description of the feature you're proposing. 
+        **Please provide a clear and concise description of the feature you're proposing.** 
         This could be an enhancement to an existing feature or a completely new feature. 
         Example: "I'm suggesting a new dashboard widget that displays user analytics in real time."
   - type: markdown
     attributes:
       value: |
         ## 🎯 Rationale or Use Cases
-        Detail the reasoning behind your feature proposal or describe the use cases it would support. 
+        **Detail the reasoning behind your feature proposal or describe the use cases it would support.** 
         For instance: "This widget would give admins immediate insight into user behaviour, 
         allowing them to make informed decisions about resource allocation."
   - type: textarea
@@ -29,7 +29,7 @@ body:
     attributes:
       value: |
         ## 🎨 Concept Work or Design Ideas
-        Share any initial concepts or design thoughts you have for this feature. 
+        **Share any initial concepts or design thoughts you have for this feature.** 
         It could be as simple as a sketch or a detailed wireframe. 
         You could say: "I envision the widget as a pie chart, 
         with slices representing different user actions."
@@ -44,7 +44,7 @@ body:
     attributes:
       value: |
         ## 🎓 Research/Exploration
-        Outline any preliminary research or exploration that needs to be conducted. 
+        **Outline any preliminary research or exploration that needs to be conducted.** 
         It could involve assessing similar features in other products, or exploring the feasibility of the proposal. 
         Example: "We need to research how other platforms display real-time analytics 
         and how such a widget might affect performance."
@@ -59,7 +59,7 @@ body:
     attributes:
       value: |
         ## ⛓️ Dependencies
-        Indicate any dependencies that may affect the sprint. 
+        **Indicate any dependencies that may affect the sprint.** 
         This could include tasks that need to be completed before the feature can be developed, 
         or external factors like API limitations. 
         Example: "We need to finalize the user event taxonomy before we can build the analytics widget."
@@ -74,7 +74,7 @@ body:
     attributes:
       value: |
         ## 💻 Considerations for Code Implementation
-        Discuss any considerations for implementing the feature in code. 
+        **Discuss any considerations for implementing the feature in code.** 
         These could be potential challenges, preferred languages or frameworks, 
         or other relevant factors. 
         Example: "Given the real-time nature of the widget, we might need to use WebSocket 
@@ -90,7 +90,7 @@ body:
     attributes:
       value: |
         ## 🚀 Possible Impact on Existing Features or Future Development
-        Outline any potential effects this feature could have on existing functionality 
+        **Outline any potential effects this feature could have on existing functionality** 
         or on development down the line. 
         For instance: "Implementing this widget could increase the load on our servers, 
         so we might need to consider scaling up our infrastructure."
