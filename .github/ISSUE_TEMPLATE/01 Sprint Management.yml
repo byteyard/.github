@@ -30,7 +30,7 @@ body:
     attributes:
       value: |
         ## ⚙️ Linking User Stories/Tasks
-        **Link the appropriate "🏆 Feature Requests and/or 🌟 Improvement Proposals" to this sprint using GitHub's Milestones.**
+        **Link the appropriate *🏆 Feature Requests* and/or *🌟 Improvement Proposals* to this sprint using GitHub's Milestones.**
         Use the Milestones feature in the right sidebar of each issue to add it to the appropriate sprint.
   - type: markdown
     attributes:
