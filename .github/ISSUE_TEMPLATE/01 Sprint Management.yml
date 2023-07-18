@@ -134,12 +134,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ⚙️ Linking Feature Requests, Improvement Proposals and Bug Reports
+        ## ⚙️ Sprint Planning
         **Link the appropriate *🏆 Feature Requests*, *🌟 Improvement Proposals* and *🪲 Bug Reports* from the [Backlog](https://github.com/byteyard/github-config/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone) to this sprint using GitHub's Milestones.**
 
         Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.   
-        
-        
 
         [Create 🏆 Feature Request](/issues/new?assignees=octocat&labels=Type%3A+%F0%9F%8F%86+Feature+Request&projects=&template=03+Feature+Request.yml&title=%F0%9F%8F%86+)
         [Create 🌟 Improvement Proposal](/issues/new?assignees=octocat&labels=Type%3A+%F0%9F%8C%9F+Improvement+Proposal&projects=&template=05+Improvement+Proposal.yml&title=%F0%9F%8C%9F+)
