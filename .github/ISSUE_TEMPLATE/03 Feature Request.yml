@@ -25,13 +25,6 @@ body:
       placeholder: "The rationale or use cases for this feature are ..."
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: 🎨 Concept Work or Design Ideas
-      description: 'Describe any concept work or design ideas for the feature.'
-      placeholder: "The concept work or design ideas for this feature are ..."
-    validations:
-      required: false
   - type: markdown
     attributes:
       value: |
@@ -42,9 +35,9 @@ body:
         with slices representing different user actions."
   - type: textarea
     attributes:
-      label: 🎓 Research/Exploration
-      description: 'Describe any research or exploration that needs to be done for this sprint.'
-      placeholder: "The research/exploration for this sprint is ..."
+      label: Concept Work or Design Ideas
+      description: 'Describe any concept work or design ideas for the feature.'
+      placeholder: "The concept work or design ideas for this feature are ..."
     validations:
       required: false
   - type: markdown
@@ -57,9 +50,9 @@ body:
         and how such a widget might affect performance."
   - type: textarea
     attributes:
-      label: 💾 Dependencies
-      description: 'List any dependencies for this sprint.'
-      placeholder: "The dependencies for this sprint are ..."
+      label: Research/Exploration
+      description: 'Describe any research or exploration that needs to be done for this sprint.'
+      placeholder: "The research/exploration for this sprint is ..."
     validations:
       required: false
   - type: markdown
@@ -72,9 +65,9 @@ body:
         Example: "We need to finalize the user event taxonomy before we can build the analytics widget."
   - type: textarea
     attributes:
-      label: 💻 Considerations for Code Implementation
-      description: 'Describe any considerations for code implementation of the feature.'
-      placeholder: "The considerations for code implementation of this feature are ..."
+      label: Dependencies
+      description: 'List any dependencies for this sprint.'
+      placeholder: "The dependencies for this sprint are ..."
     validations:
       required: false
   - type: markdown
@@ -88,9 +81,9 @@ body:
         instead of traditional HTTP requests."
   - type: textarea
     attributes:
-      label: 🚀 Possible Impact on Existing Features or Future Development
-      description: 'Describe the possible impact of this feature on existing features or future development.'
-      placeholder: "The possible impact of this feature on existing features or future development is ..."
+      label: Considerations for Code Implementation
+      description: 'Describe any considerations for code implementation of the feature.'
+      placeholder: "The considerations for code implementation of this feature are ..."
     validations:
       required: false
   - type: markdown
@@ -101,3 +94,10 @@ body:
         or on development down the line. 
         For instance: "Implementing this widget could increase the load on our servers, 
         so we might need to consider scaling up our infrastructure."
+  - type: textarea
+    attributes:
+      label: Possible Impact on Existing Features or Future Development
+      description: 'Describe the possible impact of this feature on existing features or future development.'
+      placeholder: "The possible impact of this feature on existing features or future development is ..."
+    validations:
+      required: false
