@@ -29,9 +29,9 @@ body:
     attributes:
       label: '🎯 Reason for Change'
       description: 'Explain the reason for the documentation change (e.g., new feature, feature enhancement, discovered error).'
-      placeholder: "The reason for this documentation change is ..."
+      value: "The reason for this documentation change is ..."
     validations:
-      required: true
+      required: false
   - type: markdown
     attributes:
       value: |
@@ -43,7 +43,7 @@ body:
     attributes:
       label: '📚 Necessary Research'
       description: 'Describe any necessary research to complete the documentation.'
-      placeholder: "The necessary research for this documentation is ..."
+      value: "The necessary research for this documentation is ..."
     validations:
       required: false
   - type: markdown
@@ -61,9 +61,9 @@ body:
     attributes:
       label: '📝 Documentation Outline'
       description: 'Provide an outline for the documentation.'
-      placeholder: "The outline for this documentation is ..."
+      value: "The outline for this documentation is ..."
     validations:
-      required: true
+      required: false
   - type: markdown
     attributes:
       value: |
@@ -75,7 +75,7 @@ body:
     attributes:
       label: '🔄 Review and Update Cycle'
       description: 'Set a date for the next review and identify the team members for the update.'
-      placeholder: "The next review date is ..., and the team members responsible are ..."
+      value: "The next review date is ..., and the team members responsible are ..."
     validations:
       required: false
   - type: markdown
