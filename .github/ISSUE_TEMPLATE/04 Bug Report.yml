@@ -26,7 +26,7 @@ body:
     attributes:
       label: '🔄 Steps to Reproduce'
       description: 'Please provide a detailed list of steps that reproduce the issue. The more detailed your steps, the easier it is for us to understand the issue.'
-      placeholder: |
+      value: |
         1. Go to '...'
         2. Click on '....'
         3. Scroll down to '....'
@@ -42,14 +42,14 @@ body:
     attributes:
       label: 'Expected Outcome 🎯'
       description: 'Describe what you expected to happen when you performed the steps above.'
-      placeholder: "When I do ..., I expect ..."
+      value: "When I do ..., I expect ..."
     validations:
       required: true
   - type: textarea
     attributes:
       label: 'Actual Outcome 🎯'
       description: 'Describe what actually happened when you performed the steps above.'
-      placeholder: "When I do ..., I see ..."
+      value: "When I do ..., I see ..."
     validations:
       required: true
   - type: markdown
@@ -96,7 +96,7 @@ body:
     attributes:
       label: '🔄 Browser Version'
       description: 'Please enter the browser version where the bug was encountered.'
-      placeholder: "Version 90.0.4430.93 (Official Build) (64-bit)"
+      value: "Version 90.0.4430.93 (Official Build) (64-bit)"
     validations:
       required: false
   - type: markdown
@@ -108,14 +108,14 @@ body:
     attributes:
       label: '📸 Screenshots/Recordings'
       description: 'If applicable, add screenshots or screen recordings to help explain the bug.'
-      placeholder: "Upload your screenshots or recordings here."
+      value: "Upload your screenshots or recordings here."
     validations:
       required: false
   - type: textarea
     attributes:
       label: '📝 Additional Context'
       description: 'Add any other context about the problem here. If applicable, add screenshots to help explain your problem.'
-      placeholder: "Add any other context or screenshots about the problem here."
+      value: "Add any other context or screenshots about the problem here."
     validations:
       required: false
   - type: markdown
@@ -129,7 +129,7 @@ body:
     attributes:
       label: '💡 Possible Solutions or Ideas'
       description: 'If you have any possible solutions or ideas, please describe them here.'
-      placeholder: "The possible solutions or ideas are ..."
+      value: "The possible solutions or ideas are ..."
     validations:
       required: false
   - type: markdown
