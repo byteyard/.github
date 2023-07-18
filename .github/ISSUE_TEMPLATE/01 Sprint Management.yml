@@ -38,8 +38,7 @@ body:
         ## 🎯 Sprint Goals
         **Specify the goals for this sprint.**
 
-        Your goals should clearly outline what you hope to achieve by the end of the sprint.
-        <br>
+        Your goals should clearly outline what you hope to achieve by the end of the sprint.        
   - type: textarea
     attributes:
       label: 🎯 Sprint Goals
@@ -60,8 +59,7 @@ body:
         * Asana or Miro boards, 
         * file downloads, etc. 
         
-        Be sure to note any specific sections or features the customer has indicated as important.
-        <br>
+        Be sure to note any specific sections or features the customer has indicated as important.        
   - type: textarea
     attributes:
       label: 🧳 Customer Inputs
@@ -76,8 +74,7 @@ body:
     attributes:
       value: |
         ## 💣 Risks and Mitigations
-        **Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.**
-        <br>
+        **Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.**        
   - type: textarea
     attributes:
       label: 💣 Risks and Mitigations
@@ -92,8 +89,7 @@ body:
         ## ⚙️ Linking User Stories/Tasks
         **Link the appropriate *🏆 Feature Requests* and/or *🌟 Improvement Proposals* to this sprint using GitHub's Milestones.**
 
-        Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.
-        <br>
+        Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.        
   - type: markdown
     attributes:
       value: |
