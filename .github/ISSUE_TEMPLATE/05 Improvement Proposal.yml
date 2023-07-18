@@ -82,3 +82,10 @@ body:
       value: "The possible impact of this enhancement on other features or future development is ..."
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## ⏰ Setting Time Estimates
+        **Set time estimates for each task using Everhour's `Progress > Edit Estimates`[^2].**
+        
+        [^2]: The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
