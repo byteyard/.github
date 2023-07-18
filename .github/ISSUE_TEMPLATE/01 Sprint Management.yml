@@ -30,12 +30,12 @@ body:
       label: Starting Block Meeting Checklist
       description: Check off the tasks once they are completed.
       options:
-        - label: Confirm and adjust meeting time with customer.
-        - label: Prepare meeting agenda including discussion points and goals.
-        - label: Update project documentation for participants' access.
-        - label: Prioritize and estimate sprint backlog for review.
-        - label: Assign roles for efficient meeting execution.
-        - label: Dispatch meeting invites with necessary details.
+        - label: Confirm and adjust **meeting time** with customer.
+        - label: Prepare **meeting agenda** including discussion points and goals.
+        - label: Update **project documentation** for participants' access.
+        - label: Prioritize and estimate **sprint backlog** for review.
+        - label: Assign **roles** for efficient meeting execution.
+        - label: Dispatch **meeting invites** with necessary details.
   - type: markdown
     attributes:
       value: |
