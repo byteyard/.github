@@ -1,4 +1,5 @@
 name: '🏁 Sprint Management'
+title: '🏁'
 description: 'Use this template for tasks related to managing sprints, distributing tasks, handling resources, and managing dependencies.'
 labels: ['Type: 🏁 Sprint Management']
 assignees:
