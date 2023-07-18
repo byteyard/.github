@@ -44,7 +44,7 @@ body:
       description: |
         Specify the meeting time and date in [Google Calendar](https://calendar.google.com/) and update the URL behind `Starting Block Meeting`.
       value: |
-        [Starting Block Meeting](https://calendar.google.com/)
+        [Show Starting Block Meeting](https://calendar.google.com/)
     validations:
       required: false
   - type: markdown
