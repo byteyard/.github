@@ -1,5 +1,5 @@
 name: '🌟 Improvement Proposal'
-description: 'Use this template to propose enhancements or modifications to existing features. Please provide as much information as possible to help us understand your proposal.'
+description: 'Use this template to propose enhancements or modifications to existing features.'
 labels: ['Type: Improvement Proposal 🌟']
 assignees:
   - octocat

@@ -1,5 +1,5 @@
 name: '🪲 Bug Report'
-description: 'Use this template for reporting bugs in existing features. Please provide as much information as possible to help us understand the bug.'
+description: 'Use this template for reporting bugs in existing features.'
 labels: ['Type: Bug Report 🪲']
 assignees:
   - octocat
