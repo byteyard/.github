@@ -101,13 +101,13 @@ body:
       label: 💣 Risks and Mitigations
       value: |
         The potential risks and mitigation strategies for this sprint are ...
-        
+
         Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
-        ## ⏰ Setting Time Estimates
+        ## ⏰ Setting Time Estimates 
         **Set time estimates for each task using Everhour's "Progress > Edit Estimates".**
         The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
