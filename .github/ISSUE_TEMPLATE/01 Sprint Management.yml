@@ -17,73 +17,66 @@ body:
         It should be short and clear, giving an idea about the sprint's aim at first glance. 
 
         **Example:** *"🏁 Two-Week Design Sprint for User-Friendly Dashboard Creation"*
-        <br>
   - type: markdown
     attributes:
       value: |
         ## 👟 Starting Block Meeting
-        **The sprint planning starts with a monthly starting block meeting 
-        with the customer that should take place in the first week of the month.**
+        **The sprint planning begins with a monthly starting block meeting with the customer that should ideally take place in the first week of the month.**
+
+        This section corresponds to the checklist below and aims to ensure that all preparations for the sprint are considered and acted upon.
+
+        Please refer to the checklist for more detailed information.
   - type: checkboxes
     id: starting-block-meeting-checklist
     attributes:
-      label: Starting Block Meeting Checklist
-      description: Check off the tasks once they are completed.
+      label: Starting Block Checklist
+      description: Check off each task as it gets completed.
       options:
-        - label: Confirm and adjust **meeting time** with customer.
-        - label: Prepare **meeting agenda** including discussion points and goals.
-        - label: Update **project documentation** for participants' access.
-        - label: Prioritize and estimate **sprint backlog** for review.
-        - label: Assign **roles** for efficient meeting execution.
-        - label: Dispatch **meeting invites** with necessary details.
+        - label: Meeting Time Adjusted
+        - label: Agenda Prepared
+        - label: Documentation Updated
+        - label: Backlog Prioritized
+        - label: Roles Assigned
+        - label: Invites Dispatched
   - type: markdown
     attributes:
       value: |
         ## 🥅 Sprint Goals
-        **Specify the goals for this sprint.**
+        **Please specify the goals for this sprint.**
 
-        Your goals should clearly outline what you hope to achieve by the end of the sprint.        
+        Your goals should clearly outline what you hope to achieve by the end of the sprint. This section is connected to the 'Backlog Prioritized' task in the checklist.
   - type: textarea
     attributes:
       label: 🥅 Sprint Goals
       placeholder: |
-        The goals for this sprint are ...
-        * Example: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
+        Example Goal: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
     validations:
       required: true
   - type: markdown
     attributes:
       value: |
         ## 🧳 Customer Inputs
-        **Link any customer-provided resources relevant for this sprint.**
-        
-        These can include 
-        * emails, 
-        * sketches in Figma, 
-        * Asana or Miro boards, 
-        * file downloads, etc. 
-        
-        Be sure to note any specific sections or features the customer has indicated as important.        
+        **Please link to any customer-provided resources relevant for this sprint.**
+
+        This includes resources such as emails, sketches in Figma, Asana or Miro boards, file downloads, etc. These customer inputs are integral to preparing the 'Documentation Updated' task in the checklist.
   - type: textarea
     attributes:
       label: 🧳 Customer Inputs
       placeholder: |
-        The customer has provided the following resources for this sprint ...
-        * [Customer email](https://mail.google.com/mail/u/0/#inbox/example)
-        * [Miro Board](https://miro.com/app/board/example=/)
-        * ...
+        Example: "The customer has provided us with sketches of the dashboard in Figma."
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
         ## 💣 Risks and Mitigations
-        **Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.**        
+        **Please identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.**
+
+        Identifying risks and proposing mitigations early on helps to keep the sprint on track and is an essential part of preparing the sprint backlog.
   - type: textarea
     attributes:
       label: 💣 Risks and Mitigations
       placeholder: |
-        The potential risks and mitigation strategies for this sprint are ...
         Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
     validations:
       required: false
