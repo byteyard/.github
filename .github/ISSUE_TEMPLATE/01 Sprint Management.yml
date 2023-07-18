@@ -39,13 +39,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🎯 Sprint Goals
+        ## 🥅 Sprint Goals
         **Specify the goals for this sprint.**
 
         Your goals should clearly outline what you hope to achieve by the end of the sprint.        
   - type: textarea
     attributes:
-      label: 🎯 Sprint Goals
+      label: 🥅 Sprint Goals
       placeholder: |
         The goals for this sprint are ...
         * Example: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
