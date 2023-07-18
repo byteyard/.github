@@ -30,7 +30,7 @@ body:
   - type: checkboxes
     id: starting-block-meeting-checklist
     attributes:
-      label: Starting Block Meeting Checklist
+      label: 👟 Starting Block Meeting Checklist
       description: Check off the tasks once they are completed.
       options:
         - label: Confirm and adjust **meeting time** with customer.
@@ -41,7 +41,7 @@ body:
         - label: Dispatch **meeting invites** with necessary details.
   - type: textarea
     attributes:
-      label: '📅 Meeting Time'
+      label: '📅 Starting Block Meeting'
       description: |
         Specify the meeting time and date in [Google Calendar](https://calendar.google.com/) and update the URL behind `Starting Block Meeting`.'
 
