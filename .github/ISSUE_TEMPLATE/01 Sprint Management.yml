@@ -11,6 +11,7 @@ body:
         ## 🏁 Sprint Description
         **Please provide a clear and concise description of the sprint.**
         This could include a short summary of the project goal, the teams involved, and the expected duration.
+        
         Example: "This is a two-week sprint for the design team to create a user-friendly dashboard interface."
   - type: markdown
     attributes:
@@ -18,7 +19,8 @@ body:
         ## 🎯 Sprint Goals
         **Specify the goals for this sprint.**
         Your goals should clearly outline what you hope to achieve by the end of the sprint.
-        For example: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
+
+        Example: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
   - type: textarea
     attributes:
       label: 🎯 Sprint Goals
@@ -51,6 +53,7 @@ body:
       value: |
         ## 💣 Risks and Mitigations
         **Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.**
+
         Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
   - type: textarea
     attributes:
@@ -65,6 +68,7 @@ body:
         ## 📣 Communication Plan
         **Outline how the team will communicate during the sprint.**
         This can include stand-up meetings, sprint reviews, or any other communication method.
+        
         Example: "Daily stand-up meetings at 9 a.m., sprint review at the end of the sprint, and ongoing communication via Slack."
   - type: textarea
     attributes:
