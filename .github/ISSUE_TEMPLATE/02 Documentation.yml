@@ -76,7 +76,7 @@ body:
       options:
         - label: '⏰ Define a **Time Estimate** for this task.'
           required: false
-        - label: '🚨 Assign a **Priority Label** to indicate the task's importance.'
+        - label: '🚨 Assign a **Priority Label** to indicate the importance of the task.'
           required: false
         - label: '🏁 Link this task to a **Milestone** for inclusion in a sprint.'
           required: false
