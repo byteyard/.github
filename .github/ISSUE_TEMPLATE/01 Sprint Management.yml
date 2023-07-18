@@ -31,11 +31,13 @@ body:
       value: |
         ## 🧳 Customer Inputs
         **Link any customer-provided resources relevant for this sprint.**
+        
         These can include 
         * emails, 
         * sketches in Figma, 
         * Asana or Miro boards, 
         * file downloads, etc. 
+        
         Be sure to note any specific sections or features the customer has indicated as important.
   - type: textarea
     attributes:
