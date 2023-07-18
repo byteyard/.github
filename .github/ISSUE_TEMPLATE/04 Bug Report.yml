@@ -135,7 +135,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 📅 Sprint Planning
+        ## 🏃 Sprint Planning
         **Add a milestone[^1] to include this issue in a sprint.**
 
         [^1]: Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint. 
