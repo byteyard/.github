@@ -1,6 +1,6 @@
 name: '🪲 Bug Report'
-title: '🪲 '
-description: 'Use this template for reporting bugs in existing features.'
+title: '🪲 <Enter your title here!>'
+description: 'Use this template for tasks related to reporting bugs in existing features.'
 labels: ['Type: 🪲 Bug Report']
 assignees:
   - octocat
@@ -8,16 +8,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        # 🪲 Bug Report
-        Use this template for reporting bugs in existing features. Please provide as much information as possible to help us understand the bug.
+        **Tip:** When providing steps to reproduce the issue, be as detailed as possible.
+        <br>
+        <br>
+        ## 🪲 Bug Description
+        **☝️ Clearly and concisely describe the bug. ☝️**
+        
+        This description will provide the first glimpse into the issue at hand and should clearly convey the problem.
+
+        **Example:** *"🪲 User authentication failing intermittently"*
   - type: markdown
     attributes:
       value: |
-        ## Bug Description
-        Please provide a clear and concise description of the bug.
+        ## 🔄 Steps to Reproduce
+        **The detailed steps you took when the bug occurred.**
   - type: textarea
     attributes:
-      label: Steps to Reproduce 🔄
+      label: '🔄 Steps to Reproduce'
       description: 'Please provide a detailed list of steps that reproduce the issue. The more detailed your steps, the easier it is for us to understand the issue.'
       placeholder: |
         1. Go to '...'
@@ -26,16 +33,21 @@ body:
         4. See error
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎯 Expected vs Actual Outcome
+        **Describe what you expected to happen versus what actually happened when you performed the steps above.**
   - type: textarea
     attributes:
-      label: Expected Outcome 🎯
+      label: 'Expected Outcome 🎯'
       description: 'Describe what you expected to happen when you performed the steps above.'
       placeholder: "When I do ..., I expect ..."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Actual Outcome 🎯
+      label: 'Actual Outcome 🎯'
       description: 'Describe what actually happened when you performed the steps above.'
       placeholder: "When I do ..., I see ..."
     validations:
@@ -43,11 +55,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Device, OS, and Browser Information
-        Please provide information about the device, operating system, and browser where the bug was encountered.
+        ## 🌐 Device, OS, and Browser Information
+        **Please provide information about the device, operating system, and browser where the bug was encountered.**
+
+        This helps us better understand the environment in which the bug occurs.
   - type: dropdown
     attributes:
-      label: 📱 Device
+      label: '📱 Device'
       description: 'Please select the device where the bug was encountered.'
       options:
         - Desktop
@@ -57,7 +71,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: 💻 Operating System
+      label: '💻 Operating System'
       description: 'Please select the operating system where the bug was encountered.'
       options:
         - Windows
@@ -68,7 +82,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: 🌐 Browser
+      label: '🌐 Browser'
       description: 'Please select the browser where the bug was encountered.'
       options:
         - Chrome
@@ -80,7 +94,7 @@ body:
       required: true
   - type: input
     attributes:
-      label: 🔄 Browser Version
+      label: '🔄 Browser Version'
       description: 'Please enter the browser version where the bug was encountered.'
       placeholder: "Version 90.0.4430.93 (Official Build) (64-bit)"
     validations:
@@ -88,25 +102,32 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Screenshots/Recordings and Additional Context
-        If applicable, add screenshots or screen recordings to help explain the bug. Add any other context about the problem here.
+        ## 📸 Screenshots/Recordings and Additional Context
+        **If applicable, add screenshots or screen recordings to help explain the bug. Add any other context about the problem here.**
   - type: textarea
     attributes:
-      label: 📸 Screenshots/Recordings
+      label: '📸 Screenshots/Recordings'
       description: 'If applicable, add screenshots or screen recordings to help explain the bug.'
       placeholder: "Upload your screenshots or recordings here."
     validations:
       required: false
   - type: textarea
     attributes:
-      label: 📝 Additional Context
+      label: '📝 Additional Context'
       description: 'Add any other context about the problem here. If applicable, add screenshots to help explain your problem.'
       placeholder: "Add any other context or screenshots about the problem here."
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Possible Solutions or Ideas
+        **If you have any possible solutions or ideas, please describe them here.**
+        
+        Suggestions and ideas can help speed up the bug fixing process and may provide new insights into the problem.
   - type: textarea
     attributes:
-      label: 💡 Possible Solutions or Ideas
+      label: '💡 Possible Solutions or Ideas'
       description: 'If you have any possible solutions or ideas, please describe them here.'
       placeholder: "The possible solutions or ideas are ..."
     validations:
@@ -114,11 +135,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🚨 Important
-        Before submitting this issue, please add a "Priority" label to indicate the severity of the bug.
+        ## 🚨 Bug Priority
+        **Before submitting this issue, please add a "Priority" label to indicate the severity of the bug.**
         
         The available "Priority" labels are:
         - Priority: Critical
         - Priority: High
         - Priority: Medium
         - Priority: Low
+
+        These labels help us triage and prioritize the issue appropriately.
