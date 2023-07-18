@@ -1,5 +1,5 @@
 name: '📝 Documentation'
-title: '📝 '
+title: '📝 <Enter your title here!>'
 description: 'Use this template for tasks related to the creation or update of documentation.'
 labels: ['Type: 📝 Documentation']
 assignees:
@@ -8,19 +8,80 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Documentation Task 📝
-        Please provide a clear and concise description of the documentation task.
+        **Tipp:** Hold `⌘` while you click on a link, to open it in a new tab.
+        <br>
+        <br>
+        ## 📝 Documentation Title
+        **☝️ Please provide a clear and concise title for the documentation. ☝️**
+
+        The title could reflect the main topic of the documentation, 
+        the associated project, or the reason for the change. 
+        
+        It should be short and clear, giving an idea about the document's aim at first glance. 
+
+        **Example:** *"📝 API Documentation Update for New Endpoints"*
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎯 Reason for Change
+        **The first step in updating or creating documentation is understanding why this change is needed.**
   - type: textarea
     attributes:
-      label: Reason for Change 🎯
+      label: '🎯 Reason for Change'
       description: 'Explain the reason for the documentation change (e.g., new feature, feature enhancement, discovered error).'
       placeholder: "The reason for this documentation change is ..."
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## 📚 Necessary Research
+        **Detail out any research that is required for completing the documentation.**
+
+        This could include understanding new features, exploring similar documentation, studying specific errors, etc.         
   - type: textarea
     attributes:
-      label: Necessary Research 📚
+      label: '📚 Necessary Research'
       description: 'Describe any necessary research to complete the documentation.'
       placeholder: "The necessary research for this documentation is ..."
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## 📝 Documentation Outline
+        **Prepare an outline for the documentation.**
+
+        * Headers and Subheaders
+        * Topics to cover
+        * Supporting diagrams or images
+        
+        This step is crucial to ensure a comprehensive and understandable document. 
+  - type: textarea
+    attributes:
+      label: '📝 Documentation Outline'
+      description: 'Provide an outline for the documentation.'
+      placeholder: "The outline for this documentation is ..."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔄 Review and Update Cycle
+        **Documentations are not static. They need to be reviewed and updated periodically.**
+
+        Set a date for the next review and identify team members responsible for the update.
+  - type: textarea
+    attributes:
+      label: '🔄 Review and Update Cycle'
+      description: 'Set a date for the next review and identify the team members for the update.'
+      placeholder: "The next review date is ..., and the team members responsible are ..."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## ⏰ Setting Time Estimates
+        **Set time estimates for each task related to the documentation using Everhour's `Progress > Edit Estimates`.**
+        
+        The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the documentation creation or update process.
