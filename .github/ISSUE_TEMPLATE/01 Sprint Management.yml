@@ -44,7 +44,7 @@ body:
 
         ```[Starting Block Meeting](https://calendar.google.com/calendar/u/0/r/eventedit/<YOUR_EVENT_ID>)```
       value: |
-        [Starting Block Meeting](https://calendar.google.com/calendar/u/0/r/eventedit/<YOUR_EVENT_ID>)
+        [Starting Block Meeting](URL)
     validations:
       required: false
   - type: textarea
