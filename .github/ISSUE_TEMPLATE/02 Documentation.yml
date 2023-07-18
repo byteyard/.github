@@ -68,6 +68,9 @@ body:
     attributes:
       value: |
         ## 🏃 Sprint Planning
+        Sprint planning is an essential part of any project management process. It involves identifying the work to be done in the upcoming sprint and estimating the time and resources required to complete that work. It's crucial to also set priorities and align tasks with broader project milestones. This process ensures that the team's efforts are focused and that the project stays on track towards achieving its objectives.
+
+        Below is a checklist to guide you through the key steps in sprint planning. You'll need to define a time estimate for the task, assign a priority label to indicate the task's importance, and link the task to a milestone for its inclusion in the sprint. These steps can be completed using the right sidebar of this issue.
   - type: checkboxes
     attributes:
       label: '🏃 Sprint Planning Checklist'
