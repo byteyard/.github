@@ -132,7 +132,7 @@ body:
     attributes:
       value: |
         ## ⚙️ Linking Feature Requests, Improvement Proposals and Bug Reports
-        **Link the appropriate *🏆 Feature Requests*, *🌟 Improvement Proposals* and *🌟 Improvement Proposals* and *🪲 Bug Reports* to this sprint using GitHub's Milestones.**
+        **Link the appropriate *🏆 Feature Requests*, *🌟 Improvement Proposals* and *🪲 Bug Reports* to this sprint using GitHub's Milestones.**
 
         Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.   
 
