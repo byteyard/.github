@@ -72,13 +72,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 📣 Communication Plan
-        **Outline how the team will communicate during the sprint.**
-
-        This can include stand-up meetings, sprint reviews, or any other communication method.
+        ## 👟 Starting Block Meeting
+        **The sprint planning starts with a monthly starting block meeting with the customer that should take place in the first week of the month.**
   - type: textarea
     attributes:
-      label: 📣 Communication Plan
+      label: 👟 Starting Block Meeting
       placeholder: "The communication plan for this sprint is ..."
       value: |
         - [ ] **Starting Block Meeting:** The sprint planning starts with a monthly starting block meeting with the customer that should take place in the first week of the month.
