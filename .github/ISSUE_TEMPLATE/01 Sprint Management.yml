@@ -8,7 +8,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        <br>
         **Tipp:** Hold `⌘` while you click on a link, to open it in a new tab.
         <br>
         <br>
