@@ -109,6 +109,6 @@ body:
     attributes:
       value: |
         ## ⏰ Setting Time Estimates
-        **Set time estimates for each task using Everhour's "Progress > Edit Estimates"[^2].**
+        **Set time estimates for each task using Everhour's `Progress > Edit Estimates`[^2].**
         
         [^2]: The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
