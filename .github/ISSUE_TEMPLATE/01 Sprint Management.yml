@@ -8,12 +8,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🏁 Sprint Description
-        **Please provide a clear and concise description of the sprint.**
+        ## 🏁 Sprint Title
+        **Please provide a clear and concise title for the sprint.**
 
-        This could include a short summary of the project goal, the teams involved, and the expected duration.
-        
-        Example: "This is a two-week sprint for the design team to create a user-friendly dashboard interface."
+        The title could reflect the main focus of the sprint, the teams involved, or the project goal. It should be short and clear, giving an idea about the sprint's aim at first glance. 
+
+        Example: "Two-Week Design Sprint for User-Friendly Dashboard Creation"
   - type: markdown
     attributes:
       value: |
@@ -87,7 +87,7 @@ body:
       value: |
         ## ⚙️ Linking User Stories/Tasks
         **Link the appropriate *🏆 Feature Requests* and/or *🌟 Improvement Proposals* to this sprint using GitHub's Milestones.**
-        
+
         Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.
   - type: markdown
     attributes:
