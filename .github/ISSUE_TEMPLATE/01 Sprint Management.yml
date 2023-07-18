@@ -25,8 +25,6 @@ body:
         **Specify the goals for this sprint.**
 
         Your goals should clearly outline what you hope to achieve by the end of the sprint.
-
-        Example: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
   - type: textarea
     attributes:
       label: 🎯 Sprint Goals
