@@ -65,7 +65,7 @@ body:
       label: 🧳 Customer Inputs
       value: |
         The customer has provided the following resources for this sprint ...
-        <br>
+        
         Example:
         * [Customer email](https://mail.google.com/mail/u/0/#inbox/example)
         * [Miro Board](https://miro.com/app/board/example=/)
