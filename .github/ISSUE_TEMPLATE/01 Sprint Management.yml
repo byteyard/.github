@@ -49,7 +49,6 @@ body:
   - type: textarea
     attributes:
       label: 🧳 Customer Inputs
-      description: 'Provide links to or descriptions of any customer-provided resources.'
       placeholder: |
         The customer has provided the following resources for this sprint ...
         * [Customer email](https://mail.google.com/mail/u/0/#inbox/example)
@@ -62,13 +61,12 @@ body:
       value: |
         ## 💣 Risks and Mitigations
         **Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.**
-
-        Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
   - type: textarea
     attributes:
       label: 💣 Risks and Mitigations
-      description: 'Describe any potential risks and the corresponding mitigation strategies.'
-      placeholder: "The potential risks and mitigation strategies for this sprint are ..."
+      placeholder: |
+        The potential risks and mitigation strategies for this sprint are ...
+        Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
     validations:
       required: false
   - type: markdown
@@ -78,12 +76,9 @@ body:
         **Outline how the team will communicate during the sprint.**
 
         This can include stand-up meetings, sprint reviews, or any other communication method.
-
-        Example: "Daily stand-up meetings at 9 a.m., sprint review at the end of the sprint, and ongoing communication via Slack."
   - type: textarea
     attributes:
       label: 📣 Communication Plan
-      description: 'Describe the team´s communication plan for this sprint.'
       placeholder: "The communication plan for this sprint is ..."
       value: |
         The sprint planning starts with a monthly kick-off meeting with the customer that should take place in the first week of the month.
