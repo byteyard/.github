@@ -81,7 +81,7 @@ body:
       label: 📣 Communication Plan
       placeholder: "The communication plan for this sprint is ..."
       value: |
-        - [ ] The sprint planning starts with a monthly kick-off meeting with the customer that should take place in the first week of the month.
+        - [ ] **Starting Block Meeting:** The sprint planning starts with a monthly starting block meeting with the customer that should take place in the first week of the month.
     validations:
       required: false
   - type: markdown
