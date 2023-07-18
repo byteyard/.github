@@ -29,7 +29,7 @@ body:
   - type: checkboxes
     id: starting-block-meeting-checklist
     attributes:
-      label: 👟 Starting Block Meeting Checklist
+      label: 👟 Starting Block Meeting Preparation Checklist
       description: Check off the tasks once they are completed.
       options:
         - label: Confirm and adjust **meeting time** with customer.
