@@ -53,7 +53,9 @@ body:
       description: 'Provide links to or descriptions of any customer-provided resources.'
       placeholder: |
         The customer has provided the following resources for this sprint ...
-        The customer has provided the following resources for this sprint ...
+        * [Customer email](https://mail.google.com/mail/u/0/#inbox/example)
+        * [Miro Board](https://miro.com/app/board/example=/)
+        * ...
     validations:
       required: false
   - type: markdown
