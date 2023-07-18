@@ -89,4 +89,32 @@ body:
         **Set time estimates for each task using Everhour's `Progress > Edit Estimates`[^3].**
         
         [^3]: The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
-
+  - type: checkboxes
+    attributes:
+      label: '🏃 Sprint Planning'
+      description: 'Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.'
+      options:
+        - label: 'Add a milestone to include this issue in a sprint.'
+          required: false
+  - type: checkboxes
+    id: improvement_priority
+    attributes:
+      label: '🚨 Improvement Priority'
+      description: 'Before submitting this issue, please add a "Priority" label to indicate the importance of the improvement. The `labels` feature is located in the right sidebar of each issue.'
+      options:
+        - label: 'Priority: Critical'
+          required: false
+        - label: 'Priority: High'
+          required: false
+        - label: 'Priority: Medium'
+          required: false
+        - label: 'Priority: Low'
+          required: false
+  - type: checkboxes
+    id: setting_time_estimates
+    attributes:
+      label: '⏰ Setting Time Estimates'
+      description: 'Set time estimates for each task using Everhour`s `Progress > Edit Estimates` feature in the right sidebar of each issue. These estimates will help track progress throughout the sprint.'
+      options:
+        - label: 'Set time estimates for each task.'
+          required: false
