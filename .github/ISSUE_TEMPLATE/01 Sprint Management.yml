@@ -39,7 +39,8 @@ body:
   - type: textarea
     attributes:
       label: '📅 Meeting Time'
-      placeholder: 'The meeting is scheduled for ...'
+      value: |
+        https://calendar.google.com/
     validations:
       required: false
   - type: textarea
