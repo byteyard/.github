@@ -86,25 +86,18 @@ body:
     attributes:
       value: |
         ## 🏃 Sprint Planning
-        **Add a milestone[^1] to include this issue in a sprint.**
+        **Sprint planning is an essential part of any project management process. It involves identifying the work to be done in the upcoming sprint and estimating the time and resources required to complete that work. It's crucial to also set priorities and align tasks with broader project milestones. This process ensures that the team's efforts are focused and that the project stays on track towards achieving its objectives.**
 
-        [^1]: Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.
-
-        ## 🚨 Improvement Priority
-        **Before submitting this issue, please add a "Priority" label to indicate the importance of the improvement.**
-        
-        The available "Priority" labels are:
-        - Priority: Critical
-        - Priority: High
-        - Priority: Medium
-        - Priority: Low
-
-        These `labels`[^2] help us triage and prioritize the issue appropriately.
-
-        [^2]: The `labels` feature is located in the right sidebar of each issue.
-        
-        ## ⏰ Setting Time Estimates
-        **Set time estimates for each task using Everhour's `Progress > Edit Estimates`[^3].**
-        
-        [^3]: The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
-
+        Below is a checklist to guide you through the key steps in sprint planning. You'll need to define a time estimate for the task, assign a priority label to indicate the task's importance, and link the task to a milestone for its inclusion in the sprint. These steps can be completed using the right sidebar of this issue.
+  - type: checkboxes
+    attributes:
+      label: '🏃 Sprint Planning Checklist'
+      description: |
+        Using the right sidebar of this issue, define the task's `Time Estimate`, its `Priority Label`, and associate it with the suitable `Milestone`.
+      options:
+        - label: '⏰ Define a **Time Estimate** for this task.'
+          required: false
+        - label: '🚨 Assign a **Priority Label** to indicate the importance of the task.'
+          required: false
+        - label: '🏁 Link this task to a **Milestone** for inclusion in a sprint.'
+          required: false
