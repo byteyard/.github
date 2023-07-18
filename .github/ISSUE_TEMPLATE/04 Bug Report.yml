@@ -144,7 +144,9 @@ body:
         - Priority: Medium
         - Priority: Low
 
-        These labels help us triage and prioritize the issue appropriately.
+        These `labels`[^1] help us triage and prioritize the issue appropriately.
+
+        [^1]: The `labels` feature is located in the right sidebar of each issue.
   - type: markdown
     attributes:
       value: |
