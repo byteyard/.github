@@ -29,31 +29,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ⚙️ User Stories/Task List
-        **Describe the user stories or tasks that are included in this sprint.**
-        These should align with the sprint goals and include details about who is responsible for each task.
-        Example: "1. As a user, I want to be able to log in to the dashboard. (Assigned to: John) 2. As a user, I want to see my activity history. (Assigned to: Jane)"
-  - type: textarea
-    attributes:
-      label: User Stories/Task List
-      description: 'List the user stories or tasks included in this sprint.'
-      placeholder: "The user stories or tasks for this sprint are ..."
-    validations:
-      required: true
+        ## ⚙️ Linking User Stories/Tasks
+        **Link the appropriate "🏆 Feature Requests and/or 🌟 Improvement Proposals" to this sprint using GitHub's Milestones.**
+        Use the Milestones feature in the right sidebar of each issue to add it to the appropriate sprint.
   - type: markdown
     attributes:
       value: |
-        ## ⏰ Time Estimates
-        **Provide time estimates for each task.**
-        This will help in tracking the progress of the sprint and make sure the team stays on schedule.
-        Example: "1. User login - 3 days 2. Display activity history - 5 days"
-  - type: textarea
-    attributes:
-      label: Time Estimates
-      description: 'Provide time estimates for each task.'
-      placeholder: "The time estimates for the tasks in this sprint are ..."
-    validations:
-      required: true
+        ## ⏰ Setting Time Estimates
+        **Set time estimates for each task using Everhour's "Progress > Edit Estimates".**
+        This is located in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
   - type: markdown
     attributes:
       value: |
@@ -77,7 +61,7 @@ body:
   - type: textarea
     attributes:
       label: Communication Plan
-      description: 'Describe the team´s communication plan for this sprint.'
+      description: 'Describe the team's communication plan for this sprint.'
       placeholder: "The communication plan for this sprint is ..."
     validations:
       required: false
