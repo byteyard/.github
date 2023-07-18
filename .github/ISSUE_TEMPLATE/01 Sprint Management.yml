@@ -11,7 +11,9 @@ body:
         ## 🏁 Sprint Title
         **Please provide a clear and concise title for the sprint.**
 
-        The title could reflect the main focus of the sprint, the teams involved, or the project goal. It should be short and clear, giving an idea about the sprint's aim at first glance. 
+        The title could reflect the main focus of the sprint, the teams involved,
+        or the project goal. It should be short and clear,
+        giving an idea about the sprint's aim at first glance. 
 
         Example: "Two-Week Design Sprint for User-Friendly Dashboard Creation"
   - type: markdown
