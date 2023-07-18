@@ -82,7 +82,7 @@ body:
         * *🌟 Improvement Proposals* and 
         * *🪲 Bug Reports* 
         
-        **from the [Backlog](https://github.com/byteyard/github-config/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone) to this sprint using GitHub's Milestones[^1].**
+        **from the [Backlog](?q=is%3Aopen+is%3Aissue+no%3Amilestone) to this sprint using GitHub's Milestones[^1].**
 
 
         [Create 🏆 Feature Request](new?assignees=octocat&labels=Type%3A+%F0%9F%8F%86+Feature+Request&projects=&template=03+Feature+Request.yml&title=%F0%9F%8F%86+)
