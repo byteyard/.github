@@ -70,7 +70,9 @@ body:
         ## 🔄 Review and Update Cycle
         **Documentations are not static. They need to be reviewed and updated periodically.**
 
-        Add a milestone to set the next review date.
+        Add a milestone[^1] to set the next review date.
+
+        [^1]: Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint. 
   - type: markdown
     attributes:
       value: |
