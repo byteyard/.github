@@ -35,13 +35,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 📚 Necessary Research
+        ## 🎓 Necessary Research
         **Detail out any research that is required for completing the documentation.**
 
         This could include understanding new features, exploring similar documentation, studying specific errors, etc.         
   - type: textarea
     attributes:
-      label: '📚 Necessary Research'
+      label: '🎓 Necessary Research'
       description: 'Describe any necessary research to complete the documentation.'
       value: "The necessary research for this documentation is ..."
     validations:
