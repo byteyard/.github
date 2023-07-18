@@ -18,13 +18,6 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: 🎯 Relevant Personnel or Teams
-      description: 'List the relevant personnel or teams for this sprint.'
-      placeholder: "The relevant personnel or teams for this sprint are ..."
-    validations:
-      required: true
-  - type: textarea
-    attributes:
       label: 📚 Research/Exploration
       description: 'Describe any research or exploration that needs to be done for this sprint.'
       placeholder: "The research/exploration for this sprint is ..."
