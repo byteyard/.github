@@ -29,12 +29,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🤖 Customer Inputs
+        ## 🧳 Customer Inputs
         **Link any customer-provided resources relevant for this sprint.**
         These can include sketches in Figma, Asana or Miro boards, file downloads, etc. Be sure to note any specific sections or features the customer has indicated as important.
   - type: textarea
     attributes:
-      label: 🤖 Customer Inputs
+      label: 🧳 Customer Inputs
       description: 'Provide links to or descriptions of any customer-provided resources.'
       placeholder: "The customer has provided the following resources for this sprint ..."
     validations:
