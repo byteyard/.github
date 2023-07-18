@@ -58,7 +58,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 💾 Dependencies
+        ## ⛓️ Dependencies
         Indicate any dependencies that may affect the sprint. 
         This could include tasks that need to be completed before the feature can be developed, 
         or external factors like API limitations. 
