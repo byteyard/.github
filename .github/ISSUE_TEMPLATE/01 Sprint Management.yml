@@ -51,7 +51,9 @@ body:
     attributes:
       label: 🧳 Customer Inputs
       description: 'Provide links to or descriptions of any customer-provided resources.'
-      placeholder: "The customer has provided the following resources for this sprint ..."
+      placeholder: |
+        The customer has provided the following resources for this sprint ...
+        The customer has provided the following resources for this sprint ...
     validations:
       required: false
   - type: markdown
