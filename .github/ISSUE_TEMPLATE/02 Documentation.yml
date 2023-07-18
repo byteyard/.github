@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Tipp:** Hold `⌘` while you click on a link, to open it in a new tab.
+        **Tip:** Hold `⌘` while you click on a link, to open it in a new tab.
         <br>
         <br>
         ## 📝 Documentation Title
@@ -70,14 +70,7 @@ body:
         ## 🔄 Review and Update Cycle
         **Documentations are not static. They need to be reviewed and updated periodically.**
 
-        Set a date for the next review and identify team members responsible for the update.
-  - type: textarea
-    attributes:
-      label: '🔄 Review and Update Cycle'
-      description: 'Set a date for the next review and identify the team members for the update.'
-      value: "The next review date is ..., and the team members responsible are ..."
-    validations:
-      required: false
+        Add a milestone to set the next review date.
   - type: markdown
     attributes:
       value: |
