@@ -1,6 +1,6 @@
 name: '🏆 Feature Request'
 description: 'Use this template to propose new features.'
-labels: ['Type: Feature Request 🏆']
+labels: ['Type: 🏆 Feature Request']
 assignees:
   - octocat
 body:
@@ -21,6 +21,13 @@ body:
       label: Concept Work or Design Ideas 🎨
       description: 'Describe any concept work or design ideas for the feature.'
       placeholder: "The concept work or design ideas for this feature are ..."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 💾 Dependencies
+      description: 'List any dependencies for this sprint.'
+      placeholder: "The dependencies for this sprint are ..."
     validations:
       required: false
   - type: textarea

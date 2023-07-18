@@ -1,6 +1,6 @@
 name: '📝 Documentation'
 description: 'Use this template for tasks related to the creation or update of documentation.'
-labels: ['Type: Documentation 📝']
+labels: ['Type: 📝 Documentation']
 assignees:
   - octocat
 body:

@@ -1,6 +1,6 @@
 name: '🏁 Sprint Management'
 description: 'Use this template for tasks related to managing sprints, distributing tasks, handling resources, and managing dependencies.'
-labels: ['Type: Sprint Management 🏁']
+labels: ['Type: 🏁 Sprint Management']
 assignees:
   - octocat
 body:
@@ -18,11 +18,11 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: 🔄 Dependencies
-      description: 'List any dependencies for this sprint.'
-      placeholder: "The dependencies for this sprint are ..."
+      label: 🎯 Relevant Personnel or Teams
+      description: 'List the relevant personnel or teams for this sprint.'
+      placeholder: "The relevant personnel or teams for this sprint are ..."
     validations:
-      required: false
+      required: true
   - type: textarea
     attributes:
       label: 📚 Research/Exploration
