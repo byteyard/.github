@@ -29,6 +29,21 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## 🤖 Customer Documentation
+        **Describe the documentation needs for this sprint.**
+        Documentation needs could include user guides, API documentation, or system architecture diagrams. 
+        This helps ensure transparency with the customer and enables their input throughout the process. 
+        Example: "A comprehensive user guide will be required to familiarize the customer with the new dashboard."
+  - type: textarea
+    attributes:
+      label: Customer Documentation
+      description: 'Describe the documentation needs for this sprint.'
+      placeholder: "The documentation needs for this sprint are ..."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
         ## ⚙️ Linking User Stories/Tasks
         **Link the appropriate *🏆 Feature Requests* and/or *🌟 Improvement Proposals* to this sprint using GitHub's Milestones.**
         Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.
@@ -63,20 +78,5 @@ body:
       label: Communication Plan
       description: 'Describe the team´s communication plan for this sprint.'
       placeholder: "The communication plan for this sprint is ..."
-    validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🤖 Customer Documentation
-        **Describe the documentation needs for this sprint.**
-        Documentation needs could include user guides, API documentation, or system architecture diagrams. 
-        This helps ensure transparency with the customer and enables their input throughout the process. 
-        Example: "A comprehensive user guide will be required to familiarize the customer with the new dashboard."
-  - type: textarea
-    attributes:
-      label: Customer Documentation
-      description: 'Describe the documentation needs for this sprint.'
-      placeholder: "The documentation needs for this sprint are ..."
     validations:
       required: false
