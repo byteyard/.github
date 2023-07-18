@@ -65,7 +65,7 @@ body:
   - type: textarea
     attributes:
       label: 🧳 Customer Inputs
-      placeholder: |
+      value: |
         The customer has provided the following resources for this sprint ...
         * [Customer email](https://mail.google.com/mail/u/0/#inbox/example)
         * [Miro Board](https://miro.com/app/board/example=/)
@@ -99,7 +99,7 @@ body:
   - type: textarea
     attributes:
       label: 💣 Risks and Mitigations
-      placeholder: |
+      value: |
         The potential risks and mitigation strategies for this sprint are ...
         Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
     validations:
