@@ -39,7 +39,6 @@ body:
   - type: textarea
     attributes:
       label: '📅 Meeting Time'
-      preview: true
       value: |
         https://calendar.google.com/
     validations:
