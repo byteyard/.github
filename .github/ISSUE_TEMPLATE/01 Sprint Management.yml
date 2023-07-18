@@ -41,6 +41,7 @@ body:
       label: '📅 Meeting Time'
       value: |
         * [Open Google Calendar](https://calendar.google.com/)
+        * [Starting Block Meeting](https://calendar.google.com/calendar/u/0/r/eventedit/<YOUR_EVENT_ID>)
     validations:
       required: false
   - type: textarea
