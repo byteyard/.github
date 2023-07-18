@@ -40,7 +40,7 @@ body:
     attributes:
       label: '📅 Meeting Time'
       value: |
-        https://calendar.google.com/
+        * [Open Google Calendar](https://calendar.google.com/)
     validations:
       required: false
   - type: textarea
