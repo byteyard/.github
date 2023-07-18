@@ -1,5 +1,8 @@
+Certainly! Here is the expanded form, taking into consideration more aspects of sprint planning such as Sprint Goals, User Stories/Task List, Time Estimates, Risks and Mitigations, and Communication Plan:
+
+```markdown
 name: '🏁 Sprint Management'
-title: '🏁'
+title: '🏁 '
 description: 'Use this template for tasks related to managing sprints, distributing tasks, handling resources, and managing dependencies.'
 labels: ['Type: 🏁 Sprint Management']
 assignees:
@@ -9,18 +12,91 @@ body:
     attributes:
       value: |
         ## 🏁 Sprint Description
-        Please provide a clear and concise description of the sprint or task.
+        **Please provide a clear and concise description of the sprint.**
+        This could include a short summary of the project goal, the teams involved, and the expected duration.
+        Example: "This is a two-week sprint for the design team to create a user-friendly dashboard interface."
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎯 Sprint Goals
+        **Specify the goals for this sprint.**
+        Your goals should clearly outline what you hope to achieve by the end of the sprint.
+        For example: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
   - type: textarea
     attributes:
-      label: 🎯 Relevant Personnel or Teams
-      description: 'List the relevant personnel or teams for this sprint.'
-      placeholder: "The relevant personnel or teams for this sprint are ..."
+      label: Sprint Goals
+      description: 'Describe the specific objectives for this sprint.'
+      placeholder: "The goals for this sprint are ..."
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚙️ User Stories/Task List
+        **Describe the user stories or tasks that are included in this sprint.**
+        These should align with the sprint goals and include details about who is responsible for each task.
+        Example: "1. As a user, I want to be able to log in to the dashboard. (Assigned to: John) 2. As a user, I want to see my activity history. (Assigned to: Jane)"
   - type: textarea
     attributes:
-      label: 🤖 Testing Requirements
-      description: 'Describe the testing requirements for this sprint.'
-      placeholder: "The testing requirements for this sprint are ..."
+      label: User Stories/Task List
+      description: 'List the user stories or tasks included in this sprint.'
+      placeholder: "The user stories or tasks for this sprint are ..."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## ⏰ Time Estimates
+        **Provide time estimates for each task.**
+        This will help in tracking the progress of the sprint and make sure the team stays on schedule.
+        Example: "1. User login - 3 days 2. Display activity history - 5 days"
+  - type: textarea
+    attributes:
+      label: Time Estimates
+      description: 'Provide time estimates for each task.'
+      placeholder: "The time estimates for the tasks in this sprint are ..."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## 💣 Risks and Mitigations
+        **Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.**
+        Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
+  - type: textarea
+    attributes:
+      label: Risks and Mitigations
+      description: 'Describe any potential risks and the corresponding mitigation strategies.'
+      placeholder: "The potential risks and mitigation strategies for this sprint are ..."
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## 📣 Communication Plan
+        **Outline how the team will communicate during the sprint.**
+        This can include stand-up meetings, sprint reviews, or any other communication method.
+        Example: "Daily stand-up meetings at 9 a.m., sprint review at the end of the sprint, and ongoing communication via Slack."
+  - type: textarea
+    attributes:
+      label: Communication Plan
+      description: 'Describe the team's communication plan for this sprint.'
+      placeholder: "The communication plan for this sprint is ..."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## 🤖 Customer Documentation
+        **Describe the documentation needs for this sprint.**
+        Documentation needs could include user guides, API documentation, or system architecture diagrams. 
+        This helps ensure transparency with the customer and enables their input throughout the process. 
+        Example: "A comprehensive user guide will be required to familiarize the customer with the new dashboard."
+  - type: textarea
+    attributes:
+      label: Customer Documentation
+      description: 'Describe the documentation needs for this sprint.'
+      placeholder: "The documentation needs for this sprint are ..."
+    validations:
+      required: false
+```
