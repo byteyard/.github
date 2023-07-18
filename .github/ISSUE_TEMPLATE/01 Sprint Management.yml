@@ -44,18 +44,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ⚙️ Linking User Stories/Tasks
-        **Link the appropriate *🏆 Feature Requests* and/or *🌟 Improvement Proposals* to this sprint using GitHub's Milestones.**
-        Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.
-  - type: markdown
-    attributes:
-      value: |
-        ## ⏰ Setting Time Estimates
-        **Set time estimates for each task using Everhour's "Progress > Edit Estimates".**
-        The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
-  - type: markdown
-    attributes:
-      value: |
         ## 💣 Risks and Mitigations
         **Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.**
         Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
@@ -80,3 +68,15 @@ body:
       placeholder: "The communication plan for this sprint is ..."
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚙️ Linking User Stories/Tasks
+        **Link the appropriate *🏆 Feature Requests* and/or *🌟 Improvement Proposals* to this sprint using GitHub's Milestones.**
+        Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.
+  - type: markdown
+    attributes:
+      value: |
+        ## ⏰ Setting Time Estimates
+        **Set time estimates for each task using Everhour's "Progress > Edit Estimates".**
+        The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
