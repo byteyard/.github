@@ -30,8 +30,9 @@ body:
   - type: textarea
     attributes:
       label: 🎯 Sprint Goals
-      description: 'Describe the specific objectives for this sprint.'
-      placeholder: "The goals for this sprint are ..."
+      placeholder: |
+        The goals for this sprint are ...
+        * Example: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
     validations:
       required: true
   - type: markdown
