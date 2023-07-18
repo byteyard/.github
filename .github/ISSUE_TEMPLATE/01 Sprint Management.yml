@@ -27,15 +27,15 @@ body:
   - type: checkboxes
     id: starting-block-meeting-checklist
     attributes:
-      label: 👟 Starting Block Meeting Checklist
+      label: Starting Block Meeting Checklist
       description: Check off the tasks once they are completed.
       options:
-        - label: Confirm meeting time with the customer
-        - label: Prepare agenda for the meeting
-        - label: Ensure relevant project documentation is up to date
-        - label: Update and prepare sprint backlog
-        - label: Assign roles for the meeting
-        - label: Send out meeting invites to the team and the customer
+        - label: Confirm meeting time with the customer to ensure everyone's availability and adjust if necessary.
+        - label: Prepare the agenda for the meeting, which should include points of discussion, goals, expected outcomes, and other relevant topics.
+        - label: Ensure relevant project documentation is up-to-date and accessible for all participants. This could include project plans, design documents, customer requirements, etc.
+        - label: Update and prepare the sprint backlog for review and discussion. The backlog should be prioritized and have estimated completion times.
+        - label: Assign roles for the meeting, including the meeting leader, note-taker, and timekeeper, to ensure the meeting is efficient and productive.
+        - label: Send out meeting invites to the team and the customer with all the necessary details like date, time, location (or virtual meeting link), and agenda.
   - type: markdown
     attributes:
       value: |
