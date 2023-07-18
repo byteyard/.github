@@ -10,6 +10,7 @@ body:
       value: |
         ## 🏁 Sprint Description
         **Please provide a clear and concise description of the sprint.**
+
         This could include a short summary of the project goal, the teams involved, and the expected duration.
         
         Example: "This is a two-week sprint for the design team to create a user-friendly dashboard interface."
@@ -18,6 +19,7 @@ body:
       value: |
         ## 🎯 Sprint Goals
         **Specify the goals for this sprint.**
+
         Your goals should clearly outline what you hope to achieve by the end of the sprint.
 
         Example: "By the end of the sprint, we aim to complete the UI for the user dashboard and commence backend integration."
@@ -67,8 +69,9 @@ body:
       value: |
         ## 📣 Communication Plan
         **Outline how the team will communicate during the sprint.**
+
         This can include stand-up meetings, sprint reviews, or any other communication method.
-        
+
         Example: "Daily stand-up meetings at 9 a.m., sprint review at the end of the sprint, and ongoing communication via Slack."
   - type: textarea
     attributes:
@@ -84,6 +87,7 @@ body:
       value: |
         ## ⚙️ Linking User Stories/Tasks
         **Link the appropriate *🏆 Feature Requests* and/or *🌟 Improvement Proposals* to this sprint using GitHub's Milestones.**
+        
         Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.
   - type: markdown
     attributes:
