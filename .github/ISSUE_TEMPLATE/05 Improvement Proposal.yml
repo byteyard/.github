@@ -1,5 +1,5 @@
 name: '🌟 Improvement Proposal'
-title: '🌟 '
+title: '🌟 <Enter your title here!>'
 description: 'Use this template to propose enhancements or modifications to existing features.'
 labels: ['Type: 🌟 Improvement Proposal']
 assignees:
@@ -8,33 +8,77 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Feature Description 🌟
-        Please provide a clear and concise description of the existing feature to be enhanced.
+        **Tip:** Hold `⌘` while you click on a link, to open it in a new tab.
+        <br>
+        <br>
+        ## 🌟 Feature Description
+        **Please provide a clear and concise description of the existing feature you want to enhance.** 
+        This could be a modification to an existing feature or an extension of a feature. 
+        Example: "I'm suggesting an enhancement to the existing dashboard widget to display user analytics in real time."
   - type: textarea
     attributes:
-      label: Rationale for Enhancement 🎯
-      description: 'Explain the rationale for the enhancement.'
-      placeholder: "The rationale for this enhancement is ..."
+      label: '🌟 Feature Description'
+      description: 'Describe the enhancement you are proposing.'
+      value: "The enhancement I am proposing is ..."
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎯 Rationale for Enhancement
+        **Detail the reasoning behind your enhancement proposal.** 
+        For instance: "This enhancement would give admins immediate insight into user behaviour, 
+        allowing them to make informed decisions about resource allocation."
   - type: textarea
     attributes:
-      label: Concept Work or Design Changes 🎨
+      label: '🎯 Rationale for Enhancement'
+      description: 'Explain the rationale for the enhancement.'
+      value: "The rationale for this enhancement is ..."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎨 Concept Work or Design Changes
+        **Share any initial concepts or design thoughts you have for this enhancement.** 
+        It could be as simple as a sketch or a detailed wireframe. 
+        You could say: "I envision the widget as a pie chart, 
+        with slices representing different user actions."
+  - type: textarea
+    attributes:
+      label: '🎨 Concept Work or Design Changes'
       description: 'Describe any concept work or design changes for the enhancement.'
-      placeholder: "The concept work or design changes for this enhancement are ..."
+      value: "The concept work or design changes for this enhancement are ..."
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## 💻 Considerations for Code Implementation
+        **Discuss any considerations for implementing the enhancement in code.** 
+        These could be potential challenges, preferred languages or frameworks, 
+        or other relevant factors. 
+        Example: "Given the real-time nature of the enhancement, we might need to use WebSocket 
+        instead of traditional HTTP requests."
   - type: textarea
     attributes:
-      label: Considerations for Code Implementation 💻
+      label: '💻 Considerations for Code Implementation'
       description: 'Describe any considerations for code implementation of the enhancement.'
-      placeholder: "The considerations for code implementation of this enhancement are ..."
+      value: "The considerations for code implementation of this enhancement are ..."
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚀 Possible Impact on Other Features or Future Development
+        **Outline any potential effects this enhancement could have on existing functionality** 
+        or on development down the line. 
+        For instance: "Implementing this enhancement could increase the load on our servers, 
+        so we might need to consider scaling up our infrastructure."
   - type: textarea
     attributes:
-      label: Possible Impact on Other Features or Future Development 🚀
+      label: '🚀 Possible Impact on Other Features or Future Development'
       description: 'Describe the possible impact of this enhancement on other features or future development.'
-      placeholder: "The possible impact of this enhancement on other features or future development is ..."
+      value: "The possible impact of this enhancement on other features or future development is ..."
     validations:
       required: false
