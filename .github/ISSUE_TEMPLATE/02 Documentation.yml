@@ -74,9 +74,9 @@ body:
       description: |
         Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.
       options:
-        - label: '🏁 Add a `Milestone` to include this issue in a sprint.'
+        - label: '🏁 Add a ```Milestone``` to include this issue in a sprint.'
           required: false
-        - label: '🚨 Add a `Priority label` to indicate the importance of the improvement.'
+        - label: '🚨 Add a ```Priority label``` to indicate the importance of the improvement.'
           required: false
-        - label: '⏰ Set a `Time Estimate` for the task.'
+        - label: '⏰ Set a ```Time Estimate``` for the task.'
           required: false
