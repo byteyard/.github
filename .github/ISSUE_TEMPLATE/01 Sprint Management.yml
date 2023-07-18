@@ -62,7 +62,7 @@ body:
         Be sure to note any specific sections or features the customer has indicated as important.        
   - type: textarea
     attributes:
-      label: 🧳 Customer Inputss
+      label: 🧳 Customer Inputs
       value: |
         The customer has provided the following resources for this sprint ...
         
