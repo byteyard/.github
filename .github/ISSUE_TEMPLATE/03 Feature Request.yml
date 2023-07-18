@@ -95,7 +95,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        | 
+        </br>
         ## 🚀 Possible Impact on Existing Features or Future Development
         Outline any potential effects this feature could have on existing functionality 
         or on development down the line. 
