@@ -28,9 +28,9 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: '🎨 Concept Work or Design Ideas'
-      description: 'Describe any concept work or design ideas for the feature.'
-      value: "The concept work or design ideas for this feature are ..."
+      label: '🎨 Concept Work, Design Ideas or Specifications'
+      description: 'Add any concept work, design ideas or detailed specifications for the feature.'
+      value: "These aspects should be considered: ..."
     validations:
       required: false
   - type: textarea
@@ -47,15 +47,6 @@ body:
       value: "The dependencies for this feature are ..."
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 💻 Considerations for Code Implementation
-        **Discuss any considerations for implementing the feature in code.** 
-        These could be potential challenges, preferred languages or frameworks, 
-        or other relevant factors. 
-        Example: "Given the real-time nature of the widget, we might need to use WebSocket 
-        instead of traditional HTTP requests."
   - type: textarea
     attributes:
       label: '💻 Considerations for Code Implementation'
