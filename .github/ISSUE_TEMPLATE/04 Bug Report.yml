@@ -47,7 +47,7 @@ body:
         - Desktop
         - Tablet 
         - Mobile
-        – Not relevant
+        - Not relevant
     validations:
       required: true
   - type: dropdown
@@ -60,8 +60,8 @@ body:
         - MacOS
         - iOS
         - Android
-        – Other
-        – Not relevant
+        - Other
+        - Not relevant
     validations:
       required: true
   - type: dropdown
@@ -69,13 +69,13 @@ body:
       label: '🌐 Browser'
       description: 'Please select the browser where the bug was encountered.'
       options:
-        – All
+        - All
         - Chrome
         - Firefox
         - Safari
         - Edge
         - Other
-        – Not relevant
+        - Not relevant
     validations:
       required: true
   - type: input
