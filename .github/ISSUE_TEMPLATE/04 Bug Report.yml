@@ -8,9 +8,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        **☝️ Clearly and concisely describe the bug. ☝️**
+        **☝️ The title should be short and descriptive. ☝️**
         
-        This description will provide the first glimpse into the issue at hand and should clearly convey the problem.
+        It will provide the first glimpse into the issue at hand and should clearly convey the problem.
 
         **Example:** *"🪲 User authentication failing intermittently"*
   - type: textarea
