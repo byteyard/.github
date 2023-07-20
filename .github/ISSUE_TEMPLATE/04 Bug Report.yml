@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ☝️ The title should be short and descriptive. ☝️
+        ☝️ The title should be short and descriptive.
         It will provide the first glimpse into the issue at hand and should clearly convey the problem.
         Example: *"User authentication failing intermittently"*
         
