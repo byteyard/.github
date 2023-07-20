@@ -38,21 +38,16 @@ body:
       value: "When I do ..., I see ..."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## 🌐 Device, OS, and Browser Information
-        **Please provide information about the device, operating system, and browser where the bug was encountered.**
-
-        This helps us better understand the environment in which the bug occurs.
   - type: dropdown
     attributes:
       label: '📱 Device'
       description: 'Please select the device where the bug was encountered.'
       options:
+        - All
         - Desktop
         - Tablet
         - Mobile
+        – Not relevant
     validations:
       required: true
   - type: dropdown
@@ -60,10 +55,13 @@ body:
       label: '💻 Operating System'
       description: 'Please select the operating system where the bug was encountered.'
       options:
+        - All
         - Windows
         - MacOS
-        - Linux
-        - Other
+        - iOS
+        - Android
+        – Other
+        – Not relevant
     validations:
       required: true
   - type: dropdown
@@ -71,11 +69,13 @@ body:
       label: '🌐 Browser'
       description: 'Please select the browser where the bug was encountered.'
       options:
+        – All
         - Chrome
         - Firefox
         - Safari
         - Edge
         - Other
+        – Not relevant
     validations:
       required: true
   - type: input
@@ -85,11 +85,6 @@ body:
       value: "Version 90.0.4430.93 (Official Build) (64-bit)"
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 📸 Screenshots/Recordings and Additional Context
-        **If applicable, add screenshots or screen recordings to help explain the bug. Add any other context about the problem here.**
   - type: textarea
     attributes:
       label: '📸 Screenshots/Recordings'
@@ -104,27 +99,13 @@ body:
       value: "Add any other context or screenshots about the problem here."
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 💡 Possible Solutions or Ideas
-        **If you have any possible solutions or ideas, please describe them here.**
-        
-        Suggestions and ideas can help speed up the bug fixing process and may provide new insights into the problem.
   - type: textarea
     attributes:
       label: '💡 Possible Solutions or Ideas'
-      description: 'If you have any possible solutions or ideas, please describe them here.'
+      description: 'If you have any possible solutions or ideas, please describe them here. Suggestions and ideas can help speed up the bug fixing process and may provide new insights into the problem.'
       value: "The possible solutions or ideas are ..."
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🏃 Sprint Planning
-        **Sprint planning is an essential part of any project management process. It involves identifying the work to be done in the upcoming sprint and estimating the time and resources required to complete that work. It's crucial to also set priorities and align tasks with broader project milestones. This process ensures that the team's efforts are focused and that the project stays on track towards achieving its objectives.**
-
-        Below is a checklist to guide you through the key steps in sprint planning. You'll need to define a time estimate for the task, assign a priority label to indicate the task's importance, and link the task to a milestone for its inclusion in the sprint. These steps can be completed using the right sidebar of this issue.
   - type: checkboxes
     attributes:
       label: '🏃 Sprint Planning Checklist'
