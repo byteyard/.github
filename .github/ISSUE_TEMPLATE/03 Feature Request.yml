@@ -1,5 +1,5 @@
 name: '🏆 Feature Request'
-title: '🏆 <Enter your title here!>'
+title: '🏆 <Enter your title here>'
 description: 'Use this template to propose new features.'
 labels: ['Type: 🏆 Feature Request']
 assignees:
@@ -8,27 +8,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Tip:** Hold `⌘` while you click on a link, to open it in a new tab.
-        <br>
-        <br>
-        ## 🏆 Feature Description
-        **Please provide a clear and concise description of the feature you're proposing.** 
-        This could be an enhancement to an existing feature or a completely new feature. 
-        Example: "I'm suggesting a new dashboard widget that displays user analytics in real time."
+        ☝️ The title should be short and descriptive.
+         It should give a short preview of the proposed feature and briefly summarize the main idea.
+        Example: "New dashboard widget dispaying user analytics in real time"
+        A feature request can be an enhancement to an existing feature or a completely new feature. 
   - type: textarea
     attributes:
       label: '🏆 Feature Description'
-      description: 'Describe the feature you are proposing.'
-      value: "The feature I am proposing is ..."
+      description: 'Describe the feature'
+      value: "The feature should ..."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## 🎯 Rationale or Use Cases
-        **Detail the reasoning behind your feature proposal or describe the use cases it would support.** 
-        For instance: "This widget would give admins immediate insight into user behaviour, 
-        allowing them to make informed decisions about resource allocation."
   - type: textarea
     attributes:
       label: '🎯 Rationale or Use Cases'
@@ -36,14 +26,6 @@ body:
       value: "The rationale or use cases for this feature are ..."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## 🎨 Concept Work or Design Ideas
-        **Share any initial concepts or design thoughts you have for this feature.** 
-        It could be as simple as a sketch or a detailed wireframe. 
-        You could say: "I envision the widget as a pie chart, 
-        with slices representing different user actions."
   - type: textarea
     attributes:
       label: '🎨 Concept Work or Design Ideas'
@@ -51,29 +33,13 @@ body:
       value: "The concept work or design ideas for this feature are ..."
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🎓 Research/Exploration
-        **Outline any preliminary research or exploration that needs to be conducted.** 
-        It could involve assessing similar features in other products, or exploring the feasibility of the proposal. 
-        Example: "We need to research how other platforms display real-time analytics 
-        and how such a widget might affect performance."
   - type: textarea
     attributes:
       label: '🎓 Research/Exploration'
       description: 'Describe any research or exploration that needs to be done for this feature.'
-      value: "The research/exploration for this feature is ..."
+      value: "The necessary research/exploration for this feature is ..."
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## ⛓️ Dependencies
-        **Indicate any dependencies that may affect the feature development.** 
-        This could include tasks that need to be completed before the feature can be developed, 
-        or external factors like API limitations. 
-        Example: "We need to finalize the user event taxonomy before we can build the analytics widget."
   - type: textarea
     attributes:
       label: '⛓️ Dependencies'
@@ -94,17 +60,9 @@ body:
     attributes:
       label: '💻 Considerations for Code Implementation'
       description: 'Describe any considerations for code implementation of the feature.'
-      value: "The considerations for code implementation of this feature are ..."
+      value: "The following aspects need to be considered: ..."
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🚀 Possible Impact on Existing Features or Future Development
-        **Outline any potential effects this feature could have on existing functionality** 
-        or on development down the line. 
-        For instance: "Implementing this widget could increase the load on our servers, 
-        so we might need to consider scaling up our infrastructure."
   - type: textarea
     attributes:
       label: '🚀 Possible Impact on Existing Features or Future Development'
@@ -112,13 +70,6 @@ body:
       value: "The possible impact of this feature on existing features or future development is ..."
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🏃 Sprint Planning
-        **Sprint planning is an essential part of any project management process. It involves identifying the work to be done in the upcoming sprint and estimating the time and resources required to complete that work. It's crucial to also set priorities and align tasks with broader project milestones. This process ensures that the team's efforts are focused and that the project stays on track towards achieving its objectives.**
-
-        Below is a checklist to guide you through the key steps in sprint planning. You'll need to define a time estimate for the task, assign a priority label to indicate the task's importance, and link the task to a milestone for its inclusion in the sprint. These steps can be completed using the right sidebar of this issue.
   - type: checkboxes
     attributes:
       label: '🏃 Sprint Planning Checklist'
