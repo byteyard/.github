@@ -1,5 +1,5 @@
 name: '🪲 Bug Report'
-title: '🪲 <Enter your title here!>'
+title: '🪲 <Enter your title here>'
 description: 'Use this template for tasks related to reporting bugs in existing features.'
 labels: ['Type: 🪲 Bug Report']
 assignees:
@@ -8,24 +8,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Tip:** When providing steps to reproduce the issue, be as detailed as possible.
-        <br>
-        <br>
-        ## 🪲 Bug Description
         **☝️ Clearly and concisely describe the bug. ☝️**
         
         This description will provide the first glimpse into the issue at hand and should clearly convey the problem.
 
         **Example:** *"🪲 User authentication failing intermittently"*
-  - type: markdown
-    attributes:
-      value: |
-        ## 🔄 Steps to Reproduce
-        **The detailed steps you took when the bug occurred.**
   - type: textarea
     attributes:
       label: '🔄 Steps to Reproduce'
-      description: 'Please provide a detailed list of steps that reproduce the issue. The more detailed your steps, the easier it is for us to understand the issue.'
+      description: 'Please provide a detailed list of steps that reproduce the issue.'
       value: |
         1. Go to '...'
         2. Click on '....'
@@ -33,11 +24,6 @@ body:
         4. See error
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## 🎯 Expected vs Actual Outcome
-        **Describe what you expected to happen versus what actually happened when you performed the steps above.**
   - type: textarea
     attributes:
       label: 'Expected Outcome 🎯'
