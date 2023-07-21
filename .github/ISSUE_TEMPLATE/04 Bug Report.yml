@@ -81,7 +81,7 @@ body:
     attributes:
       label: '🔄 Browser Version'
       description: 'Please enter the browser version where the bug was encountered.'
-      value: "Version 90.0.4430.93 (Official Build) (64-bit)"
+      placeholder: "Version 90.0.4430.93 (Official Build) (64-bit)"
     validations:
       required: false
   - type: textarea
