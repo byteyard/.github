@@ -1,6 +1,6 @@
-name: '🌟 Improvement Proposal'
-title: '🌟 <Enter your title here!>'
-description: 'Use this template to propose enhancements or modifications to existing features.'
+name: '🌟 Improvement Request'
+title: '🌟 <Enter your title here>'
+description: 'Use this template for enhancements or modifications to existing features.'
 labels: ['Type: 🌟 Improvement Proposal']
 assignees:
   - octocat
@@ -8,31 +8,21 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Tip:** Hold `⌘` while you click on a link, to open it in a new tab.
-        <br>
-        <br>
-        ## 🌟 Feature Description
-        **Please provide a clear and concise description of the existing feature you want to enhance.** 
-        This could be a modification to an existing feature or an extension of a feature. 
-        Example: "I'm suggesting an enhancement to the existing dashboard widget to display user analytics in real time."
+        ☝️ The title should be short and descriptive.
+        It should offer an initial preview of the suggested enhancement or modufication. 
+        Example: "Existing dashboard widget to display user analytics in real time."
   - type: textarea
     attributes:
       label: '🌟 Feature Description'
-      description: 'Describe the enhancement you are proposing.'
-      value: "The enhancement I am proposing is ..."
+      description: 'Describe the enhancement in detail.'
+      value: "The enhancement is ..."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## 🎯 Rationale for Enhancement
-        **Detail the reasoning behind your enhancement proposal.** 
-        For instance: "This enhancement would give admins immediate insight into user behaviour, 
-        allowing them to make informed decisions about resource allocation."
+
   - type: textarea
     attributes:
       label: '🎯 Rationale for Enhancement'
-      description: 'Explain the rationale for the enhancement.'
+      description: 'Detail the reasoning behind the enhancement and what it tries to achieve ultimately.'
       value: "The rationale for this enhancement is ..."
     validations:
       required: true
@@ -46,50 +36,26 @@ body:
         with slices representing different user actions."
   - type: textarea
     attributes:
-      label: '🎨 Concept Work or Design Changes'
-      description: 'Describe any concept work or design changes for the enhancement.'
-      value: "The concept work or design changes for this enhancement are ..."
+      label: '🎨 Concept Work or Design Specifications'
+      description: 'Describe any concept work or design specs for the enhancement.'
+      value: "The concept work or design changes for this task are ..."
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 💻 Considerations for Code Implementation
-        **Discuss any considerations for implementing the enhancement in code.** 
-        These could be potential challenges, preferred languages or frameworks, 
-        or other relevant factors. 
-        Example: "Given the real-time nature of the enhancement, we might need to use WebSocket 
-        instead of traditional HTTP requests."
   - type: textarea
     attributes:
       label: '💻 Considerations for Code Implementation'
-      description: 'Describe any considerations for code implementation of the enhancement.'
-      value: "The considerations for code implementation of this enhancement are ..."
+      description: 'Describe any considerations for code implementation of the feature.'
+      value: "The following aspects need to be considered: ..."
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🚀 Possible Impact on Other Features or Future Development
-        **Outline any potential effects this enhancement could have on existing functionality** 
-        or on development down the line. 
-        For instance: "Implementing this enhancement could increase the load on our servers, 
-        so we might need to consider scaling up our infrastructure."
   - type: textarea
     attributes:
-      label: '🚀 Possible Impact on Other Features or Future Development'
-      description: 'Describe the possible impact of this enhancement on other features or future development.'
-      value: "The possible impact of this enhancement on other features or future development is ..."
+      label: '🚀 Possible Impact on the Existing Feature or Future Development'
+      description: 'Describe the possible impact of this improvement on the existing feature or future development.'
+      value: "The possible impact of these changes on the existing feature or future development is ..."
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🏃 Sprint Planning
-        **Sprint planning is an essential part of any project management process. It involves identifying the work to be done in the upcoming sprint and estimating the time and resources required to complete that work. It's crucial to also set priorities and align tasks with broader project milestones. This process ensures that the team's efforts are focused and that the project stays on track towards achieving its objectives.**
-
-        Below is a checklist to guide you through the key steps in sprint planning. You'll need to define a time estimate for the task, assign a priority label to indicate the task's importance, and link the task to a milestone for its inclusion in the sprint. These steps can be completed using the right sidebar of this issue.
-  - type: checkboxes
+   - type: checkboxes
     attributes:
       label: '🏃 Sprint Planning Checklist'
       description: |
