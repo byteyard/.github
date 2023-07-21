@@ -18,7 +18,6 @@ body:
       value: "The enhancement is ..."
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: '🎯 Rationale for Enhancement'
@@ -55,7 +54,7 @@ body:
       value: "The possible impact of these changes on the existing feature or future development is ..."
     validations:
       required: false
-   - type: checkboxes
+  - type: checkboxes
     attributes:
       label: '🏃 Sprint Planning Checklist'
       description: |
