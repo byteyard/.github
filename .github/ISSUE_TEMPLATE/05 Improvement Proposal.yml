@@ -9,35 +9,27 @@ body:
     attributes:
       value: |
         ☝️ The title should be short and descriptive.
-        It should offer an initial preview of the suggested enhancement or modufication. 
+        It should offer an initial preview of the suggested improvement. 
         Example: "Existing dashboard widget to display user analytics in real time."
   - type: textarea
     attributes:
-      label: '🌟 Feature Description'
-      description: 'Describe the enhancement in detail.'
-      value: "The enhancement is ..."
+      label: '🌟 Improvement Description'
+      description: 'Describe the improvement in detail.'
+      value: "The improvement should ..."
     validations:
       required: true
   - type: textarea
     attributes:
       label: '🎯 Rationale for Enhancement'
-      description: 'Detail the reasoning behind the enhancement and what it tries to achieve ultimately.'
-      value: "The rationale for this enhancement is ..."
+      description: 'Detail the reasoning behind the improvement and what it tries to achieve ultimately.'
+      value: "The rationale for this improvement is ..."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## 🎨 Concept Work or Design Changes
-        **Share any initial concepts or design thoughts you have for this enhancement.** 
-        It could be as simple as a sketch or a detailed wireframe. 
-        You could say: "I envision the widget as a pie chart, 
-        with slices representing different user actions."
   - type: textarea
     attributes:
       label: '🎨 Concept Work or Design Specifications'
-      description: 'Describe any concept work or design specs for the enhancement.'
-      value: "The concept work or design changes for this task are ..."
+      description: 'Add any conceptual outlines or design specs for the enhancement.'
+      value: "Conceptual outlines or design specs are ..."
     validations:
       required: false
   - type: textarea
