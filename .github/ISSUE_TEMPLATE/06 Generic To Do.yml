@@ -20,7 +20,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: '📚 Additonal Context and Information'
+      label: '📚 Additional Context and Information'
       description: 'Add relevant context or information'
       value: ""
     validations:
