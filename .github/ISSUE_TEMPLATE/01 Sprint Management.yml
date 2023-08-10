@@ -8,29 +8,19 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Tipp:** Hold `⌘` while you click on a link, to open it in a new tab.
-        <br>
-        <br>
         ## 🏁 Sprint Title
         **☝️ Please provide a clear and concise title for the sprint. ☝️**
-
-        The title could reflect the main focus of the sprint, 
-        the teams involved, or the project goal. 
-        
-        It should be short and clear, giving an idea about the sprint's aim at first glance. 
-
-        **Example:** *"🏁 Two-Week Design Sprint for User-Friendly Dashboard Creation"*
   - type: markdown
     attributes:
       value: |
-        ## 👟 Starting Block Meeting
-        **The sprint planning starts with a monthly starting block meeting 
-        with the customer that should take place in the first week of the month.**
+        ## 👟 Kick-Off Meeting
+        **The sprint planning starts with a monthly kick-off meeting 
+        (usually with the customer( that should take place in the first week of the month (for monthly sprints).**
   - type: checkboxes
-    id: starting-block-meeting-checklist
+    id: kick-off-meeting-checklist
     attributes:
-      label: 👟 Starting Block Meeting Preparation Checklist
-      description: Check off the tasks once they are completed.
+      label: 👟 Kick-Off Meeting Preparation Checklist
+      description: The sprint planning starts with a monthly kick-off meeting (usually with the cliint) that should take place in the first week of the month (for monthly sprints). Check off the tasks once they are completed.
       options:
         - label: Confirm and adjust **meeting time** with customer.
         - label: Prepare **meeting agenda** including discussion points and goals.
@@ -40,11 +30,11 @@ body:
         - label: Dispatch **meeting invites** with necessary details.
   - type: textarea
     attributes:
-      label: '📅 Starting Block Meeting'
+      label: '📅 Kick Off Meeting'
       description: |
-        Specify the meeting time and date in [Google Calendar](https://calendar.google.com/) and update the URL behind `Starting Block Meeting`.
+        Specify the meeting time and date in [Google Calendar](https://calendar.google.com/) and update the URL behind `Kick-Off Meeting`.
       value: |
-        [Show Starting Block Meeting](https://calendar.google.com/)
+        [Show Kick-Off Meeting](https://calendar.google.com/)
     validations:
       required: false
   - type: markdown
@@ -64,7 +54,7 @@ body:
     attributes:
       label: 🧳 Customer Inputs
       value: |
-        The customer has provided the following resources for this sprint ...
+        The customer has provided the following resources for this sprint (E-Mails, Links, Files,... ) 
         
         Example:
         * [Customer email](https://mail.google.com/mail/u/0/#inbox/example)
@@ -90,15 +80,12 @@ body:
         * [🌟 Improvement Proposal](new?assignees=octocat&labels=Type%3A+%F0%9F%8C%9F+Improvement+Proposal&projects=&template=05+Improvement+Proposal.yml&title=%F0%9F%8C%9F+)
         * [🪲 Bug Report](new?assignees=octocat&labels=Type%3A+%F0%9F%AA%B2+Bug+Report&projects=&template=04+Bug+Report.yml&title=%F0%9F%AA%B2+)
 
-        [^1]: Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint. 
-  - type: markdown
-    attributes:
-      value: |
-        ## 💣 Risks and Mitigations
-        **Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.**        
+        [^1]: Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.   
   - type: textarea
     attributes:
       label: 💣 Risks and Mitigations
+      description: |
+        Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.
       value: |
         The potential risks and mitigation strategies for this sprint are ...
 
