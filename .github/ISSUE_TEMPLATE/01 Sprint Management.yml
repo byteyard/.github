@@ -50,15 +50,6 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: ✍ To Be Discussed
-      description: |
-        Keep track of related aspects that to be discussed.
-      value: |
-        The following aspects need to be adressed going forward:
-    validations:
-      required: false
-  - type: textarea
-    attributes:
       label: 💣 Risks and Mitigations
       description: |
         Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.
@@ -66,6 +57,15 @@ body:
         The potential risks and mitigation strategies for this sprint are ...
 
         Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: ✍ To Be Discussed
+      description: |
+        Keep track of related aspects that to be discussed.
+      value: |
+        The following aspects need to be adressed going forward:
     validations:
       required: false
   - type: markdown
