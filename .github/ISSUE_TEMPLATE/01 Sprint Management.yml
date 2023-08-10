@@ -8,21 +8,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🏁 Sprint Title
         **☝️ Please provide a clear and concise title for the sprint. ☝️**
-  - type: markdown
-    attributes:
-      value: |
-        ## 👟 Kick-Off Meeting
-        **The sprint planning starts with a monthly kick-off meeting 
-        (usually with the customer( that should take place in the first week of the month (for monthly sprints).**
   - type: checkboxes
     id: kick-off-meeting-checklist
     attributes:
       label: 👟 Kick-Off Meeting Preparation Checklist
-      description: The sprint planning starts with a monthly kick-off meeting (usually with the cliint) that should take place in the first week of the month (for monthly sprints). Check off the tasks once they are completed.
+      description: The sprint planning starts with a monthly kick-off meeting (usually with the client) that should take place in the first week of the month (for monthly sprints). Check off the tasks once they are completed.
       options:
-        - label: Confirm and adjust **meeting time** with customer.
+        - label: Confirm and adjust **meeting time** with client.
         - label: Prepare **meeting agenda** including discussion points and goals.
         - label: Update **project documentation** for participants' access.
         - label: Prioritize and estimate **sprint backlog** for review.
@@ -36,26 +29,14 @@ body:
       value: |
         [Show Kick-Off Meeting](https://calendar.google.com/)
     validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🧳 Customer Inputs
-        **Link any customer-provided resources relevant for this sprint.**
-
-        * Emails, 
-        * Sketches in Figma, 
-        * Asana or Miro Boards, 
-        * Docs or Spreadsheets
-        * File Downloads, etc. 
-        
-        Be sure to note any specific sections or features the customer has indicated as important.        
+      required: false     
   - type: textarea
     attributes:
       label: 🧳 Customer Inputs
+      description: |
+        Link any customer-provided resources relevant for this sprint like emails, boards, files, ... 
       value: |
-        The customer has provided the following resources for this sprint (E-Mails, Links, Files,... ) 
-        
+        The customer has provided the following resources for this sprint 
         Example:
         * [Customer email](https://mail.google.com/mail/u/0/#inbox/example)
         * [Miro Board](https://miro.com/app/board/example=/)
