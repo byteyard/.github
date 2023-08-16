@@ -15,14 +15,12 @@ body:
     attributes:
       label: '🔔 To Do Description'
       description: 'Describe the to do in detail.'
-      value: ""
     validations:
       required: true
   - type: textarea
     attributes:
       label: '📚 Additional Context and Information'
       description: 'Add relevant context or information'
-      value: ""
     validations:
       required: true
   - type: checkboxes
