@@ -1,6 +1,6 @@
-name: 'Generic To Do'
+name: '🔔 Generic To Do'
 title: '🔔 <Enter your title here>'
-description: 'Use this template for any generic to dos within a project that don't fit the other issue types.'
+description: 'Use this template for any generic to dos within a project that do not fit the other issue types.'
 labels: ['Type: 🔔 Generic To Do']
 assignees:
   - octocat
