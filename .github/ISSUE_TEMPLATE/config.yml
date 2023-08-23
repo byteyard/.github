@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
   - name: ByteYard Project Management Docs
     url: https://pm.docs.byteyard.de
