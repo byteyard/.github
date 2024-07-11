@@ -8,39 +8,38 @@ body:
   - type: markdown
     attributes:
       value: |
-        ☝️ The title should be short and descriptive.
-        It will provide the first glimpse into the issue at hand and should clearly convey the problem.
-        Example: *"User authentication failing intermittently"*
-        
+        **☝️  Please provide a clear and concise title for the bug.**
+
+        **Example:** *"User authentication failing intermittently"*
   - type: textarea
     attributes:
       label: '🔄 Steps to Reproduce'
-      description: 'Please provide a detailed list of steps that reproduce the issue.'
+      description: 'Provide a detailed list of steps to reproduce the issue.'
       value: |
         1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
+        2. Click on '...'
+        3. Scroll down to '...'
         4. See error
     validations:
-      required: true
+      required: false   
   - type: textarea
     attributes:
-      label: '🎯 Expected Outcome '
-      description: 'Describe what you expected to happen when you performed the steps above.'
+      label: '🎯 Expected Outcome'
+      description: 'Describe what you expected to happen.'
       value: "When I do ..., I expect ..."
     validations:
-      required: true
+      required: false   
   - type: textarea
     attributes:
-      label: '🎯 Actual Outcome '
-      description: 'Describe what actually happened when you performed the steps above.'
+      label: '🎯 Actual Outcome'
+      description: 'Describe what actually happened.'
       value: "When I do ..., I see ..."
     validations:
-      required: true
+      required: false   
   - type: dropdown
     attributes:
       label: '📱 Device'
-      description: 'Please select the device where the bug was encountered.'
+      description: 'Select the device where the bug was encountered.'
       options:
         - All
         - Desktop
@@ -48,11 +47,11 @@ body:
         - Mobile
         - Not relevant
     validations:
-      required: true
+      required: false   
   - type: dropdown
     attributes:
       label: '💻 Operating System'
-      description: 'Please select the operating system where the bug was encountered.'
+      description: 'Select the operating system where the bug was encountered.'
       options:
         - All
         - Windows
@@ -62,11 +61,11 @@ body:
         - Other
         - Not relevant
     validations:
-      required: true
+      required: false   
   - type: dropdown
     attributes:
       label: '🌐 Browser'
-      description: 'Please select the browser where the bug was encountered.'
+      description: 'Select the browser where the bug was encountered.'
       options:
         - All
         - Chrome
@@ -76,44 +75,32 @@ body:
         - Other
         - Not relevant
     validations:
-      required: true
+      required: false   
   - type: input
     attributes:
       label: '🔄 Browser Version'
-      description: 'Please enter the browser version where the bug was encountered.'
+      description: 'Enter the browser version where the bug was encountered.'
       placeholder: "Version 90.0.4430.93 (Official Build) (64-bit)"
     validations:
-      required: false
+      required: false   
   - type: textarea
     attributes:
       label: '📸 Screenshots/Recordings'
       description: 'If applicable, add screenshots or screen recordings to help explain the bug.'
-      value: "Upload your screenshots or recordings here."
+      value: ""
     validations:
-      required: false
+      required: false   
   - type: textarea
     attributes:
       label: '📝 Additional Context'
-      description: 'Add any other context about the problem here. If applicable, add screenshots to help explain the problem.'
-      value: "Add any other context or screenshots about the problem here."
+      description: 'Add any other context about the problem here.'
+      value: ""
     validations:
-      required: false
+      required: false   
   - type: textarea
     attributes:
       label: '💡 Possible Solutions or Ideas'
-      description: 'If you have any possible solutions or ideas, please describe them here. Suggestions and ideas can help speed up the bug fixing process and may provide new insights into the problem.'
-      value: "The possible solutions or ideas are ..."
+      description: 'If you have any possible solutions or ideas, please describe them here.'
+      value: ""
     validations:
       required: false
-  - type: checkboxes
-    attributes:
-      label: '🏃 Sprint Planning Checklist'
-      description: |
-        Using the right sidebar of this issue, define the task's `Time Estimate`, its `Priority Label`, and associate it with the suitable `Milestone`.
-      options:
-        - label: '⏰ Define a **Time Estimate** for this task.'
-          required: false
-        - label: '🚨 Assign a **Priority Label** to indicate the importance of the task.'
-          required: false
-        - label: '🏁 Link this task to a **Milestone** for inclusion in a sprint.'
-          required: false
