@@ -22,7 +22,7 @@ body:
     attributes:
       label: 🧳 Customer Inputs
       description: |
-        Link any customer-provided resources like Asana, Trello or Miro boards, FIGMA files etc., relevant for this sprint.
+        Link any customer-provided resources like Asana, Trello or Miro boards, FIGMA files, Google Docs etc., relevant for this sprint.
     validations:
       required: false
   - type: textarea
