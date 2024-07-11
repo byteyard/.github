@@ -13,7 +13,7 @@ body:
     attributes:
       label: '📅 Kick Off Meeting'
       description: |
-        Specify the meeting time and date in [Google Calendar](https://calendar.google.com/).
+        Specify the meeting time and date in [Google Calendar](https://calendar.google.com/) and adjust the link below accordingly.
       value: |
         [Show Kick-Off Meeting](https://calendar.google.com/)
     validations:
@@ -22,7 +22,7 @@ body:
     attributes:
       label: 🧳 Customer Inputs
       description: |
-        Link any customer-provided resources relevant for this sprint.
+        Link any customer-provided resources like Asana, Trello or Miro boards, FIGMA files etc., relevant for this sprint.
     validations:
       required: false
   - type: textarea
