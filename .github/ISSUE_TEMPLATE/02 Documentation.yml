@@ -8,8 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 📝 Documentation Title
-        **Please provide a clear and concise title for the documentation.**
+        **☝️ Please provide a clear and concise title for the documentation.**
+
         **Example:** *"📝 API Documentation Update for New Endpoints"*
   - type: textarea
     attributes:
