@@ -1,75 +1,38 @@
 name: '🏆 Feature Request'
-title: '🏆 <Enter your title here>'
 description: 'Use this template to outline a new feature.'
 labels: ['Type: 🏆 Feature Request']
 assignees:
   - octocat
+title: '🏆 <Enter your title here>'
 body:
   - type: markdown
     attributes:
       value: |
-        ☝️ The title should be short and descriptive.
-         It should give a short preview of the proposed feature and briefly summarize the main idea.
-        Example: "New dashboard widget dispaying user analytics in real time"
-        A feature request can be an enhancement to an existing feature or a completely new feature. 
+        **☝️ Please provide a clear and concise title for the sprint.**
+        The title should give a brief overview of the proposed feature.
+        **Example:** "New dashboard widget displaying user analytics in real time"
   - type: textarea
     attributes:
       label: '🏆 Feature Description'
       description: 'Describe the feature'
-      value: "The feature should ..."
-    validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: '🎯 Rationale or Use Cases'
       description: 'Explain the rationale or use cases for the feature.'
-      value: "The rationale or use cases for this feature are ..."
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: '🎨 Concept Work, Design Ideas or Specifications'
-      description: 'Add any concept work, design ideas or detailed specifications for the feature.'
-      value: "These aspects should be considered: ..."
-    validations:
       required: false
   - type: textarea
     attributes:
-      label: '🎓 Research/Exploration'
-      description: 'Describe any research or exploration that needs to be done for this feature.'
-      value: "The necessary research/exploration for this feature is ..."
-    validations:
+      label: '🎨 Concept Work, Design Ideas or Specifications'
+      description: 'Add any concept work, design ideas, or detailed specifications for the feature.'
       required: false
   - type: textarea
     attributes:
       label: '⛓️ Dependencies'
       description: 'List any dependencies for this feature.'
-      value: "The dependencies for this feature are ..."
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: '💻 Considerations for Code Implementation'
-      description: 'Describe any considerations for code implementation of the feature.'
-      value: "The following aspects need to be considered: ..."
-    validations:
       required: false
   - type: textarea
     attributes:
       label: '🚀 Possible Impact on Existing Features or Future Development'
       description: 'Describe the possible impact of this feature on existing features or future development.'
-      value: "The possible impact of this feature on existing features or future development is ..."
-    validations:
       required: false
-  - type: checkboxes
-    attributes:
-      label: '🏃 Sprint Planning Checklist'
-      description: |
-        Using the right sidebar of this issue, define the task's `Time Estimate`, its `Priority Label`, and associate it with the suitable `Milestone`.
-      options:
-        - label: '⏰ Define a **Time Estimate** for this task.'
-          required: false
-        - label: '🚨 Assign a **Priority Label** to indicate the importance of the task.'
-          required: false
-        - label: '🏁 Link this task to a **Milestone** for inclusion in a sprint.'
-          required: false
