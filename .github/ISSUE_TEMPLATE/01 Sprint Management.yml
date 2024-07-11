@@ -9,23 +9,11 @@ body:
     attributes:
       value: |
         **☝️ Please provide a clear and concise title for the sprint.**
-  - type: checkboxes
-    id: kick-off-meeting-checklist
-    attributes:
-      label: 👟 Kick-Off Meeting Preparation Checklist
-      description: The sprint planning starts with a monthly kick-off meeting (usually with the client) that should take place in the first week of the month (for monthly sprints). Check off the tasks once they are completed.
-      options:
-        - label: Confirm and adjust **meeting time** with client.
-        - label: Prepare **meeting agenda** including discussion points and goals.
-        - label: Update **project documentation** for participants' access.
-        - label: Prioritize and estimate **sprint backlog** for review.
-        - label: Assign **roles** for efficient meeting execution.
-        - label: Dispatch **meeting invites** with necessary details.
   - type: textarea
     attributes:
       label: '📅 Kick Off Meeting'
       description: |
-        Specify the meeting time and date in [Google Calendar](https://calendar.google.com/) and update the URL behind `Kick-Off Meeting`.
+        Specify the meeting time and date in [Google Calendar](https://calendar.google.com/).
       value: |
         [Show Kick-Off Meeting](https://calendar.google.com/)
     validations:
@@ -34,7 +22,7 @@ body:
     attributes:
       label: 🧳 Customer Inputs
       description: |
-        Link any customer-provided resources relevant for this sprint like emails, boards, files, ... 
+        Link any customer-provided resources relevant for this sprint.
       value: |
         The client has provided the following resources for this sprint: 
     validations:
@@ -55,40 +43,9 @@ body:
         Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.
       value: |
         The potential risks and mitigation strategies for this sprint are ...
-
-        Example: "Risk: Delay in receiving the API from the backend team. Mitigation: Begin with creating the UI and use mock data for testing."
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: ✍ To Be Discussed
-      description: |
-        Keep track of related aspects that to be discussed.
-      value: |
-        The following aspects need to be adressed going forward:
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
-        **Link the appropriate**
-        
-        * *🏆 Feature Requests*, 
-        * *🌟 Improvement Proposals* and 
-        * *🪲 Bug Reports* 
-        
-        **from the [Backlog](?q=is%3Aopen+is%3Aissue+no%3Amilestone) to this sprint using GitHub's Milestones[^1].**
-
-        You may also use the following links to create new issues:
-        
-        * [🏆 Feature Request](new?assignees=octocat&labels=Type%3A+%F0%9F%8F%86+Feature+Request&projects=&template=03+Feature+Request.yml&title=%F0%9F%8F%86+)
-        * [🌟 Improvement Proposal](new?assignees=octocat&labels=Type%3A+%F0%9F%8C%9F+Improvement+Proposal&projects=&template=05+Improvement+Proposal.yml&title=%F0%9F%8C%9F+)
-        * [🪲 Bug Report](new?assignees=octocat&labels=Type%3A+%F0%9F%AA%B2+Bug+Report&projects=&template=04+Bug+Report.yml&title=%F0%9F%AA%B2+)
-
-        [^1]: Use the `Milestone` feature in the right sidebar of each issue to add it to the appropriate sprint.   
-  - type: markdown
-    attributes:
-      value: |
-        **⏰ Set time estimates for each task using Everhour's `Progress > Edit Estimates`[^2].**
-        
-        [^2]: The `Progress > Edit Estimates` feature is located in the right sidebar of each issue. These estimates will help track progress throughout the sprint.
+        **Link related issues from the [Backlog](?q=is%3Aopen+is%3Aissue+no%3Amilestone) to this sprint using GitHub's Milestones.**
