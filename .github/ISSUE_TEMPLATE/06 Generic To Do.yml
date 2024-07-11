@@ -5,33 +5,15 @@ labels: ['Type: 🔔 Generic To Do']
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ☝️ The title should be short and descriptive.
-        It should offer an initial preview of to do. 
-        Example: "Remind the client to double check and update CTAs before launch"
   - type: textarea
     attributes:
       label: '🔔 To Do Description'
-      description: 'Describe the to do in detail.'
+      description: 'Describe the to do in detail (optional).'
     validations:
-      required: true
+      required: false   
   - type: textarea
     attributes:
       label: '📚 Additional Context and Information'
-      description: 'Add relevant context or information'
+      description: 'Add relevant context or information (optional).'
     validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: '🏃 Sprint Planning Checklist'
-      description: |
-        Using the right sidebar of this issue, define the task's `Time Estimate`, its `Priority Label`, and associate it with the suitable `Milestone`.
-      options:
-        - label: '⏰ Define a **Time Estimate** for this task.'
-          required: false
-        - label: '🚨 Assign a **Priority Label** to indicate the importance of the task.'
-          required: false
-        - label: '🏁 Link this task to a **Milestone** for inclusion in a sprint.'
-          required: false
+      required: false   
