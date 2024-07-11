@@ -10,9 +10,7 @@ body:
       value: |
         ## 📝 Documentation Title
         **Please provide a clear and concise title for the documentation.**
-
         **Example:** *"📝 API Documentation Update for New Endpoints"*
-
   - type: textarea
     attributes:
       label: '🎯 Reason for Change'
@@ -20,7 +18,6 @@ body:
       value: ""
       validations:
         required: false
-
   - type: textarea
     attributes:
       label: '📝 Documentation Outline'
