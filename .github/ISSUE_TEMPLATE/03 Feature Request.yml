@@ -3,10 +3,3 @@ description: 'Use this template to outline a new feature.'
 assignees:
   - octocat
 title: '🏆 <Enter your title here>'
-body:
-  - type: markdown
-    attributes:
-      value: |
-        **☝️ Please provide a clear and concise title for the sprint.**
-        The title should give a brief overview of the proposed feature.
-        **Example:** "New dashboard widget displaying user analytics in real time"
