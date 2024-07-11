@@ -26,14 +26,12 @@ body:
     attributes:
       label: '🎯 Expected Outcome'
       description: 'Describe what you expected to happen.'
-      value: "When I do ..., I expect ..."
     validations:
       required: false   
   - type: textarea
     attributes:
       label: '🎯 Actual Outcome'
       description: 'Describe what actually happened.'
-      value: "When I do ..., I see ..."
     validations:
       required: false   
   - type: dropdown
