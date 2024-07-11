@@ -23,8 +23,6 @@ body:
       label: 🧳 Customer Inputs
       description: |
         Link any customer-provided resources relevant for this sprint.
-      value: |
-        The client has provided the following resources for this sprint: 
     validations:
       required: false
   - type: textarea
@@ -32,8 +30,6 @@ body:
       label: ✍ Meeting Notes
       description: |
         Drop noteworthy points from the kick-off meeting here.
-      value: |
-        The following points from the meeting are relevant:
     validations:
       required: false
   - type: textarea
@@ -41,8 +37,6 @@ body:
       label: 💣 Risks and Mitigations
       description: |
         Identify any potential risks that could impede the progress of the sprint and propose mitigation strategies.
-      value: |
-        The potential risks and mitigation strategies for this sprint are ...
     validations:
       required: false
   - type: markdown
