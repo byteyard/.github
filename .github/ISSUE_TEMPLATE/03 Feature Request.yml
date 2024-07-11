@@ -4,7 +4,6 @@ description: 'Use this template to outline a new feature.'
 labels: ['Type: 🏆 Feature Request']
 assignees:
   - octocat
-title: '🏆 <Enter your title here>'
 body:
   - type: markdown
     attributes:
