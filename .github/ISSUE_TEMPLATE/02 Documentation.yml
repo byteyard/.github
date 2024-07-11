@@ -15,13 +15,11 @@ body:
     attributes:
       label: '🎯 Reason for Change'
       description: 'Explain the reason for the documentation change (e.g., new feature, feature enhancement, discovered error).'
-      value: ''
     validations:
       required: false     
   - type: textarea
     attributes:
       label: '📝 Documentation Outline'
       description: 'Provide an outline for the documentation.'
-      value: ''
     validations:
       required: false     
