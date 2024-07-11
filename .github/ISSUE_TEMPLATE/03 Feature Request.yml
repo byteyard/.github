@@ -10,28 +10,3 @@ body:
         **☝️ Please provide a clear and concise title for the sprint.**
         The title should give a brief overview of the proposed feature.
         **Example:** "New dashboard widget displaying user analytics in real time"
-  - type: textarea
-    attributes:
-      label: '🏆 Feature Description'
-      description: 'Describe the feature'
-      required: false
-  - type: textarea
-    attributes:
-      label: '🎯 Rationale or Use Cases'
-      description: 'Explain the rationale or use cases for the feature.'
-      required: false
-  - type: textarea
-    attributes:
-      label: '🎨 Concept Work, Design Ideas or Specifications'
-      description: 'Add any concept work, design ideas, or detailed specifications for the feature.'
-      required: false
-  - type: textarea
-    attributes:
-      label: '⛓️ Dependencies'
-      description: 'List any dependencies for this feature.'
-      required: false
-  - type: textarea
-    attributes:
-      label: '🚀 Possible Impact on Existing Features or Future Development'
-      description: 'Describe the possible impact of this feature on existing features or future development.'
-      required: false
