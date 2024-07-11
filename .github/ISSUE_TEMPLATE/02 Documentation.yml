@@ -8,78 +8,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Tip:** Hold `⌘` while you click on a link, to open it in a new tab.
-        <br>
-        <br>
         ## 📝 Documentation Title
-        **☝️ Please provide a clear and concise title for the documentation. ☝️**
-
-        The title could reflect the main topic of the documentation, 
-        the associated project, or the reason for the change. 
-        
-        It should be short and clear, giving an idea about the document's aim at first glance. 
+        **Please provide a clear and concise title for the documentation.**
 
         **Example:** *"📝 API Documentation Update for New Endpoints"*
-  - type: markdown
-    attributes:
-      value: |
-        ## 🎯 Reason for Change
-        **The first step in updating or creating documentation is understanding why this change is needed.**
+
   - type: textarea
     attributes:
       label: '🎯 Reason for Change'
       description: 'Explain the reason for the documentation change (e.g., new feature, feature enhancement, discovered error).'
-      value: "The reason for this documentation change is ..."
-    validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🎓 Necessary Research
-        **Detail out any research that is required for completing the documentation.**
+      value: ""
+      validations:
+        required: false
 
-        This could include understanding new features, exploring similar documentation, studying specific errors, etc.         
-  - type: textarea
-    attributes:
-      label: '🎓 Necessary Research'
-      description: 'Describe any necessary research to complete the documentation.'
-      value: "The necessary research for this documentation is ..."
-    validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 📝 Documentation Outline
-        **Prepare an outline for the documentation.**
-
-        * Headers and Subheaders
-        * Topics to cover
-        * Supporting diagrams or images
-        
-        This step is crucial to ensure a comprehensive and understandable document. 
   - type: textarea
     attributes:
       label: '📝 Documentation Outline'
       description: 'Provide an outline for the documentation.'
-      value: "The outline for this documentation is ..."
-    validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## 🏃 Sprint Planning
-        **Sprint planning is an essential part of any project management process. It involves identifying the work to be done in the upcoming sprint and estimating the time and resources required to complete that work. It's crucial to also set priorities and align tasks with broader project milestones. This process ensures that the team's efforts are focused and that the project stays on track towards achieving its objectives.**
-
-        Below is a checklist to guide you through the key steps in sprint planning. You'll need to define a time estimate for the task, assign a priority label to indicate the task's importance, and link the task to a milestone for its inclusion in the sprint. These steps can be completed using the right sidebar of this issue.
-  - type: checkboxes
-    attributes:
-      label: '🏃 Sprint Planning Checklist'
-      description: |
-        Using the right sidebar of this issue, define the task's `Time Estimate`, its `Priority Label`, and associate it with the suitable `Milestone`.
-      options:
-        - label: '⏰ Define a **Time Estimate** for this task.'
-          required: false
-        - label: '🚨 Assign a **Priority Label** to indicate the importance of the task.'
-          required: false
-        - label: '🏁 Link this task to a **Milestone** for inclusion in a sprint.'
-          required: false
+      value: ""
+      validations:
+        required: false
