@@ -1,5 +1,5 @@
 name: '🏁 Sprint Management'
-title: '🏁 <Enter your title here!>'
+title: '🏁 Sprint 2024-XX'
 description: 'Use this template for tasks related to managing sprints, distributing tasks, handling resources, and managing dependencies.'
 labels: ['Type: 🏁 Sprint Management']
 assignees:
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **☝️ Please provide a clear and concise title for the sprint.**
+        **☝️ Please enter the correct month to the title.**
   - type: textarea
     attributes:
       label: '📅 Kick Off Meeting'
