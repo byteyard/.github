@@ -87,7 +87,6 @@ body:
     attributes:
       label: '📸 Screenshots/Recordings'
       description: 'If applicable, add screenshots or screen recordings to help explain the bug.'
-      placeholder: "e.g. Attach a screenshot or provide a link to a recording."
     validations:
       required: false   
   - type: textarea

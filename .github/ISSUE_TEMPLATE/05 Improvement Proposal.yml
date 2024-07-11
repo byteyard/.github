@@ -1,60 +1,37 @@
 name: '🌟 Improvement Request'
-title: '🌟 <Enter your title here>'
 description: 'Use this template for enhancements or modifications to existing features.'
 labels: ['Type: 🌟 Improvement Proposal']
 assignees:
   - octocat
+title: '🌟 <Enter your title here>'
 body:
   - type: markdown
     attributes:
       value: |
-        ☝️ The title should be short and descriptive.
-        It should offer an initial preview of the suggested improvement. 
-        Example: "Existing dashboard widget to display user analytics in real time."
+        **☝️  Please provide a clear and concise title for the improvement request.**
+
+        **Example:** "Enhance dashboard widget to display user analytics in real time."
   - type: textarea
     attributes:
       label: '🌟 Improvement Description'
       description: 'Describe the improvement in detail.'
-      value: "The improvement should ..."
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: '🎯 Rationale for Enhancement'
-      description: 'Detail the reasoning behind the improvement and what it tries to achieve ultimately.'
-      value: "The rationale for this improvement is ..."
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: '🎨 Concept Work or Design Specifications'
-      description: 'Add any conceptual outlines or design specs for the enhancement.'
-      value: "Conceptual outlines or design specs are ..."
     validations:
       required: false
   - type: textarea
     attributes:
-      label: '💻 Considerations for Code Implementation'
-      description: 'Describe any considerations for code implementation of the feature.'
-      value: "The following aspects need to be considered: ..."
+      label: '🎯 Rationale for Enhancement'
+      description: 'Detail the reasoning behind the improvement and what it tries to achieve ultimately.'
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: '🎨 Concept Work or Design Specifications'
+      description: 'Add any conceptual outlines or design specs for the enhancement.'
     validations:
       required: false
   - type: textarea
     attributes:
       label: '🚀 Possible Impact on the Existing Feature or Future Development'
       description: 'Describe the possible impact of this improvement on the existing feature or future development.'
-      value: "The possible impact of these changes on the existing feature or future development is ..."
     validations:
       required: false
-  - type: checkboxes
-    attributes:
-      label: '🏃 Sprint Planning Checklist'
-      description: |
-        Using the right sidebar of this issue, define the task's `Time Estimate`, its `Priority Label`, and associate it with the suitable `Milestone`.
-      options:
-        - label: '⏰ Define a **Time Estimate** for this task.'
-          required: false
-        - label: '🚨 Assign a **Priority Label** to indicate the importance of the task.'
-          required: false
-        - label: '🏁 Link this task to a **Milestone** for inclusion in a sprint.'
-          required: false
