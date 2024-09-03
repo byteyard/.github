@@ -1,7 +1,7 @@
-name: '🏆 Feature Request'
-title: '🏆 <Enter your title here!>'
+name: '🌟 Feature Request'
+title: '🌟 <Enter your title here!>'
 description: 'Use this template to outline a new feature.'
-labels: ['Type: 🏆 Feature Request']
+labels: ['Type: 🌟 Feature Request']
 assignees:
   - octocat
 body:
@@ -11,7 +11,7 @@ body:
         **☝️ Please provide a clear and concise title for the sprint.**
   - type: textarea
     attributes:
-      label: '🏆 Feature Description'
+      label: '🌟 Feature Description'
       description: 'Describe the feature'
     validations:
       required: false     
