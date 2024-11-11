@@ -3,7 +3,7 @@ description: 'Use this template for enhancements or modifications to existing fe
 labels: ['Type: 🌟 Improvement Proposal']
 assignees:
   - octocat
-title: '🌟 <Enter your title here>'
+title: '🌟 '
 body:
   - type: markdown
     attributes:
