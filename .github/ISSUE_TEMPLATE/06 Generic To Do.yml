@@ -1,5 +1,5 @@
 name: '🔔 Generic To Do'
-title: '🔔 <Enter your title here>'
+title: '🔔 '
 description: 'Use this template for any generic to dos within a project that do not fit the other issue types.'
 labels: ['Type: 🔔 Generic To Do']
 assignees:
